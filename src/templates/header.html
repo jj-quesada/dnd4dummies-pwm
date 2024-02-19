@@ -6,43 +6,49 @@
     <title>Header</title>
 </head>
 <body>
-    <main>
-        <section>
-            <a href="../index.html">
-                <img src="../images/logo.png" alt="Inicio">
-            </a>
-            <h1>D&D FOR DUMMIES</h1>
-            <a href="../login.html">
-                <img src="../images/login.png" alt="Inicio">
-            </a>
-        </section>
-        <nav>
-            <ul>
-                <li>
-                    <img>
-                    Wiki
-                    <ul>
-                        <li><a href="../races.html">Races</a></li>
-                        <li><a href="../classes.html">Classes</a></li>
-                        <li><a href="../alignments.html">Alignments</a></li>
-                        <li><a href="../know-your-rolls.html">Know your rolls</a></li>
-                        <li><a href="../weapons.html">Weapons</a></li>
-                        <li><a href="../spells.html">Spells</a></li>
-                        <li><a href="../objects.html">Objects</a></li>
-                        <li><a href="../adventure.html">Adventure</a></li>
-                        <li><a href="../combat.html">Combat</a></li>
-                    </ul>
-                </li>
-                <li><a href="../character-creator.html">Character Creator</a></li>
-                <li><a href="../forum.html">Forum</a></li>
-                <li>
-                    <form action="/search" method="get">
-                        <input type="search" name="query" placeholder="Buscar...">
-                        <input type="submit" value="Buscar">
-                    </form>
-                </li>
-            </ul>
-        </nav>
-    </main>
+
+    <section id="main_section">
+        <a href="/src/index.html">
+            <img src="/src/images/logo.png" alt="Logo">
+        </a>
+        <h1>D&D FOR DUMMIES</h1>
+        <a href="login.html">
+            <img src="/src/images/login.png" alt="Login">
+        </a>
+    </section>
+
+    <nav id="main_menu">
+        <ul>
+
+            <li>
+                <img>
+                Wiki
+                <ul id="wiki_sections">
+                    <li><a href="/src/races.html">Races</a></li>
+                    <li><a href="/src/classes.html">Classes</a></li>
+                    <li><a href="/src/alignments.html">Alignments</a></li>
+                    <li><a href="/src/know-your-rolls.html">Know your rolls</a></li>
+                    <li><a href="/src/weapons.html">Weapons</a></li>
+                    <li><a href="/src/spells.html">Spells</a></li>
+                    <li><a href="/src/objects.html">Objects</a></li>
+                    <li><a href="/src/adventure.html">Adventure</a></li>
+                    <li><a href="/src/combat.html">Combat</a></li>
+                </ul>
+            </li>
+
+            <li><a href="/src/character-creator.html">Character Creator</a></li>
+
+            <li><a href="/src/forum.html">Forum</a></li>
+
+            <li id="search_bar">
+                <form action="/search" method="get">
+                    <input type="search" name="query" placeholder="Buscar...">
+                    <input type="submit" value="Buscar">
+                </form>
+            </li>
+
+        </ul>
+    </nav>
+
 </body>
 </html>
