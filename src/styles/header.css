@@ -39,6 +39,10 @@ nav#main_menu ul li {
     display: inline;
 }
 
+nav#main_menu ul li#wiki img#expand_icon{
+    height: 50px;
+}
+
 nav#main_menu ul li a {
     color: white;
     text-decoration: none;
@@ -46,9 +50,6 @@ nav#main_menu ul li a {
     display: block;
 }
 
-nav#main_menu ul li img {
-    display: none; 
-}
 
 nav#main_menu ul#search_bar {
     align-items: center;
@@ -60,16 +61,10 @@ nav#main_menu ul#search_bar input[type="search"] {
     margin-right: 5px;
 }
 
-nav#main_menu ul#search_bar input#logo {
-    height: 10px;
-    width: 10px;
-}
-
 
 nav#main_menu ul#wiki_sections {
     display: none;
 }
-
 
 nav#main_menu ul li:hover ul#wiki_sections {
     display: block;

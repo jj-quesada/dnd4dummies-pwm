@@ -21,8 +21,8 @@
     <nav id="main_menu">
         <ul>
 
-            <li>
-                <img src="/src/images/expand.png">
+            <li id="wiki">
+                <img id="expand_icon" src="/src/images/expand.png">
                 <a href="/src/wiki-index.html">Wiki</a>
                 
                 <ul id="wiki_sections">
@@ -43,10 +43,12 @@
             <li><a href="/src/forum.html">Forum</a></li>
 
             <li id="search_bar">
-                <form action="/search" method="get">
-                    <input type="search" name="query" placeholder="Search...">
-                    <input id="logo" type="image" src="/src/images/search.png" alt="Search">
-                </form>
+                <div>
+                    
+                    <form action="/search" method="get">
+                        <input type="search" name="query" placeholder="Search...">
+                    </form>
+                </div>
             </li>
 
         </ul>
