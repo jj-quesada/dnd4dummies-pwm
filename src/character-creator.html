@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="xlu-include-file.js"></script>
+</head>
+<body>
+    <main>
+        <header id="main_header" xlu-include-file="./templates/header.html"></header>
+
+        <figure id="character-avatar">
+            <p class="place-name">Your character</p>
+            <img
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c378361e-7f8e-4f09-b497-d843c9dd5f1d/1fd8276d-9fc3-49c5-85a8-2e176a079fe6?org_if_sml=1491&amp;force_format=original"
+                    id="avatar-img"
+            />
+        </figure>
+
+        <article id="character-options">
+            <section class="background-text">
+                <input type="text" id="lore-id" value="Name">
+            </section>
+
+            <section class="background-text">
+                <label class="selection-tab-name">Race</label>
+                <select id="selection-tab-race">
+                    <option value="opcion1">Opción 1</option>
+                    <option value="opcion2">Opción 2</option>
+                    <option value="opcion3">Opción 3</option>
+                    <option value="opcion4">Opción 4</option>
+                </select>
+            </section>
+
+            <section class="background-text">
+                <label class="selection-tab-name">Class</label>
+                <select id="selection-tab-class">
+                    <option value="opcion1">Opción 1</option>
+                    <option value="opcion2">Opción 2</option>
+                    <option value="opcion3">Opción 3</option>
+                    <option value="opcion4">Opción 4</option>
+                </select>
+            </section>
+
+            <section class="background-text">
+                <label class="selection-tab-name">Alignment</label>
+                <select id="selection-tab-alignment">
+                    <option value="opcion1">Opción 1</option>
+                    <option value="opcion2">Opción 2</option>
+                    <option value="opcion3">Opción 3</option>
+                    <option value="opcion4">Opción 4</option>
+                </select>
+            </section>
+
+            <section class="background-text">
+                <label class="selection-tab-name">Background</label>
+                <select id="selection-tab-background">
+                    <option value="opcion1">Opción 1</option>
+                    <option value="opcion2">Opción 2</option>
+                    <option value="opcion3">Opción 3</option>
+                    <option value="opcion4">Opción 4</option>
+                </select>
+            </section>
+        </article>
+
+        <figure id="dice-background">
+            <p class="place-name">Roll the dice</p>
+            <img
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c378361e-7f8e-4f09-b497-d843c9dd5f1d/1fd8276d-9fc3-49c5-85a8-2e176a079fe6?org_if_sml=1491&amp;force_format=original"
+                    id="dice-img"
+            />
+        </figure>
+
+        <article id="skills">
+            <p class="place-name">Skills</p>
+
+            <input type="radio" id="proficiencie-Acrobatics">
+            <label id="modifier-Acrobatics">-</label>
+            <label class="option-name">Acrobatics</label><br>
+
+            <input type="radio" id="proficiencie-AnimalHandling">
+            <label id="modifier-AnimalHandling">-</label>
+            <label class="option-name">Animal Handling</label><br>
+
+            <input type="radio" id="proficiencie-Arcana">
+            <label id="modifier-Arcana">-</label>
+            <label class="option-name">Arcana</label><br>
+
+            <input type="radio" id="proficiencie-Athletics">
+            <label id="modifier-Athletics">-</label>
+            <label class="option-name">Athletics</label><br>
+
+            <input type="radio" id="proficiencie-Deception">
+            <label id="modifier-Deception">-</label>
+            <label class="option-name">Deception</label><br>
+
+            <input type="radio" id="proficiencie-History">
+            <label id="modifier-History">-</label>
+            <label class="option-name">History</label><br>
+
+            <input type="radio" id="proficiencie-Insight">
+            <label id="modifier-Insight">-</label>
+            <label class="option-name">Insight</label><br>
+
+            <input type="radio" id="proficiencie-Intimidation">
+            <label id="modifier-Intimidation">-</label>
+            <label class="option-name">Intimidation</label><br>
+
+            <input type="radio" id="proficiencie-Investigation">
+            <label id="modifier-Investigation">-</label>
+            <label class="option-name">Investigation</label><br>
+
+            <input type="radio" id="proficiencie-Medicine">
+            <label id="modifier-Medicine">-</label>
+            <label class="option-name">Medicine</label><br>
+
+            <input type="radio" id="proficiencie-Nature">
+            <label id="modifier-Nature">-</label>
+            <label class="option-name">Nature</label><br>
+
+            <input type="radio" id="proficiencie-Perception">
+            <label id="modifier-Perception">-</label>
+            <label class="option-name">Perception</label><br>
+
+            <input type="radio" id="proficiencie-Performance">
+            <label id="modifier-Performance">-</label>
+            <label class="option-name">Performance</label><br>
+
+            <input type="radio" id="proficiencie-Persuasion">
+            <label id="modifier-Persuasion">-</label>
+            <label class="option-name">Persuasion</label><br>
+
+            <input type="radio" id="proficiencie-Religion">
+            <label id="modifier-Religion">-</label>
+            <label class="option-name">Religion</label><br>
+
+            <input type="radio" id="proficiencie-SleightOfHand">
+            <label id="modifier-SleightOfHand">-</label>
+            <label class="option-name">Sleight of Hand</label><br>
+
+            <input type="radio" id="proficiencie-Stealth">
+            <label id="modifier-Stealth">-</label>
+            <label class="option-name">Stealth</label><br>
+
+            <input type="radio" id="proficiencie-Survival">
+            <label id="modifier-Survival">-</label>
+            <label class="option-name">Survival</label><br>
+            
+        </article>
+
+        <article id="saving-throws" xlu-include-file="./templates/saving-throws.html"></article>
+
+        <article id="stats">
+            <p class="place-name">Character stats</p>
+
+            <section class="statMod-value">
+              <p id="caption-Strength">Strength</p>
+              <p id="StrengthMod-value">0</p>
+
+              <section class="stat-value">
+                <p id="Strength-value">0</p>
+              </section>
+        
+            </section>
+            
+            <section class="statMod-value">
+              <p id="caption-Wisdom">Wisdom</p>
+              <p id="WisdomMod-value">0</p>
+              
+              <section class="stat-value">
+                <p id="Wisdom-value">0</p>
+              </section>
+        
+            </section>
+        
+            <section class="statMod-value">
+              <p id="caption-Charisma">Charisma</p>
+              <p id="CharismaMod-value">0</p>
+              
+              <section class="stat-value">
+                <p id="Charisma-value">0</p>
+              </section>
+        
+            </section>
+            
+            <section class="statMod-value">
+              <p id="caption-Intelligence">Intelligence</p> 
+              <p id="IntelligenceMod-value">0</p>
+              
+              <section class="stat-value">
+                <p id="Intelligence-value">0</p>
+              </section>
+        
+            </section>
+            
+            <section class="statMod-value">
+              <p id="caption-Constitution">Constitution</p>
+              <p id="ConstitutionMod-value">0</p>
+              
+              <section class="stat-value">
+                <p id="Constitution-value">0</p>
+              </section>
+        
+            </section>
+            
+            <section class="statMod-value">
+              <p id="caption-Dexterity">Dexterity</p>
+              <p id="DexterityMod-value">0</p>
+              
+              <section class="stat-value">
+                <p id="Dexterity-value">0</p>
+              </section>
+
+            </section>
+        </article>
+
+        <article id="proficiencies">
+            <p class="place-name">Proficiencies</p>
+
+            <section class="background-text">
+                <label class="selection-tab-name">Armor</label>
+                <select id="selection-tab-armor">
+                    <option value="opcion1">Opción 1</option>
+                    <option value="opcion2">Opción 2</option>
+                    <option value="opcion3">Opción 3</option>
+                    <option value="opcion4">Opción 4</option>
+                </select>
+            </section>
+
+            <section class="background-text">
+                <label class="selection-tab-name">Weapon</label>
+                <select id="selection-tab-weapon">
+                    <option value="opcion1">Opción 1</option>
+                    <option value="opcion2">Opción 2</option>
+                    <option value="opcion3">Opción 3</option>
+                    <option value="opcion4">Opción 4</option>
+                </select>
+            </section>
+
+            <section class="background-text">
+                <label class="selection-tab-name">Tools</label>
+                <select id="selection-tab-tools">
+                    <option value="opcion1">Opción 1</option>
+                    <option value="opcion2">Opción 2</option>
+                    <option value="opcion3">Opción 3</option>
+                    <option value="opcion4">Opción 4</option>
+                </select>
+            </section>
+
+            <section class="background-text">
+                <label class="selection-tab-name">Background</label>
+                <select id="selection-tab-language">
+                    <option value="opcion1">Opción 1</option>
+                    <option value="opcion2">Opción 2</option>
+                    <option value="opcion3">Opción 3</option>
+                    <option value="opcion4">Opción 4</option>
+                </select>
+            </section>
+        </article>
+
+        <section id="traits">
+            <p class="place-name">Traits</p>
+
+            <p id="traits-text">-</p>
+
+        </section>
+
+        <section id="passive-perception">
+            <p class="place-name">Passive perception</p>
+
+            <p id="passive-perception-caption">0</p>
+
+        </section>
+
+        <article id="combat">
+            <p class="place-name">Combat</p>
+
+            <section class="background-combat">
+                <p class="combat-name">HIT POINTS</p>
+                <p id="hit-points-value">0</p>
+
+            </section>
+
+            <section class="background-combat">
+                <p class="combat-name">ARMOR CLASS</p>
+                <p id="armor-class-value">0</p>
+                
+            </section>
+
+            <section class="background-combat">
+                <p class="combat-name">INITIATIVE</p>
+                <p id="initiative-value">0</p>
+
+            </section>
+
+            <section class="background-combat">
+                <p class="combat-name">SPEED</p>
+                <p id="speed-value">0</p>
+
+            </section>
+
+            <section class="background-combat">
+                <p class="combat-name">HIT DICE</p>
+                <p id="hit-dice-value">0</p>
+
+            </section>
+        </article>
+
+        <article id="character-lore">
+            <label class="lore-name">Personality Traits</label>
+            <section id="saving-throws" xlu-include-file="./templates/lore-section.html"></section>
+
+            <label class="lore-name">Ideals</label>
+            <section id="saving-throws" xlu-include-file="./templates/lore-section.html"></section>
+
+            <label class="lore-name">Bonds</label>
+            <section id="saving-throws" xlu-include-file="./templates/lore-section.html"></section>
+
+            <label class="lore-name">Flaws</label>
+            <section id="saving-throws" xlu-include-file="./templates/lore-section.html"></section>
+
+        </article>
+
+        <article>
+            <section>
+                <a href="character-loader-popup.html">
+                    <button type="button" id="load-button">LOAD</button>
+                </a>
+            </section>
+
+            <section>
+                <button type="button" id="save-button">SAVE</button>
+            </section>
+
+            
+        </article>
+
+        <footer id="main_footer" xlu-include-file="./templates/footer.html"></footer>
+
+    </main>
+
+    <script>
+
+        xLuIncludeFile();
+    
+    </script>
+</body>
+</html>
