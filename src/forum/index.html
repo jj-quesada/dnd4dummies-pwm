@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum</title>
+
+    <script src="/src/scripts/xlu-include-file.js"></script>
+</head>
+<body>
+
+    <header id="main_header" xlu-include-file="/src/templates/header.html"></header>
+
+    <main>
+        <h1>Forum</h1>
+        <section id="topic-list">
+            <ul>
+                <li xlu-include-file="/src/templates/topic-preview.html"></li>
+                <li xlu-include-file="/src/templates/topic-preview.html"></li>
+                <li xlu-include-file="/src/templates/topic-preview.html"></li>
+            </ul>
+        </section>
+        
+        <section id="topic-creation-area">
+            <input type="text" id="topic-name" value="Topic">
+            <input type="text" id="topic-text" value="Enter your text...">
+        </section>
+
+        <button>Publish</button>
+
+    </main>
+
+    <footer id="main_footer" xlu-include-file="/src/templates/footer.html"></footer>
+
+<script>
+
+    xLuIncludeFile();
+
+</script>
+
+</body>
+</html>
