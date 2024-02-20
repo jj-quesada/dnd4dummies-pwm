@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Character Creator</title>
 
-    <script src="xlu-include-file.js"></script>
+    <script src="/src/scripts/xlu-include-file.js"></script>
 </head>
 <body>
+    <header id="main_header" xlu-include-file="/src/templates/header.html"></header>
+
     <main>
-        <header id="main_header" xlu-include-file="./templates/header.html"></header>
+        
 
         <figure id="character-avatar">
             <p class="place-name">Your character</p>
@@ -150,71 +152,47 @@
             
         </article>
 
-        <article id="saving-throws" xlu-include-file="./templates/saving-throws.html"></article>
-
-        <article id="stats">
-            <p class="place-name">Character stats</p>
-
-            <section class="statMod-value">
-              <p id="caption-Strength">Strength</p>
+        <article id="saving-throws">
+            <p class="place-name">Saving throws</p>
+      
+            <section class="stat-StrengthMod">
+              <p id="caption-StrengthMod">Strength</figcaption>
               <p id="StrengthMod-value">0</p>
-
-              <section class="stat-value">
-                <p id="Strength-value">0</p>
-              </section>
-        
+              
             </section>
-            
+        
             <section class="statMod-value">
-              <p id="caption-Wisdom">Wisdom</p>
+              <p id="caption-WisdomMod">Wisdom</figcaption>
               <p id="WisdomMod-value">0</p>
               
-              <section class="stat-value">
-                <p id="Wisdom-value">0</p>
-              </section>
-        
             </section>
-        
+            
             <section class="statMod-value">
-              <p id="caption-Charisma">Charisma</p>
+              <p id="caption-CharismaMod">Charisma</figcaption>
               <p id="CharismaMod-value">0</p>
               
-              <section class="stat-value">
-                <p id="Charisma-value">0</p>
-              </section>
-        
             </section>
-            
+        
             <section class="statMod-value">
-              <p id="caption-Intelligence">Intelligence</p> 
+              <p id="caption-IntelligenceMod">Intelligence</figcaption>
               <p id="IntelligenceMod-value">0</p>
               
-              <section class="stat-value">
-                <p id="Intelligence-value">0</p>
-              </section>
-        
             </section>
             
             <section class="statMod-value">
-              <p id="caption-Constitution">Constitution</p>
+              <p id="caption-ConstitutionMod">Constitution</figcaption>
               <p id="ConstitutionMod-value">0</p>
               
-              <section class="stat-value">
-                <p id="Constitution-value">0</p>
-              </section>
-        
             </section>
             
             <section class="statMod-value">
-              <p id="caption-Dexterity">Dexterity</p>
+              <p id="caption-DexterityMod">Dexterity</figcaption>
               <p id="DexterityMod-value">0</p>
               
-              <section class="stat-value">
-                <p id="Dexterity-value">0</p>
-              </section>
-
             </section>
         </article>
+
+        <article id="stats" xlu-include-file="/src/templates/card-stats.html"></article>
 
         <article id="proficiencies">
             <p class="place-name">Proficiencies</p>
@@ -310,16 +288,16 @@
 
         <article id="character-lore">
             <label class="lore-name">Personality Traits</label>
-            <section id="saving-throws" xlu-include-file="./templates/lore-section.html"></section>
+            <section id="saving-throws" xlu-include-file="/src/templates/lore-section.html"></section>
 
             <label class="lore-name">Ideals</label>
-            <section id="saving-throws" xlu-include-file="./templates/lore-section.html"></section>
+            <section id="saving-throws" xlu-include-file="/src/templates/lore-section.html"></section>
 
             <label class="lore-name">Bonds</label>
-            <section id="saving-throws" xlu-include-file="./templates/lore-section.html"></section>
+            <section id="saving-throws" xlu-include-file="/src/templates/lore-section.html"></section>
 
             <label class="lore-name">Flaws</label>
-            <section id="saving-throws" xlu-include-file="./templates/lore-section.html"></section>
+            <section id="saving-throws" xlu-include-file="/src/templates/lore-section.html"></section>
 
         </article>
 
@@ -337,9 +315,9 @@
             
         </article>
 
-        <footer id="main_footer" xlu-include-file="./templates/footer.html"></footer>
-
     </main>
+
+    <footer id="main_footer" xlu-include-file="/src/templates/footer.html"></footer>
 
     <script>
 
