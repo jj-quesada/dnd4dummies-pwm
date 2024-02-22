@@ -39,7 +39,7 @@ nav#main_menu ul li {
     display: inline;
 }
 
-nav#main_menu ul li#wiki img#expand_icon{
+nav#main_menu ul li#glossary img#expand_icon{
     height: 50px;
 }
 
@@ -62,17 +62,17 @@ nav#main_menu ul#search_bar input[type="search"] {
 }
 
 
-nav#main_menu ul#wiki_sections {
+nav#main_menu ul#glossary_sections {
     display: none;
 }
 
-nav#main_menu ul li:hover ul#wiki_sections {
+nav#main_menu ul li:hover ul#glossary_sections {
     display: block;
     position: absolute;
     background-color: #444;
 }
 
-nav#main_menu ul#wiki_sections li a {
+nav#main_menu ul#glossary_sections li a {
     padding: 10px;
     display: block;
 }
