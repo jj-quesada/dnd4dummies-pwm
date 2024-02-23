@@ -8,38 +8,38 @@
     <script src="/src/scripts/xlu-include-file.js"></script>
 </head>
 <body>
-    <figure class="character-border">
+    <figure class="character-profile">
         <img 
             src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c378361e-7f8e-4f09-b497-d843c9dd5f1d/1fd8276d-9fc3-49c5-85a8-2e176a079fe6?org_if_sml=1491&amp;force_format=original"
-            class="character-image"
+            class="character-profile__img"
         >
     </figure>
 
     <header class="character-banner">
-        <h1 class="character-name">CHARACTER NAME</h1>
+        <h1 class="character-banner__name">CHARACTER NAME</h1>
     </header>
 
-    <main>
-        <section class="level-section">
-            <p class="level-caption">LEVEL</p>
-            <p class="level-value">0</p>
+    <main class="card-content">
+        <section class="level">
+            <p class="level__caption">LEVEL</p>
+            <p class="level__value">0</p>
         </section>
     
-        <article class="basic-info">
-            <section class="info">
-                <p class="race-caption">Race</p>
-                <hr>
+        <article class="info">
+            <section class="info__basic">
+                <p class="info__caption">Race</p>
+                <hr class="info__line">
 
             </section>
 
-            <section class="info">
-                <p class="class-caption">Class</p>
-                <hr>
+            <section class="info__basic">
+                <p class="info__caption">Class</p>
+                <hr class="info__line">
 
             </section>
         </article>
     
-        <article class="saving-throws" xlu-include-file="/src/templates/card-stats.html"></article>
+        <article class="stats" xlu-include-file="/src/templates/card-stats.html"></article>
     </main>
 
     <script>
