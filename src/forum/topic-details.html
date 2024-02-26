@@ -9,32 +9,32 @@
 
 </head>
 <body>
-    <header id="main_header" xlu-include-file="/src/templates/header.html"></header>
+    <header class="main-header" xlu-include-file="/src/templates/header.html"></header>
 
-    <main>
+    <main class="details-main">
         
-        <section id="topic-display" xlu-include-file="/src/templates/topic-display.html"></section>
+        <section class="topic-display" xlu-include-file="/src/templates/topic-display.html"></section>
 
-        <article id="comment-area">
-            <section id="comment-creation">
-                <input type="text" id="comment-text" value="Enter your text...">
+        <article class="comment-area">
+            <section class="comment-area__creation">
+                <input type="text" class="comment-area__text" value="Enter your text...">
             </section>
 
-            <button>Comment</button>
+            <button class="comment-area__button">Comment</button>
         </article>
 
-        <section id="comment-section">
+        <section class="comment-section">
             <ul>
-                <li xlu-include-file="/src/templates/comment-display.html"></li>
-                <li xlu-include-file="/src/templates/comment-display.html"></li>
-                <li xlu-include-file="/src/templates/comment-display.html"></li>
-                <li xlu-include-file="/src/templates/comment-display.html"></li>
+                <li class="comment-section__comment comment-section__comment--entry-1" xlu-include-file="/src/templates/comment-display.html"></li>
+                <li class="comment-section__comment comment-section__comment--entry-2" xlu-include-file="/src/templates/comment-display.html"></li>
+                <li class="comment-section__comment comment-section__comment--entry-3" xlu-include-file="/src/templates/comment-display.html"></li>
+                <li class="comment-section__comment comment-section__comment--entry-4" xlu-include-file="/src/templates/comment-display.html"></li>
             </ul>
         </section>
 
     </main>
 
-    <footer id="main_footer" xlu-include-file="/src/templates/footer.html"></footer>
+    <footer class="main-footer" xlu-include-file="/src/templates/footer.html"></footer>
 <script>
 
     xLuIncludeFile();

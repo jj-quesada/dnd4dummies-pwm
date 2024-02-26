@@ -9,28 +9,28 @@
 </head>
 <body>
 
-    <header id="main_header" xlu-include-file="/src/templates/header.html"></header>
+    <header class="main-header" xlu-include-file="/src/templates/header.html"></header>
 
-    <main>
-        <h1>Forum</h1>
-        <section id="topic-list">
+    <main class="topic-main">
+        <h1 class="">Forum</h1>
+        <section class="topic-list">
             <ul>
-                <li xlu-include-file="/src/templates/topic-preview.html"></li>
-                <li xlu-include-file="/src/templates/topic-preview.html"></li>
-                <li xlu-include-file="/src/templates/topic-preview.html"></li>
+                <li class="topic-list__topic topic-list__topic--entry-1" xlu-include-file="/src/templates/topic-preview.html"></li>
+                <li class="topic-list__topic topic-list__topic--entry-2" xlu-include-file="/src/templates/topic-preview.html"></li>
+                <li class="topic-list__topic topic-list__topic--entry-3" xlu-include-file="/src/templates/topic-preview.html"></li>
             </ul>
         </section>
         
-        <section id="topic-creation-area">
-            <input type="text" id="topic-name" value="Topic">
-            <input type="text" id="topic-text" value="Enter your text...">
+        <section class="topic-creation-area">
+            <input type="text" class="topic-creation-area__name" value="Topic">
+            <input type="text" class="topic-creation-area__text" value="Enter your text...">
         </section>
 
-        <button>Publish</button>
+        <button class="topic-button">Publish</button>
 
     </main>
 
-    <footer id="main_footer" xlu-include-file="/src/templates/footer.html"></footer>
+    <footer class="main-footer" xlu-include-file="/src/templates/footer.html"></footer>
 
 <script>
 
