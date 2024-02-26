@@ -8,25 +8,28 @@
 </head>
 <body>
     <main class="upper-bar">
-            <a class="upper-bar__main-logo-action"  href="/src/index.html">
-                <img class="upper-bar_main-logo-image" src="/src/images/logo.png" alt="Logo">
-            </a>
-
-            <h1 class="upper-bar__title">D&D FOR DUMMIES</h1>
-
-            <a class="upper-bar__login-logo-action" href="login-popup.html">
-                <img class="upper-bar__login-logo-image" src="/src/images/login.png" alt="Login">
-            </a>
+            <section class="upper-bar__trademark">
+                <a class="upper-bar__main-logo-action"  href="/src/index.html">
+                    <img class="upper-bar_main-logo-image" src="/src/images/logo.png" alt="Logo">
+                </a>
+    
+                <h1 class="upper-bar__title">D&D FOR DUMMIES</h1>
+            </section>
+            
+            <div class="upper-bar__login">
+                <a class="upper-bar__login-logo-action" href="login-popup.html">
+                    <img class="upper-bar__login-logo-image" src="/src/images/login.png" alt="Login">
+                </a>
+            </div>
     </main>
 
 
     <nav class="main-menu">
-        <ul>
-            <li class="main-menu__link">
-                <img class="main-menu__expand-icon" src="/src/images/expand.png">
-                <a class="main-menu__label" href="/src/glossary/index.html">Glossary</a>
+        <ul class="main-menu__options main-menu__options--general">
+            <li class="main-menu__link main-menu__link--glossary">
+                <a class="main-menu__label main-menu__label--glossary" href="/src/glossary/index.html">Glossary &#x25BE</a>
                 
-                <ul>
+                <ul class="main-menu__options main-menu__options--glossary">
                     <li class="main-menu__glossary-section"><a href="/src/glossary/character-related/races.html">Races</a></li>
                     <li class="main-menu__glossary-section"><a href="/src/glossary/character-related/classes.html">Classes</a></li>
                     <li class="main-menu__glossary-section"><a href="/src/glossary/character-related/alignments.html">Alignments</a></li>
@@ -42,16 +45,16 @@
             <li class="main-menu__link"><a class="main-menu__label" href="/src/character-creator/character-creator.html">Character Creator</a></li>
 
             <li class="main-menu__link"><a class="main-menu__label" href="/src/forum/index.html">Forum</a></li>
-
-            <li class="main-menu__search-bar">
-                <div class="main-menu__search-bar-container">
-                    <form class="main-menu__search-bar-form" action="/search" method="get">
-                        <input class="main-menu__search-bar-input" type="search" name="query" placeholder="Search...">
-                    </form>
-                </div>
-            </li>
-
         </ul>
+
+        <div class="main-menu__search-bar">
+            <form class="main-menu__search-bar-form" action="/" method="GET">
+                <input class="main-menu__search-bar-input" type="search" name="query" placeholder="Search...">
+                <button class="main-menu__search-button">
+                    <img src="/src/images/search.png" alt="">
+                </button>
+            </form>
+        </div>
     </nav>
 
 </body>

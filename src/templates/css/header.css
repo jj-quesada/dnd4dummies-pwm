@@ -4,76 +4,136 @@ body, html {
     font-family: 'Arial', sans-serif;
 }
 
-#main_section {
+.upper-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #f0f0f0;
+    background-color: #646464;
     padding: 10px 50px;
 }
 
-#main_section h1 {
+.upper-bar__trademark {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.upper-bar h1 {
     font-size: 24px;
     color: #333;
     margin: 0;
 }
 
-#main_section img {
+.upper-bar img {
     height: 50px;
 }
 
-nav#main_menu {
-    background-color: #333;
-    color: white;
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #333;
 }
 
-nav#main_menu ul {
-    list-style-type: none;
+.main-menu__options{
+    list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
-    justify-content: space-around;
 }
 
-nav#main_menu ul li {
-    display: inline;
+.main-menu__search-bar {
+    position: relative;
 }
 
-nav#main_menu ul li#glossary img#expand_icon{
-    height: 50px;
-}
-
-nav#main_menu ul li a {
-    color: white;
+.main-menu__label, .main-menu__glossary-section a {
     text-decoration: none;
-    padding: 15px 20px;
+    color:#f0f0f0;
+    display: block;
+    padding: 10px;
+}
+
+.main-menu__link{
+    padding: 0px 20px;
+}
+
+.main-menu__link, .main-menu__glossary-section{
+    float: left;
+    font-size: 15px;
+}
+
+
+.main-menu__options:after{
+    clear: both;
+}
+.main-menu__options:before,
+.main-menu__options:after {
+      content: " ";
+      display: table;
+}
+
+.main-menu__options--general li a:hover {
+    color: #000;
+}
+
+.main-menu__options--glossary {
+    position: absolute;
+    z-index: 200;
+    box-shadow: 2px 2px 0 #767272;
+    width: 150px;
+    display:none;
+}
+.main-menu__options--glossary li {
+    float: none;
+    margin: 0;
+}
+.main-menu__options--glossary li a {
+    border: 1px solid #333;
+    padding: 15px 22px;
+}
+.main-menu__options--glossary li:last-child a {
+    border-bottom: none;
+}
+.main-menu__options--general li:hover ul {
     display: block;
 }
 
 
-nav#main_menu ul#search_bar {
-    align-items: center;
+.main-menu__options--general li:hover a {
+    background: #fff;
+    color: #000;
+    text-shadow: none;
+}
+.main-menu__options--general li:hover > a{
+    color: #000;
+} 
+.main-menu__options--glossary li a:hover {
+    color: #fff;
+    background: #333;
+}
+
+
+.main-menu__search-bar-form{
     display: flex;
 }
 
-nav#main_menu ul#search_bar input[type="search"] {
-    padding: 10px;
-    margin-right: 5px;
+.main-menu__search-bar-input {
+  padding: 10px 35px 10px 15px;
+  border: none;
+  border-radius: 100px;
+  outline: none;
 }
 
-
-nav#main_menu ul#glossary_sections {
-    display: none;
+.main-menu__search-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-top: 5px;
+  margin-left: -35px;
 }
 
-nav#main_menu ul li:hover ul#glossary_sections {
-    display: block;
-    position: absolute;
-    background-color: #444;
+.main-menu__search-button img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
 }
-
-nav#main_menu ul#glossary_sections li a {
-    padding: 10px;
-    display: block;
-}
-
