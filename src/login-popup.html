@@ -11,24 +11,28 @@
         <h1>Welcome to the dungeon!</h1>
 
         <article class="login-info">
-            <section class="login-section">
-                <p class="login-text">Username or email</p>
-                <input type="text" class="name-text">
+            <section class="login-section login-section--name-email">
+                <p class="login-section__label">Username or email</p>
+                <input type="text" class="login-section__value login-section__value--name-email">
             </section>
 
-            <section class="login-section">
-                <p class="login-text">Password</p>
-                <input type="text" class="password-text">
+            <section class="login-section login-section--password">
+                <p class="login-section__label">Password</p>
+                <input type="text" class="login-section__value login-section__value--password">
             </section>
         </article>
 
-        <section class="login-buttons">
-            
-            <button type="button" class="LogIn-button">Log In</button>
+        <section class="confirmation">
+            <div class="confirmation__container confirmation__container--log-in">
+                <button class="confirmation__button confirmation__button--log-in" type="button">Log In</button>
+            </div>
 
-            <a href="signup.html">
-                <button type="button" class="Register-button">Register</button>
-            </a>
+            <div class="confirmation__container confirmation__container--register>">
+                <a class="confirmation__action" href="/src/signup.html">
+                    <button class="confirmation__button confirmation__button--register" type="button">Register</button>
+                </a>
+            </div>
+
         </section>
 
         <hr>

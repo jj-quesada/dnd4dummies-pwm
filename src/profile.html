@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+
+    <script src="/src/scripts/xlu-include-file.js"></script>
+</head>
+<body>
+    <header class="main-header" xlu-include-file="./templates/header.html"></header>
+
+    <main class="user-info">
+        <article class="user-box">
+            <figure class="user-box__profile">
+                <img 
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c378361e-7f8e-4f09-b497-d843c9dd5f1d/1fd8276d-9fc3-49c5-85a8-2e176a079fe6?org_if_sml=1491&amp;force_format=original"
+                    class="user-box__img"
+                >
+            </figure>
+
+            <h1 class="user-box__title">Account information</h1>
+
+            <section class="user-box__info">
+                <label class="user-box__label">Username:</label>
+                <label type="text" class="user-box__text user-box__text--username"> 
+
+                <label class="user-box__label">Email:</label>
+                <label type="text" class="user-box__text user-box__text--email"> 
+
+                <label class="user-box__label">Birth date:</label>
+                <label class="user-box__text user-box__text--birth-date"></label>
+                
+            </section>
+
+        </article>
+
+        <hr class="decorative-line">
+
+        <h1 class="character-title">Your saved characters:</h1>
+
+        <article class="character-tab" xlu-include-file="./templates/character-loader-popup"></article>
+
+    </main>
+
+    <footer class="main-footer" xlu-include-file="./templates/footer.html"></footer>
+
+    <script>
+
+        xLuIncludeFile();
+    
+    </script>
+
+</body>
+</html>
