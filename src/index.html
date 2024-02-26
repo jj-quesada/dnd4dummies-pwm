@@ -4,40 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D&D For Dummies</title>
+    <link rel="stylesheet" href="/src/index.css">
     
     <script src="/src/scripts/xlu-include-file.js"></script>
 </head>
 <body>
-    <header class="main_header" xlu-include-file="/src/templates/header.html"></header>
+    <header class="main-header" xlu-include-file="/src/templates/header.html"></header>
 
-    <main>
+    <main class="main-page">
 
-        <section class="banner_section">
-            <figure class="main_banner">
-                <img src="./images/horizontal-wallpaper.jpg">
-                <figcaption>Title of the section</figcaption>
-            </figure>
-    
-            <img>
+        <section class="banner">
+            <img class="banner__image" src="/src/images/horizontal-wallpaper.jpg">
+            <p class="banner__hover-text">Lorem ipsum</p>
         </section>
     
-        <section class="main_content">
+        <section class="main-content">
     
-            <figure class="character-creator-banner">
-                <a href="character-creator.html">
-                    <img src="./images/vertical-banner.jpg">
+            <figure class="main-content__character-creator-banner">
+                <a href="/src/character-creator/character-creator.html">
+                    <img class="main-content__image" src="./images/vertical-banner.jpg">
                 </a>
             </figure>
     
-            <figure class="glossary-banner">
-                <a href="glossary-index.html">
-                    <img src="./images/vertical-banner.jpg">
+            <figure class="main-content__glossary-banner">
+                <a href="/src/glossary/index.html">
+                    <img class="main-content__image" src="./images/vertical-banner.jpg">
                 </a>
             </figure>
     
-            <figure class="forum-banner">
-                <a href="forum.html">
-                    <img src="./images/vertical-banner.jpg">
+            <figure class="main-content__forum-banner">
+                <a href="/src/forum/index.html">
+                    <img class="main-content__image" src="./images/vertical-banner.jpg">
                 </a>
             </figure>
     
