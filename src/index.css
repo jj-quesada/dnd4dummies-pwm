@@ -1,7 +1,10 @@
+.body {
+    min-height: 100vh;
+}
+
 .banner {
     margin-top: 10px;
     width: 100%;
-    height: 50vh;
     position: relative;
     
 }
@@ -39,9 +42,22 @@
 }
 
 .main-content{
+    margin-top: 20px;
+    width: 100%;
     display: flex;
+    justify-content: space-between;
+}
+
+.main-content figure{
+    width: 33.3%;
+    margin: 20px;
 }
 
 .main-content__image {
     width: 100%;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-evenly;
 }

@@ -3,41 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login-popup.css">
     <title>Login Area</title>
 </head>
 <body>
-    <main>
-        <hr>
-        <h1>Welcome to the dungeon!</h1>
+    <main class="login-container">
+        <span class="login-container__close-icon"><ion-icon name="close"></ion-icon></span>
 
-        <article class="login-info">
-            <section class="login-section login-section--name-email">
-                <p class="login-section__label">Username or email</p>
-                <input type="text" class="login-section__value login-section__value--name-email">
+        <section class="login-form-box">
+            <hr class="login-form-box__top-separator">
+            <h1>Welcome to the dungeon!</h1>
+            <form class="login-info" action="#">
+                <section class="login-section login-section--name-email">
+                    <span class="login-section__email-icon"><ion-icon class="login-section__icon" name="mail"></ion-icon></span>
+                    <input class="login-section__value login-section__value--name-email" type="text" required >
+                    <label class="login-section__label">Username/Email</label>
+                </section>
+    
+                <section class="login-section login-section--password">
+                    <span class="login-section__password-icon"><ion-icon class="login-section__icon" name="lock-closed"></ion-icon></span>
+                    <input class="login-section__value login-section__value--password" type="password" required>
+                    <label class="login-section__label">Password</label>
+                </section>
+
+                <section class="login-section__remember-forgot">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </section>
+            </article>
+
+        
+            <section class="confirmation">
+                <button class="confirmation__log-in-btn" type="submit">Log In</button>
+        
+                <div class="confirmation__register">
+                    <p>New to D&D For Dummies?
+                        <a class="confirmation__register-action" href="/src/signup.html">
+                            Register here for free!
+                        </a>
+                    </p>
+                </div>
+        
             </section>
 
-            <section class="login-section login-section--password">
-                <p class="login-section__label">Password</p>
-                <input type="text" class="login-section__value login-section__value--password">
-            </section>
-        </article>
 
-        <section class="confirmation">
-            <div class="confirmation__container confirmation__container--log-in">
-                <button class="confirmation__button confirmation__button--log-in" type="button">Log In</button>
-            </div>
-
-            <div class="confirmation__container confirmation__container--register>">
-                <a class="confirmation__action" href="/src/signup.html">
-                    <button class="confirmation__button confirmation__button--register" type="button">Register</button>
-                </a>
-            </div>
-
+            <hr class="login-form-box__bottom-separator">
         </section>
-
-        <hr>
-
     </main>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </body>
 </html>
