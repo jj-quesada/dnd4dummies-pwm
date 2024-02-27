@@ -1,12 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
 .body {
-    min-height: 100vh;
+    color: #1C3C47;
+}
+
+.main-page {
+    background-color: #1C3C47;
 }
 
 .banner {
-    margin-top: 10px;
-    width: 100%;
     position: relative;
-    
+    padding-top: 1em;
+    width: 100%;
+    background-color: #1C3C47;
 }
 
 .banner__image {
@@ -18,7 +28,7 @@
 }
 
 .banner:hover .banner__image {
-    filter: blur(3px) brightness(0.7); /* Aplicamos desenfoque y reducimos el brillo solo al fondo en hover */
+    filter: blur(3px) brightness(0.6); /* Aplicamos desenfoque y reducimos el brillo solo al fondo en hover */
 }
 
 .banner__hover-text {
@@ -41,23 +51,24 @@
     opacity: 1;
 }
 
-.main-content{
+.main-sections{
     margin-top: 20px;
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.main-content figure{
+.main-sections figure{
     width: 33.3%;
     margin: 20px;
 }
 
-.main-content__image {
+.main-sections__image {
     width: 100%;
 }
 
 .main-footer {
-    display: flex;
-    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }

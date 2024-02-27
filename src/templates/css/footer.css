@@ -1,4 +1,4 @@
-body, html {
+* {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
@@ -8,41 +8,45 @@ body, html {
     display: grid;
     background-color: #646464;
     
-    grid-template-rows: 135px;
-    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-rows: 10em;
+    grid-template-columns: 3fr 2fr 2fr;
     
 }
 
 .about-us {
     color: #333;
-
     grid-column: 1;
-    margin-left: 15px;
+    padding: 1em;
+
 }
 
-.about-us__label{
-    margin: -5px;
-    margin-top: 11px;
-}
 
 .about-us__text-container{
-    border-left: 2px solid;
-    margin-left: 10px;
-    padding-left: 10px;
+    border-left: .15em solid;
+    margin-top: .5em;
+    margin-left: .5em;
+    padding-left: .4em;
 }
 
 .follow-us {
     color:#c9c5c5;
     background-color: #333;
     grid-column: 3;
-    margin: 0;
-    padding: 0;
+    padding: 1em;
+
 }
 
-.follow-us__label{
-    margin: -5px;
-    margin-left: 8px;
-    margin-top: 6px;
+.follow-us__link-list{
+    padding-left: .5em;
+    padding-top: .5em;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.follow-us__icon {
+    position: relative;
+    top: 1.5px;
 }
 
 .follow-us__link {
