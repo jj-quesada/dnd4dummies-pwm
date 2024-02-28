@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+
+}
+
+.stats-container {
+    display:flex;
+    align-items: center;
+    background-color: aquamarine;
+    
+    width: 12em;
+    padding: 2%;
+    margin: .5em;
+
+}
+
+.stats {
+    display: grid;
+    grid-template-rows: 2em 6em 6em 6em;
+    grid-template-columns: 6em 6em;
+
+}
+
+.stat--strength {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.stat--constitution {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.stat--wisdom {
+    grid-row: 4;
+    grid-column: 1;
+}
+
+.stat--dexterity {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.stat--intelligence {
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.stat--charisma {
+    grid-row: 4;
+    grid-column: 2;
+}
