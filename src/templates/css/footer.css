@@ -8,7 +8,7 @@
     display: grid;
     background-color: #646464;
     
-    grid-template-rows: 10em;
+    grid-template-rows: 9em;
     grid-template-columns: 3fr 2fr 2fr;
     
 }
