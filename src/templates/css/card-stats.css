@@ -1,54 +1,117 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
+
+    font-family: 'Brush Script MT', cursive;
 
 }
 
 .stats-container {
-    display:flex;
-    align-items: center;
-    background-color: aquamarine;
-    
-    width: 12em;
-    padding: 2%;
-    margin: .5em;
+    background-color: #292828;
+
+    margin: 1em;
+    width: 24em;
+
+    padding: .5em;
+    padding-bottom: 1.5em;
+    padding-left: 1.5em;
+    padding-right: .3em;
+
+    border-radius: 10px;
+    border: 2px solid #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    color: #c9c5c5;
+}
+
+.stats__place-name{
+    position: relative;
+    bottom: 22px;
+    right: 22px;
 
 }
 
 .stats {
     display: grid;
-    grid-template-rows: 2em 6em 6em 6em;
-    grid-template-columns: 6em 6em;
+    grid-template-rows: 11em 11em 11em;
+    grid-template-columns: 11em 11em;
+    grid-gap: .9em;
+
+}
+
+.stat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    border-radius: 10px;
+    border: 2px solid #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    background-color: #333;
+
+}
+
+.stat__caption{
+    position: relative;
+
+    bottom:17px;
+}
+
+.stat__mod-value{
+    position: relative;
+    align-self: center;
+
+    top: 28px;
+    right: 6px;
+    font-size: 330%;
+}
+
+.stat__value-container{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    align-self: flex-end;
+
+    background-color: #333;
+
+    border-radius: 15px;
+    border: 2px solid #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    font-size: 200%;
+    padding: 0.4em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
 
 }
 
 .stat--strength {
-    grid-row: 2;
+    grid-row: 1;
     grid-column: 1;
 }
 
 .stat--constitution {
-    grid-row: 3;
+    grid-row: 2;
     grid-column: 1;
 }
 
 .stat--wisdom {
-    grid-row: 4;
+    grid-row: 3;
     grid-column: 1;
 }
 
 .stat--dexterity {
-    grid-row: 2;
+    grid-row: 1;
     grid-column: 2;
 }
 
 .stat--intelligence {
-    grid-row: 3;
+    grid-row: 2;
     grid-column: 2;
 }
 
 .stat--charisma {
-    grid-row: 4;
+    grid-row: 3;
     grid-column: 2;
 }
