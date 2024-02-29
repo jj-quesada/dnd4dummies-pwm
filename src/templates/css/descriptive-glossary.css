@@ -44,5 +44,10 @@
 .elements-section {
     display: flex;
     flex-direction: column;
-    
+    padding: 1em;
+}
+
+.elements-section__entry{
+    list-style: none;
+    margin-bottom: 10px;
 }
