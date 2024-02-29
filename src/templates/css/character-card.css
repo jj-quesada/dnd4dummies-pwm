@@ -73,7 +73,6 @@
 
     box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
 
-
 }
 
 .level{
@@ -115,7 +114,7 @@
 
     background-color: #1C3C47;
 
-    margin-bottom: .33em;
+    margin-bottom: .25em;
 
     border-right: .1em solid black;
     border-bottom: .1em solid black;

@@ -90,3 +90,9 @@
     border: .005em solid #1f1e1e;
     border-radius: .1em;
 }
+
+.character-card{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
