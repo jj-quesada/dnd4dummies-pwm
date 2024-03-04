@@ -48,6 +48,18 @@
     opacity: 1;
 }
 
+.forum-title{
+    padding: 1%;
+}
+
+.topic-list{
+    padding: 1%;
+}
+
+.topic-list ul{
+    list-style: none;
+}
+
 .new-topic-area{
     display: flex;
     flex-direction: column;
