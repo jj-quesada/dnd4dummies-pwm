@@ -330,13 +330,13 @@
         </article>
 
         <article class="lore">
-            <section class="lore__section" xlu-include-file="/src/templates/lore-section.html"></section>
+            <section class="lore__section"></section>
 
-            <section class="lore__section" xlu-include-file="/src/templates/lore-section.html"></section>
+            <section class="lore__section"></section>
 
-            <section class="lore__section" xlu-include-file="/src/templates/lore-section.html"></section>
+            <section class="lore__section"></section>
 
-            <section class="lore__section" xlu-include-file="/src/templates/lore-section.html"></section>
+            <section class="lore__section"></section>
 
         </article>
 
@@ -362,6 +362,7 @@
         document.addEventListener("DOMContentLoaded", fetchHeadAndTail);
         
         loadTemplate('/src/templates/card-stats.html', ".character-stats")
+        loadTemplate('/src/templates/lore-section.html', ".lore__section", 4)
         
     </script>
 </body>

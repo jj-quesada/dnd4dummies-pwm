@@ -1,10 +1,11 @@
-function loadTemplate(fileName, id) {
+function loadTemplate(fileName, id, num = 1) {
     fetch(fileName).then((res) => {
         return res.text();
 
     }).then((text) => {
-        document.querySelector(id).innerHTML = text;
-        //console.log(text)
+        for (let i = 0; i < num; i++) {
+            document.querySelector(id).innerHTML += text;
+        }
 
     })
 }
@@ -12,4 +13,5 @@ function loadTemplate(fileName, id) {
 function fetchHeadAndTail() {
     loadTemplate('/src/templates/header.html', ".header");
     loadTemplate('/src/templates/footer.html', ".footer");
+
 }
