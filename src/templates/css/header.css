@@ -11,16 +11,30 @@
 
 .upper-bar{
     display: grid;
-    grid-template-rows: 12vh;
-    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-rows: 8vh;
+    grid-template-columns: 8% auto 8%;
     background-color: #767272;
     align-items: center;
 }
 
+.upper-bar__main-logo{
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.upper-bar__login{
+    grid-column: 3;
+    grid-row: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .upper-bar img {
     padding: 1em; 
-    width: 4em;
-    height: 4em; 
+    width: 3em;
+    height: 3em; 
 }
 
 .lower-bar {
@@ -30,7 +44,7 @@
     z-index: 1000;
     padding: 0.5em 1em; 
     background: #333;
-    height: 7vh;
+    height: 4vh;
 }
 
 .main-menu .main-menu__options--general {
@@ -48,8 +62,8 @@
 
 .main-menu .main-menu__options--general .main-menu__link .main-menu__label , .main-menu__glossary-section a{
     text-decoration: none;
-    font-size: 20px;
-    padding: 20px;
+    padding: 1em;
+    font-size: 100%;
     color: white;
     display: block;
 }

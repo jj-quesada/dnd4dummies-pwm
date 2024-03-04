@@ -1,5 +1,8 @@
 body {
-    background: url(/src/images/horizontal-wallpaper.jpg)
+    /* background: url(/src/images/horizontal-wallpaper.jpg) */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .login-container {
@@ -39,6 +42,13 @@ body {
     cursor: pointer;
     z-index: 1;
 
+}
+
+.login-container__close-icon a{
+    text-decoration: none;
+    /* Solución temporal */
+    position: absolute;
+    top: 10%;
 }
 
 .login-form-box__top-separator {

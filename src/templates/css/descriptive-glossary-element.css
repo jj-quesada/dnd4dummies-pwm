@@ -26,24 +26,29 @@
 }
 
 .glossary-element__short-info {
-    display: block;
     width: 60vw;
     height: 100%;
 }
 
 .glossary-element__name{
     padding-left: 3%;
-    top: .5em;
+    position: relative;
+    top: 10%;
 }
 
 .glossary-element__description{
     padding-left: 3%;
-    top: 3.5em;
+    position: relative;
+    top: 10%;
 }
 
 .glossary-element__button-container {
+    align-self: flex-end;
+    position: relative;
+    bottom: 1em;
+    right: 1em;
     width: 15vw;
-    height: 100%;
+    height: 4vh;
 }
 
 .glossary-element__link {
