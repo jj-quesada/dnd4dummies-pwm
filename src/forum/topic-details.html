@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Topic Details</title>
+    <link rel="stylesheet" href="/src/forum/css/topic-details.css">
 
     <script src="/src/scripts/fetch-simple.js"></script>
 
@@ -13,14 +14,16 @@
 
     <main class="details-main">
         
-        <section class="topic-display" xlu-include-file="/src/templates/topic-display.html"></section>
+        <section class="topic-display"></section>
 
         <article class="comment-area">
             <section class="comment-area__creation">
-                <input type="text" class="comment-area__text" value="Enter your text...">
+                <textarea class="comment-area__text" placeholder="Write a comment..."></textarea>
             </section>
 
-            <button class="comment-area__button">Comment</button>
+            <container class="comment-area__button-container">
+                <button class="comment-area__button">Comment</button>
+            </container>
         </article>
 
         <section class="comment-section">
@@ -37,6 +40,7 @@
 
         document.addEventListener("DOMContentLoaded", fetchHeadAndTail);
 
+        loadTemplate("/src/templates/topic-display.html", ".topic-display");
         loadTemplate("/src/templates/comment-display.html", ".comment-section__comment");
         
     </script>
