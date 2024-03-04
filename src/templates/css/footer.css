@@ -11,6 +11,7 @@
     grid-template-rows: 9em;
     grid-template-columns: 3fr 2fr 2fr;
     
+    font-size: 60%;
 }
 
 .about-us {

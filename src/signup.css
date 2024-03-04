@@ -45,12 +45,16 @@
 .parameter__label{
     position: relative;
     right: .5em;
-
+    top: .13em;
 }
 
 .parameter__text{
     background-color: #333;
     color: #c9c5c5;
+}
+
+.parameter__text--birth-date::-webkit-calendar-picker-indicator {
+    display: none;
 }
 
 .parameter__age-warning{
@@ -89,7 +93,7 @@
     bottom: 1em;
 
     background-color: #333;
-    border: .1em solid black;
+    border: none;
     border-radius: .3em;
     box-shadow: .3em .3em .2em rgba(0,0,0,0.1);
 
