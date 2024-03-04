@@ -6,47 +6,50 @@
     <title>Character Card</title>
     <link rel="stylesheet" href="/src/templates/css/character-card.css">
 
-    <script src="/src/scripts/xlu-include-file.js"></script>
+    <script src="/src/scripts/fetch-simple.js"></script>
 </head>
-<body class="character-card">
-    <figure class="character-profile">
-        <img 
-            src="/src/images/image.png"
-            class="character-profile__img"
-        >
-    </figure>
+<body>
+    <main class="character-card">
+        <figure class="character-profile">
+            <img 
+                src="/src/images/image.png"
+                class="character-profile__img"
+            >
+        </figure>
 
-    <header class="character-banner">
-        <h1 class="character-banner__name">CHARACTER NAME</h1>
-    </header>
+        <header class="character-banner">
+            <h1 class="character-banner__name">CHARACTER NAME</h1>
+        </header>
 
-    <main class="card-basic-content">
-        <section class="level">
-            <p class="level__caption">LEVEL</p>
-            <p class="level__value">0</p>
-        </section>
-    
-        <article class="info">
-            <section class="info__basic">
-                <p class="info__caption">Race</p>
-                <hr class="info__line">
-
+        <article class="card-basic-content">
+            <section class="level">
+                <p class="level__caption">LEVEL</p>
+                <p class="level__value">0</p>
             </section>
+        
+            <article class="info">
+                <section class="info__basic">
+                    <p class="info__caption">Race</p>
+                    <hr class="info__line">
 
-            <section class="info__basic">
-                <p class="info__caption">Class</p>
-                <hr class="info__line">
+                </section>
 
-            </section>
+                <section class="info__basic">
+                    <p class="info__caption">Class</p>
+                    <hr class="info__line">
+
+                </section>
+            </article>
+        
         </article>
-    
+        
+        <article class="character-stats"></article>
+
     </main>
-    
-    <article class="stats-character" xlu-include-file="/src/templates/card-stats.html"></article>
-    
+
     <script>
 
-        xLuIncludeFile();
+        loadTemplate('/src/templates/card-stats.html', ".character-stats")
     
     </script>
 

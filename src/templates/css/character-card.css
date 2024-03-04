@@ -104,7 +104,7 @@
     width: 7em;
 }
 
-.stats-character {
+.character-stats {
     display:flex;
     align-items: center;
     justify-content: center;

@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup Area</title>
 
-    <script src="/src/scripts/xlu-include-file.js"></script>
-    <link rel="stylesheet" href="/src/profile.css">
+    <script src="/src/scripts/fetch-simple.js"></script>
+    <link rel="stylesheet" href="/src/css/profile.css">
 </head>
 <body>
 
-    <header class="main-header" xlu-include-file="./templates/header.html"></header>
+    <header class="header"></header>
 
     <main class="main-signup">
         <h1 class="main-signup__title">Sign up for the adventure!</h1>
@@ -65,11 +65,11 @@
 
     </main>
 
-    <footer class="main-footer" xlu-include-file="./templates/footer.html"></footer>
+    <footer class="footer"></footer>
 
     <script>
 
-        xLuIncludeFile();
+        document.addEventListener("DOMContentLoaded", fetchHeadAndTail);
     
     </script>
     

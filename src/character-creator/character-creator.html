@@ -6,10 +6,10 @@
     <title>Character Creator</title>
     <link rel="stylesheet" href="/src/character-creator/css/character-creator.css">
 
-    <script src="/src/scripts/xlu-include-file.js"></script>
+    <script src="/src/scripts/fetch-simple.js"></script>
 </head>
 <body>
-    <header class="main-header" xlu-include-file="/src/templates/header.html"></header>
+    <header class="header"></header>
 
     <main class="character-creator">
         
@@ -239,7 +239,7 @@
 
         </article>
 
-        <article class="stats-container" xlu-include-file="/src/templates/card-stats.html"></article>
+        <article class="character-stats"></article>
 
         <article class="proficiencies">
             <p class="proficiencies__place-name character-creator__label">Proficiencies</p>
@@ -355,12 +355,14 @@
 
     </main>
 
-    <footer class="footer" xlu-include-file="/src/templates/footer.html"></footer>
+    <footer class="footer"></footer>
 
     <script>
 
-        xLuIncludeFile();
-    
+        document.addEventListener("DOMContentLoaded", fetchHeadAndTail);
+        
+        loadTemplate('/src/templates/card-stats.html', ".character-stats")
+        
     </script>
 </body>
 </html>

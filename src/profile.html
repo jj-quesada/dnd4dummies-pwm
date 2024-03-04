@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Profile</title>
-    <link rel="stylesheet" href="/src/profile.css">
+    <link rel="stylesheet" href="/src/css/profile.css">
 
-    <script src="/src/scripts/xlu-include-file.js"></script>
+    <script src="/src/scripts/fetch-simple.js"></script>
 </head>
 <body>
-    <header class="main-header" xlu-include-file="./templates/header.html"></header>
+    <header class="header"></header>
 
     <main class="user-info">
         <article class="user-box">
@@ -46,18 +46,21 @@
 
         <h1 class="character-title">Your saved characters:</h1>
 
-        <article class="character-card" xlu-include-file="./templates/character-card.html"></article> <!-- OJO QUE AQUI HAY PROBLEMA -->
-        <article class="character-card" xlu-include-file="./templates/character-card.html"></article>
-        <article class="character-card" xlu-include-file="./templates/character-card.html"></article>
+        <article class="character-list"></article>
 
     </main>
 
-    <footer class="main-footer" xlu-include-file="./templates/footer.html"></footer>
+    <footer class="footer"></footer>
 
     <script>
 
-        xLuIncludeFile();
-    
+        document.addEventListener("DOMContentLoaded", fetchHeadAndTail);
+
+        // SOLUCIONAR ESTO
+        loadTemplate('/src/templates/character-loader-popup.html', ".character-list")
+        loadTemplate('/src/templates/character-card.html', ".card-content__character-card")
+        loadTemplate('/src/templates/card-stats.html', ".character-stats")
+        
     </script>
 
 </body>

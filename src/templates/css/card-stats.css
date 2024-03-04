@@ -11,7 +11,7 @@
 
     margin: 1em;
     width: 10em;
-    height: 16em;
+    height: 16.5em;
     padding-left: .75em;
 
     border-radius: 10px;
@@ -33,7 +33,7 @@
     display: grid;
     grid-template-rows: 4.5em 4.5em 4.5em;
     grid-template-columns: 4.5em 4.5em;
-    grid-gap: 3%;
+    grid-gap: 4%;
 
 }
 
