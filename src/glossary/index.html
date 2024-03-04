@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Glossary</title>
     <link rel="stylesheet" href="index.css">
-    <script src="/src/scripts/xlu-include-file.js"></script>
+    <script src="/src/scripts/fetch-simple.js"></script>
 </head>
 <body>
 
-    <header class="main-header" xlu-include-file="/src/templates/header.html"></header>
+    <header class="header"></header>
 
     <main class="main-glossary">
         <article class="glossary-sections">
@@ -130,13 +130,13 @@
         </article>
     </main>
 
-    <footer class="main-footer" xlu-include-file="/src/templates/footer.html"></footer>
+    <footer class="footer"></footer>
 
-<script>
+    <script>
 
-    xLuIncludeFile();
-
-</script>
+        document.addEventListener("DOMContentLoaded", fetchHeadAndTail);
+        
+    </script>
 
 </body>
 </html>

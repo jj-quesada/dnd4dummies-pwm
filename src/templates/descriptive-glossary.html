@@ -6,7 +6,7 @@
     <title>Informative Section</title>
     <link rel="stylesheet" href="/src/templates/css/descriptive-glossary.css">
 
-    <script src="/src/scripts/xlu-include-file.js"></script>
+    <script src="/src/scripts/fetch-simple.js"></script>
 </head>
 <body>
     <main class="main-page">
@@ -19,18 +19,19 @@
     
         <section class="elements-section">
             <ul class="elements-section__list">
-                <li class="elements-section__entry elements-section__entry--entry-1" xlu-include-file="/src/templates/descriptive-glossary-element.html"></li>
-                <li class="elements-section__entry elements-section__entry--entry-2" xlu-include-file="/src/templates/descriptive-glossary-element.html"></li>
+                <li class="elements-section__entry"></li>
             </ul>
         </section>
 
     </section>
 
-<script>
+    <script>
 
-    xLuIncludeFile();
+        document.addEventListener("DOMContentLoaded", fetchHeadAndTail);
 
-</script>
+        loadTemplate("/src/templates/descriptive-glossary-element.html", ".elements-section__entry");
+        
+    </script>
 
 </body>
 </html>
