@@ -48,18 +48,30 @@
     opacity: 1;
 }
 
+.forum-title{
+    padding: 1%;
+}
+
+.topic-list{
+    padding: 1%;
+}
+
+.topic-list ul{
+    list-style: none;
+}
+
 .new-topic-area{
     display: flex;
     flex-direction: column;
-    gap: 1em;
 }
 
 .topic-creation-area {
     display: flex;
     flex-direction: column;
-    margin: 0 1%;
+    margin: 1% 1%;
     padding: 1%;
     border-radius: 6px;
+    border: 1px solid black;
     background-color: #333;
 }
 
@@ -117,6 +129,8 @@
     height: 2em;
     position: relative;
     right: .5em;
+    margin-top: 1%;
+    margin-bottom: 2%;
 }
 
 .topic-button{
