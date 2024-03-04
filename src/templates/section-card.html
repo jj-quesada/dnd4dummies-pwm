@@ -4,44 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Section Card</title>
-    <script src="xlu-include-file.js"></script>
+    <link rel="stylesheet" href="/src/templates/css/section-card.css">
 </head>
 <body>
 
-    <header class="card-header">
-        <h1 class="card-header__label">LOREM IPSUM</h1>
-    </header>
-
-    <main class="card-content">
-
-        <section class="card-content__graphic-section">
-            <figure>
-                <img class="card-content__image" src="" alt="">
-                <hr>
-            </figure class="card-content__separator">
-        </section>
-
-        <section class="card-content__features-section">
-            
-            <h2 class="card-content__features-label">Features</h2>
-            <ul>
-                <li class="card-content__feature-1" xlu-include-file="/src/templates/section-card-feature.html"></li>
-                <li class="card-content__feature-2" xlu-include-file="/src/templates/section-card-feature.html"></li>
-            </ul>
-
-        </section>
-
-        <hr class="card-content__separator">
-
-        <div class="decorative-lower-bar"></div>
-    </main>
+    <main class="main-card">
+        <header class="card-header">
+            <h1 class="card-header__label">LOREM IPSUM</h1>
+        </header>
     
+        <section class="card-content">
+    
+            <container class="card-content__image-container">
+                <img class="card-content__image" src="/src/images/horizontal-wallpaper.jpg" alt="">
+            </container>
+            <hr class="card-content__separator">
+    
+            <section class="card-content__features-section">
+                
+                <h2 class="card-content__features-label">Features</h2>
 
-<script>
+                <ul class="card-content__list">
+                    <li class="card-content__feature">
 
-    xLuIncludeFile();
+                        <section class="feature">
+                            <input type="radio" name="accordion" class="feature__accordion" id="first">
+                            <label for="first" class="feature__name">Lorem ipsum</label>
+                            <container class="feature__description-container">
+                                <p class="feature__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies integer quis auctor elit sed vulputate mi. Viverra vitae congue eu consequat ac felis donec et. Tristique senectus et netus et malesuada fames ac. Lorem donec massa sapien faucibus et molestie ac feugiat. In nulla posuere sollicitudin aliquam ultrices sagittis orci a. Id aliquet lectus proin nibh nisl condimentum. Eu mi bibendum neque egestas congue quisque egestas diam in. Erat velit scelerisque in dictum non consectetur a. Viverra suspendisse potenti nullam ac. Tortor consequat id porta nibh venenatis cras sed felis. Et tortor consequat id porta nibh venenatis cras sed. Integer quis auctor elit sed vulputate mi. Eu sem integer vitae justo eget magna fermentum iaculis. Massa placerat duis ultricies lacus sed turpis tincidunt id aliquet. Aliquet enim tortor at auctor urna nunc id. Vestibulum lectus mauris ultrices eros in cursus turpis.</p>
+                            </container>
+                        </section>
 
-</script>
+                    </li>
+
+                    <li class="card-content__feature">
+
+                        <section class="feature">
+                            <input type="radio" name="accordion" class="feature__accordion" id="second">
+                            <label for="second" class="feature__name">Lorem ipsum</label>
+                            <container class="feature__description-container">
+                                <p class="feature__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies integer quis auctor elit sed vulputate mi. Viverra vitae congue eu consequat ac felis donec et. Tristique senectus et netus et malesuada fames ac. Lorem donec massa sapien faucibus et molestie ac feugiat. In nulla posuere sollicitudin aliquam ultrices sagittis orci a. Id aliquet lectus proin nibh nisl condimentum. Eu mi bibendum neque egestas congue quisque egestas diam in. Erat velit scelerisque in dictum non consectetur a. Viverra suspendisse potenti nullam ac. Tortor consequat id porta nibh venenatis cras sed felis. Et tortor consequat id porta nibh venenatis cras sed. Integer quis auctor elit sed vulputate mi. Eu sem integer vitae justo eget magna fermentum iaculis. Massa placerat duis ultricies lacus sed turpis tincidunt id aliquet. Aliquet enim tortor at auctor urna nunc id. Vestibulum lectus mauris ultrices eros in cursus turpis.</p>
+                            </container>
+                        </section>
+
+                    </li>
+                </ul>
+    
+            </section>
+    
+            <hr class="card-content__separator">
+            
+        </section>
+        
+        <footer class="decorative-lower-bar"></footer>
+    </main>
 
 </body>
 </html>
