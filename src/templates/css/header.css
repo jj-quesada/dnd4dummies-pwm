@@ -47,9 +47,10 @@
     height: 4vh;
 }
 
-.main-menu .main-menu__options--general {
+.main-menu .main-menu__options--general, .main-menu__options--glossary {
     list-style: none;
 }
+
 
 .main-menu .main-menu__options--general .main-menu__link {
     position: relative;
