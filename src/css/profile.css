@@ -1,4 +1,7 @@
 * {
+    margin: 0;
+    padding: 0;
+    
     font-family: 'Brush Script MT', cursive;
 
 }
@@ -19,8 +22,8 @@
     background-color: #333;
 
     border-radius: .5em;
-    border: 2px solid #000;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);    
+    border: .15em solid #000;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);    
 
 }
 
@@ -39,17 +42,17 @@
 }
 
 .user-box__img{
-    width: 11em;
-    height: 15em;
+    width: 10em;
+    height: 10em;
 
-    border: .1em solid black;
-    border-radius: 1.5em;
-    box-shadow: 1em .7em 1em rgba(0, 0, 0, 0.5);
+    border: .12em solid black;
+    border-radius: .5em;
+    box-shadow: .8em .7em .5em rgba(0, 0, 0, 0.5);
 }
 
 .user-box__title{
     position: relative;
-    top: .5em;
+    top: .8em;
     right: .6em;
 
     grid-row: 1;
@@ -65,7 +68,8 @@
     grid-column:  2;
 
     position: relative;
-    bottom: 4.85em;
+    bottom: 2.2em;
+    left: 2em;
 
 }
 
