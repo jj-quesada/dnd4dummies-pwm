@@ -62,18 +62,18 @@
 
 
 .section--character {
-    background: url(/src/images/horizontal-wallpaper.jpg);
+    background: url(/src/images/magic-forest1.png);
     justify-content: flex-end;
 }
 
 
 .section--interaction {
-    background: url(/src/images/horizontal-wallpaper.jpg);
+    background: url(/src/images/red-forest.png);
     justify-content: flex-start;
 }
 
 
 .section--adventure {
-    background: url(/src/images/horizontal-wallpaper.jpg);
+    background: url(/src/images/magic-forest2.png);
     justify-content: flex-end;
 }
