@@ -1,5 +1,5 @@
-function loadTemplate(fileName, id, num = 1) {
-    fetch(fileName).then((res) => {
+async function loadTemplate(fileName, id, num = 1) {
+    await fetch(fileName).then((res) => {
         return res.text();
 
     }).then((text) => {
