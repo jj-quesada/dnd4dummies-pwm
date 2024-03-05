@@ -1,3 +1,13 @@
+.background-signup{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1C3C47;
+    color: #c9c5c5;
+
+    height: 70vh;
+}
+
 .main-signup{
     display: grid;
 
@@ -6,6 +16,7 @@
 
     background-color: #1C3C47;
     color: #c9c5c5;
+
 }
 
 .main-signup__title{
