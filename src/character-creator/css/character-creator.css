@@ -1,6 +1,164 @@
-.character-creator{
+.background-character-creator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     background-color: #1C3C47;
     color: #c9c5c5;
+
+    padding-right: 8em;
+    padding-top: 1em;
+}
+
+.character-creator{
+    display: grid;
+
+    grid-template-columns: 25em 25em 25em ;
+    grid-template-rows: auto auto auto auto auto ;
+}
+
+.character-creator__label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 100%;
+
+    background-color: #0e1619;
+    width: 9em;
+
+    border-radius: .3em;
+    border: .1em solid #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    color: #c9c5c5;
+
+}
+
+.character-profile{
+    grid-column: 1;
+    grid-row: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.character-profile__img{
+    width: 13em;
+    height: 17em;
+
+    border: .05em solid black;
+
+    border-radius: 1em 1em 1em 1em;
+    box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.5);
+}
+
+.character-profile__place-name{
+    position: relative;
+    top: 0.6em;
+    right: 3em;
+}
+
+.user-options{
+    grid-column: 2;
+    grid-row: 1;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 7em 4em 4em;
+
+}
+
+.character-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1; 
+
+    width: 25em;
+}
+
+.character-name__name-value{
+    width: 29em;
+    padding: .5em;
+
+    background-color: #333;
+    color: #c9c5c5;
+}
+
+.property{
+    display: flex;
+    flex-direction: column;
+
+    width: 11em;
+    position: relative;
+    left: .6em;
+}
+
+.property__type-label{
+    position: relative;
+    right: .7em;
+    bottom: .05em;
+}
+
+.property__selector{
+    background-color: #333;
+    color: #c9c5c5;
+
+    padding: .5em;
+}
+
+.dice-place{
+    background-color: #292828;
+
+    margin: 1em;
+    width: 19em;
+    height: 15.5em;
+
+    border-radius: 1em;
+    border: .1em solid #000;
+    box-shadow: 0 0 .6em rgba(0, 0, 0, 0.5);
+
+    color: #c9c5c5;
+
+    grid-column: 3;
+    grid-row: 1; 
+
+    margin-left: 5em;
+}
+
+.dice-place__place-name{
+    position: relative;
+    bottom: 0.5em;
+    left: 1em;
+}
+
+.dice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 13em;
+}
+
+.skills{
+    grid-column: 1;
+    grid-row: 2; 
+}
+
+.saving-throws{
+    grid-column: 2;
+    grid-row: 2; 
+}
+
+.character-stats{
+    grid-column: 3;
+    grid-row: 2;
 }
 
 .stats-container {
@@ -11,9 +169,9 @@
     height: 16.5em;
     padding-left: .75em;
 
-    border-radius: 10px;
-    border: 2px solid #000;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 1em;
+    border: 0.1em solid #000;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
 
     color: #c9c5c5;
     
@@ -41,7 +199,7 @@
     
     border-radius: .7em;
     border: .1em solid #000;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
 
     background-color: #333;
 
@@ -80,8 +238,8 @@
     background-color: #333;
 
     border-radius: .5em;
-    border: 2px solid #000;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: .02em solid #000;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
 
 }
 
@@ -117,4 +275,37 @@
 .stat--charisma {
     grid-row: 3;
     grid-column: 2;
+}
+
+.passive-perception{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.proficiencies{
+    grid-column: 1;
+    grid-row: 3;
+    
+}
+
+.traits{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.combat{
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.lore{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 4;
+}
+
+.persistence{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 5;
 }
