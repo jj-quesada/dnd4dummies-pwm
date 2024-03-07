@@ -7,58 +7,12 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="icon" href="/src/assets/images/logo.png" type="image/x-icon">
 
-    <script src="/src/scripts/fetch-simple.js"></script>
 </head>
 <body>
 
-    <header class="header"></header>
+    <main id="main"></main>
 
-    <main class="forum-main">
-
-        <section class="banner">
-            <img class="banner__image" src="/src/images/island.png">
-            <p class="banner__hover-text">Lorem ipsum</p>
-            <hr class="banner__separator">
-        </section>
-
-        <h1 class="forum-title">Forum</h1>
-        <section class="topic-list">
-            <ul>
-                <li class="topic-list__topic"></li>
-            </ul>
-        </section>
-        
-        <section class="new-topic-area">
-            <section class="topic-creation-area">
-
-                <container class="topic-creation-area__name-container">
-                    <input type="text" class="topic-creation-area__name" placeholder="Topic">
-                </container>
-    
-                <container class="topic-creation-area__text-container">
-                    <textarea class="topic-creation-area__text" placeholder="Enter your text..."></textarea>
-                </container>
-                
-            </section>
-    
-            
-            <container class="topic-button-container">
-                <button class="topic-button">Publish</button>
-            </container>
-            
-        </section>
-
-    </main>
-
-    <footer class="footer"></footer>
-
-    <script>
-
-        document.addEventListener("DOMContentLoaded", fetchHeadAndTail);
-
-        loadTemplate("/src/templates/topic-preview.html", ".topic-list__topic");
-        
-    </script>
+    <script src="index.js"></script>
 
 </body>
 </html>

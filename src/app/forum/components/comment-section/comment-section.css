@@ -4,3 +4,7 @@
     font-family: 'Arial', sans-serif;
 
 }
+
+.comment-section-list {
+    list-style: none;
+}
