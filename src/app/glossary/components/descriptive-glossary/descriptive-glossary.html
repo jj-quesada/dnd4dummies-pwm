@@ -4,34 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Informative Section</title>
-    <link rel="stylesheet" href="/src/templates/css/descriptive-glossary.css">
-
-    <script src="/src/scripts/fetch-simple.js"></script>
+    <link rel="stylesheet" href="/src/app/glossary/components/descriptive-glossary/descriptive-glossary.css">
+    
 </head>
 <body>
     <main class="main-page">
 
         <section class="banner">
-            <img class="banner__image" src="/src/images/ruins.png">
+            <img class="banner__image" src="/src/assets/images/ruins.png">
             <p class="banner__hover-text">Lorem ipsum</p>
             <hr class="banner__separator">
         </section>
     
         <section class="elements-section">
             <ul class="elements-section__list">
-                <li class="elements-section__entry"></li>
             </ul>
         </section>
 
     </section>
-
-    <script>
-
-        document.addEventListener("DOMContentLoaded", fetchHeadAndTail);
-
-        loadTemplate("/src/templates/descriptive-glossary-element.html", ".elements-section__entry");
-        
-    </script>
 
 </body>
 </html>

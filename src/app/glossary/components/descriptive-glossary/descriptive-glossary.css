@@ -48,7 +48,6 @@
     padding: 1em;
 }
 
-.elements-section__entry{
+.elements-section__list {
     list-style: none;
-    margin-bottom: 10px;
 }
