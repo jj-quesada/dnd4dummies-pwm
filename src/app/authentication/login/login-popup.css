@@ -1,12 +1,7 @@
-body {
-    /* background: url(/src/images/horizontal-wallpaper.jpg) */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .login-container {
-    position: relative;
+    position: fixed;
+    top: 15vh;
     width: 440px;
     height: 480px;
     background: transparent;
@@ -18,6 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    z-index: 999;
     
 }
 
@@ -44,18 +40,12 @@ body {
 
 }
 
-.login-container__close-icon a{
-    text-decoration: none;
-    /* Solución temporal */
-    position: absolute;
-    top: 10%;
+.login-container__icon {
+    color: white;
+    z-index: 2;
 }
 
-.login-form-box__top-separator {
-    position: absolute;
-    top: 40px;
-    width: 80%;
-}
+
 .login-form-box h1 {
     font-size: 2em;
     text-align: center;
@@ -148,17 +138,11 @@ body {
 }
 
 .confirmation .confirmation__register-action {
-    color: #4d0404;
+    color: white;
     text-decoration: none;
     font-weight: 800;
 }
 
 .confirmation__register-action:hover {
     text-decoration: underline;
-}
-
-.login-form-box__bottom-separator {
-    position: absolute;
-    bottom: 40px;
-    width: 80%;
 }

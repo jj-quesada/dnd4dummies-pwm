@@ -4,65 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Profile</title>
-    <link rel="stylesheet" href="/src/css/profile.css">
+    <link rel="stylesheet" href="/src/app/authentication/profile/profile.css">
     <link rel="icon" href="/src/assets/images/logo.png" type="image/x-icon">
 
-    <script src="/src/scripts/fetch-simple.js"></script>
 </head>
 <body>
-    <header class="header"></header>
 
-    <main class="user-info">
-        <article class="user-box">
-            <figure class="user-box__profile">
-                <img 
-                    src="/src/images/omnicomteamx_logo.png"
-                    class="user-box__img"
-                >
-            </figure>
-
-            <h1 class="user-box__title">Account information</h1>
-
-            <section class="user-box__info">
-                <div class="user-box__portion">
-                    <label class="user-box__label">Username:</label>
-                    <p type="text" class="user-box__text user-box__text--username">Your name</p>
-                </div>
-                 
-                <div class="user-box__portion">
-                    <label class="user-box__label">Email:</label>
-                    <p type="text" class="user-box__text user-box__text--email">Your email</p>
-                </div>
-
-                <div class="user-box__portion">
-                    <label class="user-box__label">Birth date:</label>
-                    <p type="text" class="user-box__text user-box__text--birth-date">Your birth date</p>
-                </div>
-                
-            </section>
-
-        </article>
-
-        <hr class="decorative-line">
-
-        <h1 class="character-title">Your saved characters:</h1>
-
-        <article class="character-list"></article>
-
-    </main>
-
-    <footer class="footer"></footer>
-
-    <script>
-
-        document.addEventListener("DOMContentLoaded", fetchHeadAndTail);
-
-        // SOLUCIONAR ESTO
-        loadTemplate('/src/templates/character-loader-popup.html', ".character-list")
-        loadTemplate('/src/templates/character-card.html', ".card-content__character-card")
-        loadTemplate('/src/templates/card-stats.html', ".character-stats")
-        
-    </script>
-
+    <main id="main"></main>
+    
+    <script src="profile.js"></script>
 </body>
 </html>
