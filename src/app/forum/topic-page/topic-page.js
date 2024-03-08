@@ -8,12 +8,7 @@ async function cargarEstructura() {
     appMain.appendChild(await cargarTemplate('/src/app/shared/header/header.html'));
     await cargarLoginPopup();
 
-    appMain.appendChild(await cargarTemplate('/src/app/forum/components/topic-display/topic-display.html'));
-
-    appMain.appendChild(await cargarTemplate('/src/app/forum/components/comment-area/comment-area.html'));
-
-    appMain.appendChild(await cargarTemplate('/src/app/forum/components/comment-section/comment-section.html'));
-    
+    appMain.appendChild(await cargarTemplate('/src/app/forum/components/topic-page-main/topic-page-main.html'));
     await loadCommentList();
 
     appMain.appendChild(await cargarTemplate('/src/app/shared/footer/footer.html'));
@@ -77,21 +72,3 @@ async function loadCommentList() {
     await Promise.all(promises);
 }
 
-/*
-    <header class="header"></header>
-
-    <main class="details-main">
-        
-        <section class="topic-display"></section>
-
-        <section class="comment-area"></section>
-
-        <section class="comment-section-container">
-            <ul class="comment-section-list">
-            </ul>
-        </section>
-
-    </main>
-
-    <footer class="footer"></footer>
-*/
