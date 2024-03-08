@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
+    
 
 }
 
@@ -169,7 +170,7 @@
 .skills{
     background-color: #292828;
 
-    border-radius: .2em;
+    border-radius: .4em;
     border: .1em solid #000;
     box-shadow: .5em .5em .1em rgba(0, 0, 0, 0.5);
     grid-column: 1;
@@ -177,12 +178,11 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
+    justify-content: space-between;
 
     width: 11em;
     height: 31.5em;
-    margin-top: 2em;
+    margin-top: 3.5em;
     padding-left: .2em;
     padding-right: .2em;
 
@@ -192,8 +192,8 @@
 
 .skills__place-name{
     position: relative;
-    left: .9em;
-    bottom: .1em; 
+    bottom: .8em;
+    left: .95em;
 }
 
 .skill-type{
@@ -203,10 +203,11 @@
     border: .1em solid #000;
     box-shadow: 0 0 .6em rgba(0, 0, 0, 0.5);
 
-    margin-top: .2em;
     padding: .1em;
     padding-left: .3em;
 
+    position: relative;
+    bottom: .6em;
 
 }
 
@@ -220,7 +221,6 @@
     grid-row: 2; 
 
     display: flex;
-
     align-items: center;
     justify-content: center;
 }
@@ -228,10 +228,13 @@
 .saving-throws{
     background-color: #292828;
 
-    margin: 1em;
-    width: 15.6em;
-    height: 25em;
-    padding-left: .75em;
+    width: 16.5em;
+    height: 25.5em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     border-radius: .4em;
     border: 0.1em solid #000;
@@ -242,7 +245,7 @@
 
 .saving-throws__place-name{
     position: relative;
-    bottom: .8em;
+    bottom: 1.2em;
     
 }
 
@@ -309,22 +312,25 @@
 .stats-container {
     background-color: #292828;
 
-    margin: 1em;
-    width: 15.8em;
-    height: 25.3em;
-    padding-left: .75em;
+    width: 16.5em;
+    height: 26em;
 
     border-radius: .4em;
     border: 0.1em solid #000;
     box-shadow: .5em .5em .1em rgba(0, 0, 0, 0.5);
 
     color: #c9c5c5;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
 }
 
 .stats__place-name{
     position: relative;
-    bottom: .8em;
+    bottom: 1.4em;
 
 }
 
@@ -445,6 +451,7 @@
     justify-content: space-between;
 
     height: 3em;
+    margin-top: 1em;
 
     grid-column: 3;
     grid-row: 2;
@@ -476,17 +483,138 @@
 .proficiencies{
     grid-column: 1;
     grid-row: 3;
+
+    margin-top: 3.5em;
+    background-color: #292828;
+
+    border-radius: .4em;
+    border: .1em solid #000;
+    box-shadow: .5em .5em .1em rgba(0, 0, 0, 0.5);
+
+    width: 11em;
+    height: 15em;
+    padding: .5em;
+
+    position: relative;
+    left: 7.2em;
+
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;
     
+}
+
+.proficiencies__place-name{
+    position: relative;
+    bottom: 1em;
+    left: .9em;
+}
+
+.proficiencie{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    position: relative;
+    bottom: 1em;
+}
+
+.proficiencie__label{
+    position: relative;
+    top: .2em;
+}
+
+.proficiencie__selector{
+    background-color: #333;
+    color: #c9c5c5;
+
+    border-radius: .5em;
+    border: .1em solid #000;
+    box-shadow: .32em .35em .1em rgba(0, 0, 0, 0.5);
+
+    padding: .5em;
 }
 
 .traits{
     grid-column: 2;
     grid-row: 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.traits__container{
+    
+    background-color: #292828;
+
+    border-radius: .4em;
+    border: .1em solid #000;
+    box-shadow: .5em .5em .1em rgba(0, 0, 0, 0.5);
+
+    width: 13em;
+    height: 13em;
+    padding: .5em;
+
+    position: relative;
+    bottom: 3.5em;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.traits__place-name{
+    position: relative;
+    bottom: 1em;
+}
+
+.traits__text{
+    font-size: 80%;
+
+    position: relative;
+    bottom: .6em;
+
+    display: flex;
+    justify-self: center;
 }
 
 .combat{
     grid-column: 3;
     grid-row: 3;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+
+    background-color: #292828;
+
+    border-radius: .4em;
+    border: .1em solid #000;
+    box-shadow: .5em .5em .1em rgba(0, 0, 0, 0.5);
+
+    margin: 1em;
+}
+
+.combat__place-name{
+    grid-row: 1;
+    grid-column: 1;
+
+    position: relative;
+    bottom: 2.8em;
+    right: 2em;
+}
+
+.character-element--hit-points{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
+
+    align-items: center;
+    justify-self: center;
 }
 
 .lore{
