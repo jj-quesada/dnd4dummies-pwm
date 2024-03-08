@@ -55,7 +55,7 @@ async function loadElementList() {
     let promises = [];
 
     // Crear 4 elementos li, asignarles la clase 'element' y cargar el template
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < 10; i++) {
         let li = document.createElement('li');
         li.classList.add('element');
 
