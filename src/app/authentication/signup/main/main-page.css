@@ -7,7 +7,7 @@
 
     height: 73.2vh;
 
-    font-size: 150%;
+    font-size: 140%;
 }
 
 .main-signup{
@@ -59,11 +59,14 @@
     position: relative;
     right: .5em;
     top: .13em;
+    
 }
 
 .parameter__text{
     background-color: #333;
     color: #c9c5c5;
+
+    font-size: 100%;
 }
 
 .parameter__text--birth-date::-webkit-calendar-picker-indicator {
