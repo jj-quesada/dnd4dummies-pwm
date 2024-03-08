@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/css/login-popup.css">
+    <link rel="stylesheet" href="/src/app/authentication/login/login-popup.css">
     <link rel="icon" href="/src/assets/images/logo.png" type="image/x-icon">
     <title>Login Area</title>
 </head>
 <body>
     <main class="login-container">
-        <span class="login-container__close-icon"><a href="/src/index.html"><ion-icon name="close"></ion-icon></a></span>
+        <span class="login-container__close-icon">X</span>
 
         <section class="login-form-box">
-            <hr class="login-form-box__top-separator">
             <h1>Welcome to the dungeon!</h1>
             <form class="login-info" action="#">
 
@@ -44,7 +43,7 @@
         
                 <div class="confirmation__register">
                     <p>New to D&D For Dummies?
-                        <a class="confirmation__register-action" href="/src/signup.html">
+                        <a class="confirmation__register-action" href="/src/app/authentication/signup/signup.html">
                             Register here for free!
                         </a>
                     </p>
@@ -53,14 +52,8 @@
             </section>
 
 
-            <hr class="login-form-box__bottom-separator">
         </section>
     </main>
-
-
-
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </body>
 </html>

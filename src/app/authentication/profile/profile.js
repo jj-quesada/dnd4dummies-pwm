@@ -6,10 +6,13 @@ async function cargarEstructura() {
     let appMain = document.getElementById('main');
 
     appMain.appendChild(await cargarTemplate('/src/app/shared/header/header.html'));
+
     await cargarLoginPopup();
 
-    appMain.appendChild(await cargarTemplate('/src/app/forum/components/main-page/main-page.html'));
-    await loadTopicList();
+    appMain.appendChild(await cargarTemplate('/src/app/authentication/profile/main/main-page.html'));
+
+    await loadCardList();
+
 
     appMain.appendChild(await cargarTemplate('/src/app/shared/footer/footer.html'));
 }
@@ -43,21 +46,21 @@ function interactLoginPopup() {
     }
 }
 
-async function loadTopicList() {
-    let topicList = document.querySelector('.topic-list');
+async function loadCardList() {
+    let cardList = document.querySelector('.character-list');
 
-    const templateURL = '/src/app/forum/components/topic-preview/topic-preview.html';
+    const templateURL = '/src/app/shared/character-card/character-card.html';
 
     // Inicializar un array para almacenar las promesas
     let promises = [];
 
-    // Crear 4 elementos li, asignarles la clase 'topic' y cargar el template
+    // Crear 4 elementos li, asignarles la clase 'element' y cargar el template
     for (let i = 0; i < 4; i++) {
         let li = document.createElement('li');
-        li.classList.add('topic');
+        li.classList.add('card');
 
         // Añadir el li al ul
-        topicList.appendChild(li);
+        cardList.appendChild(li);
 
         // Cargar el template y añadirlo al li
         let promise = cargarTemplate(templateURL).then(content => {
