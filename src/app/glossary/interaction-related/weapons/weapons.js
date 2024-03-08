@@ -10,6 +10,7 @@ async function cargarEstructura() {
     await cargarLoginPopup();
 
     appMain.appendChild(await cargarTemplate('/src/app/glossary/components/descriptive-glossary/descriptive-glossary.html'));
+    document.querySelector('.banner__hover-text').textContent = "Weapons Section";
 
     await loadElementList();
 

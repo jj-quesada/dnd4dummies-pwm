@@ -53,27 +53,38 @@
 
 .section__label {
     position: absolute;
-    font-size: 1.2vw;
+
+    font-size: 1.5em;
     color: white;
     font-weight: 700;
-    top: 22%;
-    left: 25%
+    top: 15%;
+    left: 22%;
+    padding: .2em;
 }
 
 
 .section--character {
-    background: url(/src/assets/images/forest.png);
     justify-content: flex-end;
+    background-image: url('/src/assets/images/magic-forest1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 
 .section--interaction {
-    background: url(/src/assets/images/red-forest.png);
     justify-content: flex-start;
+    background-image: url('/src/assets/images/red-forest.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 
 .section--adventure {
-    background: url(/src/assets/images/magic-forest2.png);
     justify-content: flex-end;
+    background-image: url('/src/assets/images/magic-forest2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }

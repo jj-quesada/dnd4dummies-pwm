@@ -9,6 +9,7 @@ async function cargarEstructura() {
 
     appMain.appendChild(await cargarTemplate('/src/app/glossary/components/informative-glossary/informative-glossary.html'));
 
+    document.querySelector('.banner__hover-text').textContent = "Adventure Section";
     appMain.appendChild(await cargarTemplate('/src/app/shared/footer/footer.html'));
 }
 
