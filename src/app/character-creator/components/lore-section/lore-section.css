@@ -15,8 +15,8 @@
     
     font-weight: 700;
     position: relative;
-    top: 8px;
-    right: 8px;
+    top: .5em;
+    right: .5em;
 }
 
 .user-text__container {
@@ -27,10 +27,15 @@
 
     height: 6em;
 
+    border-radius: .4em;
+    border: .1em solid #000;
+    box-shadow: .3em .3em .1em rgba(0, 0, 0, 0.5);
+
+    background-color: #333;
+
 }
 
 .user-text__input {
-    border: 0;
     background-color: #c9c5c5;
 
     margin-left: .5em;
@@ -40,8 +45,9 @@
     height: 75%;
 
     box-sizing: border-box;
-    border: 1px solid #1C3C47;
-    border-radius: 10px;
+    border-radius: .4em;
+    border: .1em solid #000;
+    box-shadow: .3em .3em .1em rgba(0, 0, 0, 0.5);
 
     resize: none;
     padding: .6em;

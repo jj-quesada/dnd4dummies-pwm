@@ -587,10 +587,12 @@
     justify-content: center;
     align-items: center;
 
-    grid-template-columns: auto auto;
+    grid-template-columns: 10em 10em;
     grid-template-rows: auto auto auto;
+    gap: .5em;
 
     background-color: #292828;
+    height: 23em;
 
     border-radius: .4em;
     border: .1em solid #000;
@@ -604,27 +606,106 @@
     grid-column: 1;
 
     position: relative;
-    bottom: 2.8em;
-    right: 2em;
+    bottom: 3.8em;
 }
 
 .character-element--hit-points{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row: 1;
+}
 
+.character-element{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-self: center;
+    justify-content: space-between;
+
+    border-radius: .4em;
+    border: .1em solid #000;
+    box-shadow: .3em .3em .1em rgba(0, 0, 0, 0.5);
+
+    padding: 1em;
+    height: 3em;
+
+    background-color: #333;
+}
+
+.character-element__name{
+    border-radius: .4em;
+    border: .1em solid #000;
+    box-shadow: .3em .3em .1em rgba(0, 0, 0, 0.5);
+
+    padding: .2em;
+    width: 7.5em;
+
+    background-color: #292828;
+
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    bottom: 1.4em;
+}
+
+.character-element__value{
+    position: relative;
+    bottom: .3em;
+
+    font-size: 120%;
 }
 
 .lore{
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row: 4;
+
+    margin-top: 1em;
+    margin-left: 7em;
+    margin-right: 2em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .persistence{
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row: 5;
+
+
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    justify-content: space-between;
+
+    width: 50em;
+    height: 15em;
+
+    position: relative;
+    left: 2em;
+}
+
+.persistence__button{
+    background-color: #333;
+    border: .01em solid #000;
+    border-radius: .3em;
+    box-shadow: .3em .3em .1em rgba(0,0,0,0.1);
+
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    color:#c9c5c5;
+    padding: .1em;
+
+    font-size: 2.8em;
+
+    width: 5em;
+    height: 1.5em;
+}
+
+.persistence__button:hover{
+    background-color: rgb(31, 30, 30)
 }
