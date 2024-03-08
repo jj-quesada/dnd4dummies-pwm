@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 });
 
 async function cargarEstructura() {
-    let appMain = document.getElementById('main');
+    let appMain = document.getElementById('main-topic-details');
 
     appMain.appendChild(await cargarTemplate('/src/app/shared/header/header.html'));
     await cargarLoginPopup();

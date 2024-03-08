@@ -52,6 +52,14 @@
 .forum-title{
     padding: 1em;
     color: #c9c5c5;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    width: 95.2vw;
+    margin-top: .2em;
+
 }
 
 .topic-list-container{
@@ -66,7 +74,7 @@
 .topic-list{
     list-style: none;
     width: 90em;
-    height: 27em;
+    height: 25.5em;
 
     display: flex;
     flex-direction: column;
@@ -76,36 +84,41 @@
 .new-topic-area{
     display: flex;
     flex-direction: column;
+    align-items: center;
+
+    margin-top: 1em;
+
 }
 
 .topic-creation-area {
-    display: flex;
-    flex-direction: column;
-    margin: 1% 1%;
-    padding: 1%;
-    border-radius: 6px;
-    border: 1px solid black;
+    border: .05em solid black;
+    border-radius: .5em;
+    box-shadow: .5em .5em .1em rgba(0, 0, 0, 0.5);
+
     background-color: #333;
+
+    width: 90em;
+    height: 27.5em;
+
 }
 
 .topic-creation-area__name-container {
     display: flex;
     align-items: center;
-    padding: 1%;
+    padding: 1em;
     height: 3em;
 
 }
 
 .topic-creation-area__name {
-    border: 0;
     background-color: #c9c5c5;
 
     width: 100%;
     height: 75%;
 
-    box-sizing: border-box;
-    border: 1px solid #1C3C47;
-    border-radius: 10px;
+    border: .05em solid black;
+    border-radius: .5em;
+    box-shadow: .5em .5em .1em rgba(0, 0, 0, 0.5);
 
     resize: none;
     padding: .6em;
@@ -115,8 +128,11 @@
 .topic-creation-area__text-container {
     display: flex;
     align-items: center;
-    height: 12em;
+    height: 26em;
     padding: 1%;
+
+    position: relative;
+    bottom: 3em;
 }
 
 .topic-creation-area__text {
@@ -127,9 +143,9 @@
     width: 100%;
     height: 75%;
 
-    box-sizing: border-box;
-    border: 1px solid #1C3C47;
-    border-radius: 10px;
+    border: .05em solid black;
+    border-radius: .5em;
+    box-shadow: .5em .5em .1em rgba(0, 0, 0, 0.5);
 
     resize: none;
     padding: .6em;
@@ -137,16 +153,35 @@
 
 .topic-button-container{
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    height: 2em;
-    position: relative;
-    right: .5em;
-    margin-top: 1%;
-    margin-bottom: 2%;
+    align-self: center;
+    justify-self: center;
+
+    margin-bottom: 2em;
+
 }
 
 .topic-button{
-    width: 10%;
-    height: 100%;
+    background-color: #333;
+    border: .01em solid #000;
+    border-radius: .3em;
+    box-shadow: .2em .2em .1em rgba(0,0,0,.5);
+
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    color:#c9c5c5;
+    padding: .1em;
+
+    font-size: 2.8em;
+
+    width: 5em;
+    height: 1.5em;
+
+    position: relative;
+    left: 13.7em;
+    bottom: 1em;
+}
+
+.topic-button:hover{
+    background-color: rgb(31, 30, 30)
 }

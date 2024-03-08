@@ -6,22 +6,27 @@
 }
 
 .topic-display {
-    background: #666;
+    background: #333;
     display: flex;
     flex-direction: column;
-    padding-bottom: 1%;
+    
+    margin: 2em;
+    border: .01em solid #000;
+    border-radius: .3em;
+    box-shadow: .5em .5em .1em rgba(0,0,0,0.5);
+
+    color: #c9c5c5;
+
 }
 
 .topic-display__info{
     display: flex;
-    justify-content: space-between;
     height: 10em;
-    padding: 0 1%;
+    padding-left: 1em;
+
 }
 
 .topic-details {
-    width: 80%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,65 +34,64 @@
 
 .topic-display__name-container {
     box-sizing: border-box;
-    background-color: #c9c5c5;
-    border: 1px solid #1C3C47;
-    border-radius: 10px;
-    width: 100%;
-    height: 40%;
+    border: .1em solid black;
+    border-radius: .5em;
+    box-shadow: .5em .5em .1em rgba(0, 0, 0, 0.5);
+
+    background-color: #555;
+
+    width: 80em;
+    height: 3em;
     display: flex;
     align-items: center;
-    padding-left: 1%;
-    padding-bottom: 1%;
     font-weight: 700;
+
+    padding-left: 1em;
 }
 
 .topic-display__date {
     font-weight: 700;
-    padding-left: 1%;
-    padding-top: 1%;
+    padding-left: 1em;
+    padding-top: 1em;
 }
 
 .author-details {
-    width: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5%;
-    padding: 1%;
-}
-
-.topic-display__image-container {
-    height: 10em;
+    padding: 1em;
+    padding-left: 2.8em;
 }
 
 .topic-display__profile-pic{
     height: 7em;
     width: 7em;
-    border-radius: 6px;
-    border: 1px solid black;
+    border-radius: .4em;
+    border: .1em solid black;
 
 }
 
 .topic-display__text-container {
     display: flex;
     align-items: center;
-    height: 12em;
-    padding: 0 1%;
+    height: 30em;
+    width: 91em;
+    padding-left: 1em;
     padding-bottom: 1%;
+
+    
 }
 
 .topic-display__text {
-    border: 0;
-    background-color: #c9c5c5;
-
-
     width: 100%;
     height: 100%;
 
-    box-sizing: border-box;
-    border: 1px solid #1C3C47;
-    border-radius: 10px;
-
-    resize: none;
     padding: .6em;
+
+    box-sizing: border-box;
+    border: .1em solid black;
+    border-radius: .5em;
+    box-shadow: .5em .5em .1em rgba(0, 0, 0, 0.5);
+
+    background-color: #555;
 }

@@ -10,10 +10,13 @@
     background: #333;
     grid-template-rows: 3em 3em;
     grid-template-columns: 30% auto 15% 15%;
-    border-radius: 6px;
-    border: 1px solid black;
 
     color: #c9c5c5;
+
+    border: .05em solid black;
+
+    border-radius: .5em;
+    box-shadow: .5em .5em .1em rgba(0, 0, 0, 0.5);
 }
 
 .topic-preview a{
