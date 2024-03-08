@@ -54,8 +54,8 @@
 }
 
 .character-profile__img{
-    width: 13em;
-    height: 17em;
+    max-width: 13em;
+    max-height: 17em;
 
     border: .05em solid black;
 
@@ -165,6 +165,11 @@
     justify-content: center;
     
     height: 13em;
+}
+
+.dice__img{
+    max-width: 12em;
+    max-height: 12em;
 }
 
 .skills{

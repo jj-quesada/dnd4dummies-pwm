@@ -38,6 +38,11 @@
     height: 3.5em; 
 }
 
+.upper-bar__title{
+    position: relative;
+    right: 2em;
+}
+
 .lower-bar {
     display: flex;
     align-items: center;

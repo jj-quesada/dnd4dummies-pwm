@@ -37,7 +37,6 @@
 }
 
 .banner:hover .banner__hover-text {
-    display: block; /* Mostramos el texto en hover */
     visibility: visible;
     opacity: 1;
 }
@@ -50,4 +49,8 @@
 
 .elements-section__list {
     list-style: none;
+
+    margin: 3em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
