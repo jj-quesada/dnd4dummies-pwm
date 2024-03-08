@@ -50,15 +50,27 @@
 }
 
 .forum-title{
-    padding: 1%;
+    padding: 1em;
+    color: #c9c5c5;
 }
 
 .topic-list-container{
-    padding: 1%;
+    padding: 1em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .topic-list{
     list-style: none;
+    width: 90em;
+    height: 27em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .new-topic-area{

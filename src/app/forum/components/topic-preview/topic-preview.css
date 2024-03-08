@@ -12,6 +12,8 @@
     grid-template-columns: 30% auto 15% 15%;
     border-radius: 6px;
     border: 1px solid black;
+
+    color: #c9c5c5;
 }
 
 .topic-preview a{
