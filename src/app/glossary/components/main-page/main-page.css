@@ -52,16 +52,18 @@
 }
 
 .section__label {
-    position: absolute;
-
     font-size: 1.5em;
     color: white;
     font-weight: 700;
-    top: 15%;
-    left: 22%;
     padding: .2em;
-}
 
+    text-shadow: 3px 0 #000000, -3px 0 #000000, 0 3px #000000, 0 -3px #000000,
+               2px 2px #000000, -2px -2px #000000, 2px -2px #000000, -2px 2px #000000;
+    
+    position: relative;
+    left: 2.7em;
+    bottom: 8.8em;
+}
 
 .section--character {
     justify-content: flex-end;
