@@ -5,10 +5,10 @@ document.addEventListener('DOMContentLoaded', async function() {
 async function cargarEstructura() {
     let appMain = document.getElementById('main');
 
-    appMain.appendChild(await cargarTemplate('/src/app/shared/header/header.html'));
+    appMain.appendChild(await cargarTemplate('/dnd4dummies-pwm/src/app/shared/header/header.html'));
     await cargarLoginPopup();
     appMain.appendChild(await cargarTemplate('./main/main-page.html'));
-    appMain.appendChild(await cargarTemplate('/src/app/shared/footer/footer.html'));
+    appMain.appendChild(await cargarTemplate('/dnd4dummies-pwm/src/app/shared/footer/footer.html'));
 }
 
 async function cargarTemplate(url) {
@@ -21,7 +21,7 @@ async function cargarTemplate(url) {
 }
 
 async function cargarLoginPopup() {
-    document.querySelector('.login-popup-container').appendChild(await cargarTemplate('/src/app/authentication/login/login-popup.html'));
+    document.querySelector('.login-popup-container').appendChild(await cargarTemplate('/dnd4dummies-pwm/src/app/authentication/login/login-popup.html'));
     document.querySelector('.login-popup-container').style.display = 'none';
 
     document.querySelector('.upper-bar__login-logo-image').addEventListener('click', function() {

@@ -21,7 +21,7 @@ async function cargarTemplate(url) {
 }
 
 async function cargarLoginPopup() {
-    document.querySelector('.login-popup-container').appendChild(await cargarTemplate('/src/app/authentication/login/login-popup.html'));
+    document.querySelector('.login-popup-container').appendChild(await cargarTemplate('/dnd4dummies-pwm/src/app/authentication/login/login-popup.html'));
     document.querySelector('.login-popup-container').style.display = 'none';
 
     document.querySelector('.upper-bar__login-logo-image').addEventListener('click', function() {
