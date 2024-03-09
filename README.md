@@ -1,5 +1,5 @@
 # dnd4dummies-pwm
-[PWM] - Grupo 5
+**[PWM] - Grupo 5**
 
 # Lanzar la aplicación
 
@@ -17,10 +17,10 @@ Las páginas principales de cada sección se encuentran en su carpeta respectiva
 
 
 Toda página principal está construida a partir de template siguiendo la estructura:
-    - **Header**
-    - **Main**
-        + A su vez con algún otro componente/template (opcional)
-    - **Footer**
+- **Header**
+- **Main**
+    + A su vez con algún otro componente/template (opcional)
+- **Footer**
 
 
 ### Mockups
