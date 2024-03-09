@@ -35,11 +35,12 @@
 
     width: 6.5em;
     padding: .2em;
-    
+
     text-shadow: 3px 0 #000000, -3px 0 #000000, 0 3px #000000, 0 -3px #000000,
                2px 2px #000000, -2px -2px #000000, 2px -2px #000000, -2px 2px #000000;
 
     /* -webkit-text-stroke: .0em #000000; */
+    color: #ffffff;
 
 
     display: flex;
