@@ -75,9 +75,10 @@
     width: 10.32em;
     height: 9em;
 
-    visibility: hidden;
+    visibility:hidden;
+
     opacity: 0;
-    transition: visibility 0.5s ease, opacity 1s ease;
+    transition: visibility 0.2s ease, opacity 0.2s ease;
 }
 
 .glossary-element__button{
@@ -90,7 +91,6 @@
     box-shadow: .3em .3em .1em rgba(0,0,0,0.5);
     border-color: black;
 
-    transition-duration: 0.4s;
     cursor: pointer;
 
     color:#c9c5c5;
@@ -101,8 +101,7 @@
 
     visibility: hidden;
     opacity: 0;
-    transition: visibility 0.5s ease, opacity 1s ease;
-
+    transition: visibility 0.2s ease, opacity 0.2s ease;
 
 }
 
