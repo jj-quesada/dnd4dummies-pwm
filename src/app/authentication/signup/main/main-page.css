@@ -100,18 +100,18 @@
 
     border: .12em solid black;
     border-radius: .5em;
-    box-shadow: .6em .6em .2em rgba(0,0,0,0.1);
+    box-shadow: .6em .6em .1em rgba(0,0,0,0.5);
 }
 
 .user-profile__button{
     position: relative;
-    left: 9em;
-    bottom: 1em;
+    left: 6em;
+    bottom: .74em;
 
     background-color: #333;
     border: none;
     border-radius: .3em;
-    box-shadow: .3em .3em .2em rgba(0,0,0,0.1);
+    box-shadow: .3em .3em .1em rgba(0,0,0,0.5);
 
     transition-duration: 0.4s;
     cursor: pointer;
@@ -121,6 +121,8 @@
 
     width: 5em;
     height: 1.5em;
+
+    font-size: 80%;
 }
 
 .user-profile__button:hover {
@@ -142,7 +144,7 @@
     background-color: #333;
     border: none;
     border-radius: .1em;
-    box-shadow: .3em .3em .2em rgba(0,0,0,0.1);
+    box-shadow: .3em .3em .1em rgba(0,0,0,0.5);
 
     transition-duration: 0.4s;
     cursor: pointer;
@@ -158,4 +160,10 @@
 
 .persistence__button:hover{
     background-color: rgb(31, 30, 30)
+}
+
+.warnings{
+    position: relative;
+    top: 1em;
+    right: 9em;
 }
