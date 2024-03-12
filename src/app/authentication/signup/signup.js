@@ -67,7 +67,7 @@ async function confirmInputs() {
         let userTime = new Date(birthdate.value);
         let userYear = parseInt(userTime.getFullYear());
         
-        if(!regexEmail.test(email.value)){
+        if(!regexEmail.test(email.value) || !regexEmail.test(confirmEmail.value)){
             actualWarnings += `That email is not valid. <br>`;
             helper = true;
         }
@@ -83,7 +83,7 @@ async function confirmInputs() {
         }
 
         if(userYear > minimumYear){
-            actualWarnings += `You are underage. GET OUT! <br>`;
+            actualWarnings += `You are underage. <br>`;
             helper = true;
         }
 
