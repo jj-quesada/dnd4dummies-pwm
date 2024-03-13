@@ -6,13 +6,11 @@
 }
 
 .main-card {
-    position: relative;
-    left: 35vw;
+    position: fixed;
     border: 2px solid #000;
     border-radius: 10px;
     width: 500px;
     height: 700px;
-
     background-color: #666;
 }
 
@@ -39,10 +37,6 @@
     font-size: 2em;
     font-weight: 700;
     background-color: #000;
-}
-
-.close-link {
-    text-decoration: none;
     color: white;
 }
 
