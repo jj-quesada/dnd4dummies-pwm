@@ -139,28 +139,78 @@ async function cargarSectionCard() {
     });
 }
 
-function interactSectionCard(name = '', description = '') {
+async function interactSectionCard(name) {
     if(document.querySelector('.section-card-container').style.display == 'none'){
 
-        if(name && description) {
-            document.querySelector('.card-header__label').textContent = name;
-            // Asumiendo que tienes un elemento para la descripción en tu section-card que necesitas definir
-            //document.querySelector('.card-content__description').textContent = description;
-
-            const firstFeatureLabel = document.querySelector('.card-content__list .feature__name');
-            if (firstFeatureLabel) {
-                firstFeatureLabel.textContent = "Description";
-            }
-    
-            // Actualizar el contenido de la descripción del primer feature
-            const firstFeatureDescription = document.querySelector('.card-content__list .feature__description');
-            if (firstFeatureDescription) {
-                firstFeatureDescription.textContent = description;
-            }
-        }
+        await buildSectionCardContent(name);
 
         document.querySelector('.section-card-container').style.display = 'flex';
     } else {
         document.querySelector('.section-card-container').style.display = 'none';
+        const features = document.querySelector('.card-content__list').querySelectorAll('li');
+        features.forEach(li => li.remove());
     }
+}
+
+async function buildSectionCardContent(name) {
+    // Supongamos que esta es la URL de tu JSON
+    const jsonURL = 'classes.json';
+
+    try {
+        const response = await fetch(jsonURL);
+        const data = await response.json();
+
+        // Buscar el objeto cuyo nombre coincide con el argumento name
+        const classObj = data.classes.find(clase => clase.name === name);
+
+        if (!classObj) {
+            console.log('Clase no encontrada');
+            return;
+        }
+
+        const labelElement = document.querySelector('.card-header__label');
+        labelElement.textContent = name;
+
+        // Referencia al ul donde se insertarán los li
+        const listElement = document.querySelector('.card-content__list');
+
+        const templateContent = await cargarTemplate('/src/app/glossary/components/section-card-feature/section-card-feature.html');
+
+        // Iterar sobre cada propiedad en object.details
+        Object.entries(classObj.details).forEach(([key, value], index) => {
+
+            const liElement = document.importNode(templateContent, true);
+
+            // Definir el id y el name del input basado en la propiedad actual
+            const featureId = `feature_${index}`;
+
+            liElement.querySelector('.feature__accordion').id = featureId;
+            liElement.querySelector('.feature__accordion').name = 'accordion'; // Asegurar que todos tengan el mismo nombre si son parte de un acordeón
+            liElement.querySelector('.feature__name').setAttribute('for', featureId);
+            liElement.querySelector('.feature__name').textContent = parseKey(key);
+            liElement.querySelector('.feature__description').innerHTML = typeof value === 'object' ? JSON.stringify(value) : value;
+
+            // Añadir este template modificado como elemento li en el ul
+            listElement.appendChild(liElement);
+        });
+    } catch (error) {
+        console.error('Error al construir el contenido de la sección:', error);
+    }
+}
+
+function parseKey(text) {
+    // Dividir el texto por guiones bajos para obtener las palabras
+    const words = text.split('_');
+
+    // Convertir la primera letra de cada palabra a mayúscula y el resto a minúsculas
+    const capitalizedWords = words.map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase());
+
+    // Unir las palabras con espacios para formar la frase
+    const readableText = capitalizedWords.join(' ');
+
+    return readableText;
+}
+
+function parseValue(key, value) {
+    
 }
