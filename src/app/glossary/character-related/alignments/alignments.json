@@ -1,0 +1,49 @@
+{
+    "alignments": [
+        {
+            "name": "Chaotic Evil",
+            "description": "Chaotic evil (CE) creatures act with arbitrary violence, spurred by their greed, hatred, or bloodlust. Demons, red dragons, and orcs are chaotic evil.",
+            "abbreviation": "CE"
+        },
+        {
+            "name": "Chaotic Good",
+            "description": "Chaotic good (CG) creatures act as their conscience directs, with little regard for what others expect. Copper dragons, many elves, and unicorns are chaotic good.",
+            "abbreviation": "CG"
+        },
+        {
+            "name": "Chaotic Neutral",
+            "description": "Chaotic neutral (CN) creatures follow their whims, holding their personal freedom above all else. Many barbarians and rogues, and some bards, are chaotic neutral.",
+            "abbreviation": "CN"
+        },
+        {
+            "name": "Lawful Evil",
+            "description": "Lawful evil (LE) creatures methodically take what they want, within the limits of a code of tradition, loyalty, or order. Devils, blue dragons, and hobgoblins are lawful evil.",
+            "abbreviation": "LE"
+        },
+        {
+            "name": "Lawful Good",
+            "description": "Lawful good (LG) creatures can be counted on to do the right thing as expected by society. Gold dragons, paladins, and most dwarves are lawful good.",
+            "abbreviation": "LG"
+        },
+        {
+            "name": "Lawful Neutral",
+            "description": "Lawful neutral (LN) individuals act in accordance with law, tradition, or personal codes. Many monks and some wizards are lawful neutral.",
+            "abbreviation": "LN"
+        },
+        {
+            "name": "Neutral",
+            "description": "Neutral (N) is the alignment of those who prefer to steer clear of moral questions and don't take sides, doing what seems best at the time. Lizardfolk, most druids, and many humans are neutral.",
+            "abbreviation": "N"
+        },
+        {
+            "name": "Neutral Evil",
+            "description": "Neutral evil (NE) is the alignment of those who do whatever they can get away with, without compassion or qualms. Many drow, some cloud giants, and goblins are neutral evil.",
+            "abbreviation": "NE"
+        },
+        {
+            "name": "Neutral Good",
+            "description": "Neutral good (NG) folk do the best they can to help others according to their needs. Many celestials, some cloud giants, and most gnomes are neutral good.",
+            "abbreviation": "NG"
+        }
+    ]
+}
