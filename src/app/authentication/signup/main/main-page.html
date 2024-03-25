@@ -8,55 +8,62 @@
 </head>
 <body>
     <main class="background-signup">
-        <section class="main-signup">
-            <h1 class="main-signup__title">Sign up for the adventure!</h1>
-            <form class="user-info" action="#">
-                <section class="parameter parameter--email">
-                    <label class="parameter__label">Email:</label>
-                    <input type="email" class="parameter__text parameter__text--email" required>
-    
-                    <label class="parameter__label">Confirm Email:</label>
-                    <input type="email" class="parameter__text parameter__text--confirm-email" required> 
-                </section>
-    
-                <section class="parameter parameter--username">
-                    <label class="parameter__label">Username:</label>
-                    <input type="text" class="parameter__text parameter__text--username" required minlength="3" maxlength="20"> 
-                </section>
-    
-                <section class="parameter parameter--password">
-                    <label class="parameter__label">Password:</label>
-                    <input type="text" class="parameter__text parameter__text--password" required minlength="3" maxlength="20"> 
-    
-                    <label class="parameter__label">Confirm Password:</label>
-                    <input type="text" class="parameter__text parameter__text--confirm-password" required minlength="3" maxlength="20">
-                    <span class="error" aria-live="polite" id="passwordError"></span> 
-                </section>
-    
-                <section class="parameter parameter--birth-date">
-                    <label class="parameter__label">Birth date:</label>
-                    <input type="date" class="parameter__text parameter__text--birth-date" required> 
-    
+        <container class="main-container-register">
+            <section class="first-col">
+
+                <h1 class="main-signup__title">Sign up for the adventure!</h1>
+                <form class="user-info" action="#">
+                    <section class="parameter parameter--email">
+                        <label class="parameter__label">Email:</label>
+                        <input type="email" class="parameter__text parameter__text--email" required>
+        
+                        <label class="parameter__label">Confirm Email:</label>
+                        <input type="email" class="parameter__text parameter__text--confirm-email" required> 
+                    </section>
+        
+                    <section class="parameter parameter--username">
+                        <label class="parameter__label">Username:</label>
+                        <input type="text" class="parameter__text parameter__text--username" required minlength="3" maxlength="20"> 
+                    </section>
+        
+                    <section class="parameter parameter--password">
+                        <label class="parameter__label">Password:</label>
+                        <input type="text" class="parameter__text parameter__text--password" required minlength="3" maxlength="20"> 
+        
+                        <label class="parameter__label">Confirm Password:</label>
+                        <input type="text" class="parameter__text parameter__text--confirm-password" required minlength="3" maxlength="20">
+                        <span class="error" aria-live="polite" id="passwordError"></span> 
+                    </section>
+        
+                    <section class="parameter parameter--birth-date">
+                        <label class="parameter__label">Birth date:</label>
+                        <input type="date" class="parameter__text parameter__text--birth-date" required> 
+        
+                    </section>
                     <p class="parameter__age-warning">*You must be +18 years old to sign up</p>
-                </section>
+                </form>
+            </section>
     
-                
-                <section class="persistence">
-                    <button class="persistence__button" type="submit">Register</button>
-                </section>
-            </form>
+        </container>
 
-            <span class="warnings" id="warnings"></span>
-
+        <section class="second-col">
             <figure class="user-profile">
                 <img 
-                    src="/src/assets/images/omnicomteamx_logo.png"
-                    class="user-profile__img"
+                src="/src/assets/images/omnicomteamx_logo.png"
+                class="user-profile__img"
                 >
                 <button type="button" class="user-profile__button">Upload</button>
             </figure>
-            
+    
+            <section class="persistence">
+                <button class="persistence__button" type="submit">Register</button>
+            </section>
+
         </section>
+
+        <span class="warnings" id="warnings"></span>
+        
+    </container>
 
     </main>
 </body>

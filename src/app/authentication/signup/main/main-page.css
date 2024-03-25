@@ -1,81 +1,71 @@
 .background-signup{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #1C3C47;
-    color: #c9c5c5;
+    background-image: url('/src/assets/images/dice_background_red.png');
+    background-repeat: repeat;
+    background-size: 30em;
 
+    font-size: 150%;
 
-    font-size: 140%;
+    height: 100vh;
 
-    padding-left: 7em;
-}
-
-.main-signup{
-    display: grid;
-
-    grid-template-rows: auto auto auto;
-    grid-template-columns:  25em 25em;
-    color: #c9c5c5;
-    
-    margin-top: 4em;
-    margin-bottom: 4em;
-
-}
-
-.main-signup__title{
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 
-    grid-column: 1;
-    grid-row: 1;
+}
 
-    position: relative;
-    bottom: .7em;
+.main-container-register{
+  display: grid;
+
+  grid-template-rows: 18em 2em;
+  grid-template-columns: 1.5fr 1fr;
+
+  color: var(--paleta-beige);
+
+
+}
+
+.first-col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: #c9c5c5;
 }
 
 .user-info{
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
 
-    grid-column: 1;
-    grid-row: 2;
-
+    width: 100%;
 }
 
 .parameter{
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .parameter__text{
-    background-color: #333;
     color: #c9c5c5;
+    
+    background: linear-gradient(to right, #2e2e2e, #333, #292929, #303030, #2e2e2e);
+    background-size: 200% auto;
+    animation: shimmer 10s infinite linear;
 
-    font-size: 100%;
 }
 
 .parameter__text--birth-date::-webkit-calendar-picker-indicator {
     display: none;
 }
 
-.parameter__age-warning{
-    position: relative;
-    top: .1em;
-}
-
 .user-profile{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 
-    grid-row-start: 1;
-    grid-row-end: 3;
-    grid-column: 2;
+
+    height: 14em;
 
 }
 
@@ -83,73 +73,74 @@
     width: 12em;
     height: 12em;
 
-    border: .12em solid black;
+    border: .2em solid #ffaa00;
     border-radius: .5em;
-    box-shadow: .6em .6em .1em rgba(0,0,0,0.5);
+    box-shadow: .6em .6em .2em rgba(0,0,0,0.5);
+    
 }
 
 .user-profile__button{
     position: relative;
-    left: 6em;
-    bottom: .74em;
+    left: 10em;
+    bottom: 1em;
 
-    background-color: #333;
-    border: none;
-    border-radius: .3em;
-    box-shadow: .3em .3em .1em rgba(0,0,0,0.5);
+    padding: .5em;
 
-    transition-duration: 0.4s;
-    cursor: pointer;
+    border: .2em solid #ffaa00;
+    border-radius: .5em;
+    box-shadow: .6em .6em .2em rgba(0,0,0,0.5);
 
-    color:#c9c5c5;
-    padding: .1em;
-
-    width: 5em;
-    height: 1.5em;
-
-    font-size: 80%;
+    background-color: #292929;
+    color: #c9c5c5;
 }
 
-.user-profile__button:hover {
-    background-color: rgb(31, 30, 30)
+.user-profile__button:hover{
+    background-color: #0c0c0c;
 }
 
 .persistence{
-    grid-column: 1;
-    grid-row: 3;
-
     display: flex;
-    align-self: flex-end;
-    justify-self: center;
+    justify-content: center;
 
-    position: relative;
-    top: 1em;
 }
 
 .persistence__button{
-
-    background-color: #333;
     border: none;
     border-radius: .1em;
-    box-shadow: .3em .3em .1em rgba(0,0,0,0.5);
+    box-shadow: .3em .3em .2em rgba(0,0,0,0.1);
 
     transition-duration: 0.4s;
     cursor: pointer;
 
-    color:#c9c5c5;
-    padding: .1em;
+    color:#333;
 
     font-size: 1.5em;
 
     width: 5em;
     height: 1.5em;
+
+    background: linear-gradient(to right, #ffd700, #ffbf00, #ffaa00, #ffbf00, #ffd700);
+    background-size: 200% auto;
+    animation: shimmer 2s infinite linear;
+
+    font-family: 'Ringbearer', sans-serif;
 }
 
-.persistence__button:hover{
-    background-color: rgb(31, 30, 30)
+.parameter__age-warning{
+  font-size: 60%;
+
 }
 
-.warnings{
-    grid-row: 3;
-    grid-column: 1;
+@media screen and (max-width: 1024px), (max-height: 560px) {
+  .background-signup {
+      padding-bottom: 2em;
+      padding-top: 2em;
+
+      font-size: 110%;
+  }
+
+  .user-profile__button{
+    position: relative;
+    left: 7.5em;
+}
 }
