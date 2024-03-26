@@ -20,6 +20,10 @@ async function cargarLoginPopup() {
     document.querySelector('.login-popup-container').appendChild(await cargarTemplate('/src/app/authentication/login/login-popup.html'));
     document.querySelector('.login-popup-container').style.display = 'none';
 
+    document.querySelector('.confirmation__log-in-btn').addEventListener('click', function() {
+        window.location.href = '/src/app/authentication/profile/profile.html';
+    });
+
     document.querySelector('.upper-bar__login-logo-image').addEventListener('click', function() {
         interactLoginPopup();
     });

@@ -1,9 +1,7 @@
 
 .login-container {
-    position: fixed;
-    top: 15vh;
-    width: 440px;
-    height: 480px;
+    width: 30em;
+    height: 33em;
     background: transparent;
     border: 2px solid #000;
     border-radius: 10px;
@@ -14,27 +12,40 @@
     align-items: center;
     overflow: hidden;
     z-index: 999;
+
+    background: linear-gradient(to right, #a6a1a1, #c9c5c5, #bab6b6, #b0adad, #a6a1a1);
+    background-size: 200% auto;
+    animation: shimmer 10s infinite linear;
     
 }
 
+@keyframes shimmer {
+    0% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: -100% 50%;
+    }
+  }
+
 .login-container .login-form-box {
     width: 100%;
-    padding: 40px;
+    padding: 3em;
 }
 
 .login-container__close-icon {
     position: absolute;
     top: 0;
     right: 0;
-    width: 40px;
-    height: 40px;
+    width: 1.5em;
+    height: 1.5em;
     background-color: #000;
     font-size: 2em;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: .5em;
     cursor: pointer;
     z-index: 1;
 
@@ -55,15 +66,15 @@
 .login-section {
     position: relative;
     width: 100%;
-    height: 50px;
+    height: 4em;
     border-bottom: 2px solid #000;
-    margin: 30px 0;
+    margin: 2em 0;
 }
 
 .login-section label {
     position: absolute;
     top: 50%;
-    left: 5px;
+    left: .2em;
     font-size: 1em;
     transform: translateY(-50%);
     font-weight: 700;
@@ -73,7 +84,7 @@
 
 .login-section input:focus~label,
 .login-section input:valid~label {
-    top: -5px;
+    top: -.5em;
 }
 
 .login-section input {
@@ -84,28 +95,21 @@
     outline: none;
     font-size: 1em;
     font-weight: 700;
-    padding: 0px 45px 0px 5px;
+    padding: 0 3em 0 .5em;
 }
 
-.login-section__icon {
-    position: absolute;
-    font-size: 1.2em;
-    right: 8px;
-    top: 15px;
-    line-height: 57px;
-}
 
 .login-section__remember-forgot {
     font-size: .9em;
     font-weight: 700;
-    margin: -15px 0 15px;
+    margin: -1em 0 1em;
     display: flex;
     justify-content: space-between;
 }
 
 .login-section__remember-forgot label input {
     accent-color: #000;
-    margin-right: 10px;
+    margin-right: 1em;
 }
 
 .login-section__remember-forgot a {
@@ -119,26 +123,38 @@
 
 .confirmation__log-in-btn {
     width: 100%;
-    height: 45px;
+    height: 3em;
     background: #000;
-    color: white;
+    color: black;
     border: none;
     outline: none;
-    border-radius: 6px;
+    border-radius: 1em;
     cursor: pointer;
     font-size: 1em;
     font-weight: 700;
+    background: linear-gradient(to right, #ffd700, #ffbf00, #ffaa00, #ffbf00, #ffd700);
+    background-size: 200% auto;
+    animation: shimmer 2s infinite linear;
 }
+
+@keyframes shimmer {
+    0% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: -100% 50%;
+    }
+  }
 
 .confirmation__register {
     font-size: .9em;
     text-align: center;
     font-weight: 600;
-    margin: 25px 0 10px;
+    margin: 1.5em 0 1em;
 }
 
 .confirmation .confirmation__register-action {
-    color: white;
+    color: #4d0404;
     text-decoration: none;
     font-weight: 800;
 }
