@@ -113,6 +113,14 @@
   display: none;
 }
 
+.login-popup-container{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
 @media screen and (max-width: 768px){
   .main-menu, .upper-bar__login-logo-image{
     display: none;
@@ -217,12 +225,16 @@
     color: #000000;
     text-decoration: none;
   }
+
+  .login-popup-container{
+    font-size: 80%;
+  }
   
 }
 
-.login-popup-container{
-    position: fixed;
-    top: 0;
-    left: 35vw;
-    z-index: 9999;
+@media screen and (max-width: 375px){
+  .login-popup-container{
+    font-size: 60%;
+  }
 }
+

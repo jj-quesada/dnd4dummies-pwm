@@ -1,0 +1,54 @@
+{
+    "race": [
+      "Dragonborn",
+      "Dwarf",
+      "Elf",
+      "Gnome",
+      "Half-Elf",
+      "Half-Orc",
+      "Halfling",
+      "Human",
+      "Tiefling"
+    ],
+    "class": [
+      "Barbarian",
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Fighter",
+      "Monk",
+      "Paladin",
+      "Ranger",
+      "Rogue",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "alignment": [
+      "Chaotic evil",
+      "Chaotic neutral",
+      "Chaotic good",
+      "Neutral evil",
+      "Neutral",
+      "Neutral good",
+      "Lawful evil",
+      "Lawful neutral",
+      "Lawful good"
+    ],
+    "background": [
+      "Acolyte",
+      "Charlatan",
+      "Criminal",
+      "Entertainer",
+      "Folk Hero",
+      "Guild Artisan",
+      "Hermit",
+      "Noble",
+      "Outlander",
+      "Sage",
+      "Sailor",
+      "Soldier",
+      "Urchin"
+    ]
+  }
+  
