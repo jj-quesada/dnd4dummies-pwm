@@ -17,6 +17,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
 }
 
 .user-box{
@@ -25,8 +26,6 @@
     grid-template-rows: auto auto;
     grid-template-columns: 17em auto;
 
-    background-color: #333;
-
     border-radius: .5em;
     border: .15em solid #000;
     box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);  
@@ -34,6 +33,10 @@
     margin-bottom: 3em;
 
     width: 80%;
+
+    background: linear-gradient(to right, #2e2e2e, #333, #292929, #424242, #2e2e2e);
+    background-size: 200% auto;
+    animation: shimmer 10s infinite linear;
 
 }
 
@@ -109,9 +112,15 @@
     margin-bottom: .5em;
 }
 
+.character-list{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+}
+
 .card{
     display:flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -147,11 +156,42 @@
         left: .5em;
     }
 
+    .character-list{
+        display: grid;
+    
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
+    }
+
+}
+
+@media screen and (max-width: 1384px){
+    .character-list{
+        display: grid;
+    
+        grid-template-columns: 1fr;
+    }
 }
 
 @media screen and (max-width: 656px){
     .character-title{
+        font-size: 110%;
+    }
+
+    .card{
+        font-size: 65%;
+    }
+
+}
+
+@media screen and (max-width: 435px){
+    .user-box{
         font-size: 85%;
+    
+    }
+
+    .character-title{
+        font-size: 90%;
     }
 
     .card{
@@ -160,7 +200,7 @@
         justify-content: center;
         align-items: center;
     
-        font-size: 65%;
+        font-size: 55%;
     }
 
 }

@@ -40,7 +40,7 @@
     grid-column: 2;
     grid-row: 1;
 
-    background-color: #333;
+    background-color: #1a1919;
 
     border-right: .1em solid black;
     border-top: .1em solid black;
@@ -64,7 +64,9 @@
     grid-column: 2;
     grid-row: 2;
 
-    background-color: #1C3C47;
+    background: linear-gradient(to right, #4f0606, #5a0808, #640909, #7a0d0d, #4f0606);
+    background-size: 200% auto;
+    animation: shimmer 10s infinite linear;
 
     border-right: .1em solid black;
     border-left: .1em solid black;
@@ -110,7 +112,9 @@
     grid-column: 2;
     grid-row: 3;
 
-    background-color: #1C3C47;
+    background: linear-gradient(to right, #4f0606, #5a0808, #640909, #7a0d0d, #4f0606);
+    background-size: 200% auto;
+    animation: shimmer 10s infinite linear;
 
     margin-bottom: .25em;
 
@@ -120,14 +124,15 @@
 
     border-radius: 0 0 1.5em 0;
     box-shadow: 0 1em 1em rgba(0, 0, 0, 0.5);
+
 }
 
 .stats-container {
     background-color: #292828;
 
     margin: 1em;
-    width: 10em;
-    height: 16.5em;
+    width: 11em;
+    height: 18em;
     padding-left: .75em;
 
     border-radius: 10px;
@@ -149,7 +154,7 @@
     display: grid;
     grid-template-rows: 4.5em 4.5em 4.5em;
     grid-template-columns: 4.5em 4.5em;
-    grid-gap: 4%;
+    grid-gap: 9%;
 
 }
 
@@ -169,8 +174,10 @@
 .stat__caption{
     position: relative;
 
-    bottom: .8em;
-    font-size: 55%;
+    bottom: .4em;
+    font-size: 85%;
+
+    
 }
 
 .stat__mod-value{

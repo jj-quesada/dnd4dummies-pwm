@@ -93,8 +93,9 @@
     justify-content: center;
 }
 
-a{
+.link-main{
     text-decoration: none; 
+    
 }
 
 .main-sections figure:hover .main-sections__label {
@@ -103,10 +104,6 @@ a{
 }
 
 @media screen and (max-width: 768px){ /*TABLET*/
-    .main-page {
-        height: 100vh;
-    }
-
     .banner {
         padding-top: 1em;
         width: 100%;
@@ -133,7 +130,7 @@ a{
     }
 
     .main-sections{
-        margin-top: 5em;
+        margin-top: 2em;
     }
 
     .main-sections figure:hover .main-sections__image {
@@ -157,10 +154,6 @@ a{
 }
 
 @media screen and (max-width: 678px){ /*DE TABLET A MOVIL*/
-    .main-page {
-        height: 100vh;
-    }
-
     .main-sections{
         flex-direction: column;
         align-items: center;
