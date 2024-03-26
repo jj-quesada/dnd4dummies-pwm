@@ -43,7 +43,7 @@
   font-size: 150%;
 }
 
-nav{
+.main-menu{
     z-index: 9999;
     height: 2.5em;
 
@@ -66,7 +66,8 @@ nav{
 
 .menu-horizontal > li:hover{
 	background-color: rgb(190, 29, 29);
-    height: 2.45em;
+  height: 2.2em;
+  border-radius: .5em;
 }
 
 .menu-vertical{
@@ -108,51 +109,115 @@ nav{
   display: none;
 }
 
+.side-bar{
+  display: none;
+}
+
 @media screen and (max-width: 768px){
-  .main-menu{
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-
-    height: 100%;
-
+  .main-menu, .upper-bar__login-logo-image{
+    display: none;
   }
 
-  .menu-horizontal{
+  .hamburger{
     display: block;
+    cursor: pointer;
+  }
+  
+  .exit{
+    max-width: 1.5em;
+    max-height: 1.5em;
+
+    cursor: pointer;
+  }
+
+  .side-bar__login-logo-image{
+    max-width: 2em;
+    max-height: 2em;
+
+    position: relative;
+    bottom: .2em;
+
+    cursor: pointer;
+  }
+
+  .side-bar{
+    visibility: hidden;
+    opacity: 0;
+
+    z-index: 9999;
+
+    display: flex;
     flex-direction: column;
-    gap: 1rem;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
-    bottom: 0;
-    background-color: #1c1c1c;
-    padding: 1em;
-    padding-top: 2em;
-    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
-
-    height: 100%;
 
     border-radius: 0 0 0 1em;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    
+    padding: 1em;
+    gap: .5em;
+
+    font-size: 120%;
+
+    height: 100%;
+    
+    background: linear-gradient(to right, #ffd700, #ffbf00, #ffaa00, #ffbf00, #ffd700);
+    background-size: 200% auto;
+    animation: shimmer 2s infinite linear;
   }
 
-  .menu-horizontal li a {
-    color: #ecececec;
+  .visible{
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  @keyframes shimmer {
+    0% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: -100% 50%;
+    }
   }
 
-  .menu-vertical{
+  .side-bar__login{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .side-bar__menu-horizontal{
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1em;
+    border-radius: .5em;
+  }
+  
+  .side-bar__menu-horizontal > li > a{
     display: block;
-    list-style: none;
-    width: 10em;
-      
-    background: none;
+    color: #000000;
+    text-decoration: none;
   }
 
-  .elemento-lista{
-    position: relative;
-    top: 34em;
+  .side-bar__menu-vertical{
+    list-style: none;
+    text-decoration: none;
+
+    padding-left: 1em;
+    gap: 1em;
   }
+
+  .side-bar__menu-vertical > li > a{
+    display: block;
+    color: #000000;
+    text-decoration: none;
+  }
+  
 }
 
 .login-popup-container{
