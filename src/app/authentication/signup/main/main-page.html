@@ -18,7 +18,9 @@
                 class="user-profile__img"
                 >
             </figure>
-            <button type="button" class="user-profile__button">Upload</button>
+            <input type="file" id="imageUpload" accept="image/png, image/jpeg" onchange="updateImagePreview(this)"/>
+            <button type="button" class="user-profile__button" onclick="document.getElementById('imageUpload').click()">Upload</button>
+
 
             <section class="texts">
                 <label class="parameter__label">Email:</label>
@@ -53,5 +55,6 @@
         <span class="warnings" id="warnings"></span>
 
     </main>
+
 </body>
 </html>

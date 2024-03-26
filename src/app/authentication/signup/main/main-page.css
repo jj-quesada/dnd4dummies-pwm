@@ -231,6 +231,10 @@
     
 }
 
+#imageUpload {
+    display: none;
+}
+
 .user-profile__button{
     position: relative;
     left: 8em;
