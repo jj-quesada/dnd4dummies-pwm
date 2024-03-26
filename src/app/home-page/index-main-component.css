@@ -37,6 +37,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    text-align: center;
     font-size: 24px;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -92,6 +93,10 @@
     justify-content: center;
 }
 
+a{
+    text-decoration: none; 
+}
+
 .main-sections figure:hover .main-sections__label {
     visibility: visible;
     opacity: 1;
@@ -117,7 +122,6 @@
         opacity: 1;
 
         width: 80%;
-        text-align: center;
 
         text-shadow: 3px 0 #000000, -3px 0 #000000, 0 3px #000000, 0 -3px #000000,
         2px 2px #000000, -2px -2px #000000, 2px -2px #000000, -2px 2px #000000;

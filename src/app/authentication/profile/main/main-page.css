@@ -6,10 +6,17 @@
 }
 
 .user-info{
-    background-color: #1C3C47;
-    padding: .5em;
+    background-image: url('/src/assets/images/dice_background_red.png');
+    background-repeat: repeat;
+    background-size: 50em;
+    padding: 5em;
 
     color: #c9c5c5;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .user-box{
@@ -22,7 +29,11 @@
 
     border-radius: .5em;
     border: .15em solid #000;
-    box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);    
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);  
+      
+    margin-bottom: 3em;
+
+    width: 80%;
 
 }
 
@@ -83,19 +94,73 @@
 }
 
 .decorative-line{
-    margin-top: 1.5%;
-    margin-bottom: 1%;
-    margin-left: 7%;
-    margin-right: 7%;
-    height: .05em;
 
-    background-color: #333;
-    border: .005em solid #1f1e1e;
-    border-radius: .1em;
+    margin-bottom: 2em;
+    width: 100%;
+
 }
 
-.character-card{
+.character-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+    margin-bottom: .5em;
+}
+
+.card{
     display:flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 954px){
+    .user-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+        height: 25em;
+        width: 25em;
+    
+    }
+
+    .user-box__title{
+        top: 0;
+        right: 0;
+    
+    }
+    
+    .user-box__info{
+        bottom: 0;
+        left: 0;
+
+        height: 35%;
+    
+    }
+    
+    .user-box__text{
+        left: .5em;
+    }
+
+}
+
+@media screen and (max-width: 656px){
+    .character-title{
+        font-size: 85%;
+    }
+
+    .card{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        font-size: 65%;
+    }
+
 }
