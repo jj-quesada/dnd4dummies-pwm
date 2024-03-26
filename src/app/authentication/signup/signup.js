@@ -1,8 +1,9 @@
-import { cargarEstructura } from '/src/app/fetch.js';
+import { cargarEstructura, sideBar } from '/src/app/fetch.js';
 
 document.addEventListener('DOMContentLoaded', async function() {
     await cargarEstructura('/src/app/authentication/signup/main/main-page.html');
     await confirmInputs();
+    await sideBar();
 });
 
 async function confirmInputs() {

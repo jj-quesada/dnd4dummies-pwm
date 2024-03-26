@@ -1,10 +1,11 @@
-import { cargarEstructura, cargarTemplate } from '/src/app/fetch.js';
+import { cargarEstructura, cargarTemplate, sideBar } from '/src/app/fetch.js';
 
 document.addEventListener('DOMContentLoaded', async function() {
     await cargarEstructura('/src/app/glossary/components/descriptive-glossary/descriptive-glossary.html');
     document.querySelector('.banner__hover-text').textContent = "Alignments Section";
     await loadElementList();
     await cargarSectionCard();
+    await sideBar();
 });
 
 async function loadElementList() {

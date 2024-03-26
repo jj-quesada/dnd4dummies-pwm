@@ -1,8 +1,9 @@
-import { cargarEstructura, cargarTemplate } from '/src/app/fetch.js';
+import { cargarEstructura, cargarTemplate, sideBar } from '/src/app/fetch.js';
 
 document.addEventListener('DOMContentLoaded', async function() {
     await cargarEstructura('/src/app/character-creator/components/main-page/main-page.html');
     await loadLoreSections();
+    await sideBar();
 });
 
 async function loadLoreSections() {
