@@ -134,3 +134,30 @@ function parseKey(text) {
 
     return readableText;
 }
+
+export async function buildInformativeGlossary(jsonURL){
+    const response = await fetch(jsonURL);
+    const jsonData = await response.json();
+
+    var container = document.querySelector('.information-section__text-container');
+
+    for (var key in jsonData) {
+        if (jsonData.hasOwnProperty(key)) {
+            var section = document.createElement('section');
+            section.className = 'information-section__field';
+            
+            var title = document.createElement('h2');
+            title.className = 'information-section__field-title';
+            title.textContent = key;
+            
+            var content = document.createElement('p');
+            content.className = 'information-section__field-content';
+            content.textContent = jsonData[key];
+
+            section.appendChild(title);
+            section.appendChild(content);
+            
+            container.appendChild(section);
+        }
+    }
+}
