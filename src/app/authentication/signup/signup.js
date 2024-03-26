@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     await cargarEstructura('/src/app/authentication/signup/main/main-page.html');
     await confirmInputs();
     await sideBar();
+
 });
 
 async function confirmInputs() {
@@ -31,7 +32,7 @@ async function confirmInputs() {
 
         let userTime = new Date(birthdate.value);
         let userYear = parseInt(userTime.getFullYear());
-        
+    
         if(!regexEmail.test(email.value) || !regexEmail.test(confirmEmail.value)){
             actualWarnings += `That email is not valid. <br>`;
             helper = true;
@@ -40,11 +41,13 @@ async function confirmInputs() {
         if (email.value !== confirmEmail.value) {
             actualWarnings += `The emails are not the same. <br>`;
             helper = true;
+            console.log("PUA?APAOOA");
         } 
 
         if (password.value !== confirmPassword.value) {
             actualWarnings += `The passwords are not the same. <br>`;
             helper = true;
+            console.log(password.value);
         }
 
         if(userYear > minimumYear){
