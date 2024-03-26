@@ -1,0 +1,124 @@
+{
+    "combat-gear": [
+        {
+            "name": "Padded Armor",
+            "description": "A sturdy armor to protect you from enemy blows.",
+            "equipment_category": "Armor",
+            "armor_category": "Light",
+            "armor_class" : "11",
+            "dexterity_bonus": "Yes",
+            "minimum_strength": "0",
+            "stealth_disadvantage": "Yes",
+            "weight": "8",
+            "cost": "5 gp"
+        },
+        {
+            "name": "Leather Armor",
+            "description": "Flexible yet protective, leather armor offers a good balance of mobility and defense.",
+            "equipment_category": "Armor",
+            "armor_category": "Light",
+            "armor_class": "11",
+            "dexterity_bonus": "Yes",
+            "minimum_strength": "0",
+            "stealth_disadvantage": "No",
+            "weight": "10",
+            "cost": "10 gp"
+        },
+        {
+            "name": "Studded Leather Armor",
+            "description": "Reinforced with close-set rivets or spikes, this armor is a favorite of rogue adventurers.",
+            "equipment_category": "Armor",
+            "armor_category": "Light",
+            "armor_class": "12",
+            "dexterity_bonus": "Yes",
+            "minimum_strength": "0",
+            "stealth_disadvantage": "No",
+            "weight": "13",
+            "cost": "45 gp"
+        },
+        {
+            "name": "Hide Armor",
+            "description": "Made from thick furs and pelts, hide armor is primitive but offers decent protection.",
+            "equipment_category": "Armor",
+            "armor_category": "Medium",
+            "armor_class": "12",
+            "dexterity_bonus": "Yes",
+            "minimum_strength": "0",
+            "stealth_disadvantage": "No",
+            "weight": "12",
+            "cost": "10 gp"
+        },
+        {
+            "name": "Chain Shirt",
+            "description": "This shirt made of interlocking metal rings offers solid protection with minimal encumbrance.",
+            "equipment_category": "Armor",
+            "armor_category": "Medium",
+            "armor_class": "13",
+            "dexterity_bonus": "Yes",
+            "minimum_strength": "0",
+            "stealth_disadvantage": "No",
+            "weight": "20",
+            "cost": "50 gp"
+        },
+        {
+            "name": "Scale Mail",
+            "description": "Consisting of a coat and leggings covered in overlapping pieces of metal, this armor provides excellent protection.",
+            "equipment_category": "Armor",
+            "armor_category": "Medium",
+            "armor_class": "14",
+            "dexterity_bonus": "Yes",
+            "minimum_strength": "0",
+            "stealth_disadvantage": "Yes",
+            "weight": "45",
+            "cost": "50 gp"
+        },
+        {
+            "name": "Breastplate",
+            "description": "This metal armor covers the wearer's front and back, combining protection with agility.",
+            "equipment_category": "Armor",
+            "armor_category": "Medium",
+            "armor_class": "14",
+            "dexterity_bonus": "Yes",
+            "minimum_strength": "0",
+            "stealth_disadvantage": "No",
+            "weight": "20",
+            "cost": "400 gp"
+        },
+        {
+            "name": "Half Plate Armor",
+            "description": "Offers substantial protection while allowing for the mobility of the wearer. Preferred by adventurers who can afford it.",
+            "equipment_category": "Armor",
+            "armor_category": "Medium",
+            "armor_class": "15",
+            "dexterity_bonus": "Yes, up to +2 max",
+            "minimum_strength": "0",
+            "stealth_disadvantage": "Yes",
+            "weight": "40",
+            "cost": "750 gp"
+        },
+        {
+            "name": "Ring Mail",
+            "description": "Comprised of interlocking metal rings, ring mail provides solid protection but hampers stealth.",
+            "equipment_category": "Armor",
+            "armor_category": "Heavy",
+            "armor_class": "14",
+            "dexterity_bonus": "No",
+            "minimum_strength": "0",
+            "stealth_disadvantage": "Yes",
+            "weight": "40",
+            "cost": "30 gp"
+        },
+        {
+            "name": "Shield",
+            "description": "A sturdy piece of defensive equipment that can be used to block or deflect attacks, enhancing the user's armor class.",
+            "equipment_category": "Armor",
+            "armor_category": "Shield",
+            "armor_class": "2",
+            "dexterity_bonus": "No",
+            "minimum_strength": "0",
+            "stealth_disadvantage": "No",
+            "weight": "6",
+            "cost": "10 gp"
+        }       
+    ]
+}

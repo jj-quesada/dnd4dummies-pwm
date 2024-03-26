@@ -1,0 +1,132 @@
+{
+    "adventuring-gear": [
+        {
+            "name": "Abacus",
+            "description": "This item will come handy whenever you need to do some calculus.",
+            "equipment_category": "Adventuring Gear",
+            "gear_category" : "Standard Gear",
+            "cost": "2 gp",
+            "weight": "2"
+        },
+        {
+            "name": "Acid (vial)",
+            "description": "As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon. On a hit, the target takes 2d6 acid damage.",
+            "equipment_category": "Adventuring Gear",
+            "gear_category": "Standard Gear",
+            "cost": "25 gp",
+            "weight": "1"
+        },
+        {
+            "name": "Alchemist's fire (flask)",
+            "description": "This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. On a hit, the target takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.",
+            "equipment_category": "Adventuring Gear",
+            "gear_category": "Standard Gear",
+            "cost": "50 gp",
+            "weight": "1"
+        },
+        {
+            "name": "Arrow",
+            "description": "Essential ammunition for bows, allowing ranged attacks.",
+            "equipment_category": "Adventuring Gear",
+            "gear_category": "Ammunition",
+            "cost": "1 gp for 20 arrows",
+            "weight": "1"
+        },
+        {
+            "name": "Blowgun needle",
+            "description": "Small, precise darts used as ammunition for blowguns.",
+            "equipment_category": "Adventuring Gear",
+            "gear_category": "Ammunition",
+            "cost": "1 gp for 50 needles",
+            "weight": "1"
+        },
+        {
+            "name": "Crossbow bolt",
+            "description": "Ammunition for crossbows, designed for accuracy and impact.",
+            "equipment_category": "Adventuring Gear",
+            "gear_category": "Ammunition",
+            "cost": "1 gp for 20 bolts",
+            "weight": "1.5"
+        },
+        {
+            "name": "Sling bullet",
+            "description": "Small projectiles for slings, used to inflict damage from a distance.",
+            "equipment_category": "Adventuring Gear",
+            "gear_category": "Ammunition",
+            "cost": "4 cp for 20 bullets",
+            "weight": "1.5"
+        },
+        {
+            "name": "Alms box",
+            "description": "A small box for alms, typically found in a priest's pack.",
+            "equipment_category": "Adventuring Gear",
+            "gear_category": "Standard Gear",
+            "cost": "Free",
+            "weight": "0"
+        },
+        {
+            "name": "Amulet",
+            "description": "A holy symbol is a representation of a god or pantheon. It might be an amulet depicting a symbol representing a deity, the same symbol carefully engraved or inlaid as an emblem on a shield, or a tiny box holding a fragment of a sacred relic. A cleric or paladin can use a holy symbol as a spellcasting focus.",
+            "equipment_category": "Adventuring Gear",
+            "gear_category": "Holy Symbols",
+            "cost": "5 gp",
+            "weight": "1"
+        },
+        {
+            "name": "Antitoxin (vial)",
+            "description": "A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs.",
+            "equipment_category": "Adventuring Gear",
+            "gear_category": "Standard Gear",
+            "cost": "50 gp",
+            "weight": "0"
+        },
+        {
+            "name": "Backpack",
+            "description": "Essential for carrying your gear, food, and other supplies on an adventure.",
+            "equipment_category": "Adventuring Gear",
+            "gear_category": "Standard Gear",
+            "cost": "2 gp",
+            "weight": "5"
+        },
+        {
+            "name": "Basket",
+            "description": "Useful for carrying or storing items, especially for foragers and gatherers.",
+            "equipment_category": "Adventuring Gear",
+            "gear_category": "Standard Gear",
+            "cost": "4 sp",
+            "weight": "2"
+        },
+        {
+            "name": "Bedroll",
+            "description": "Essential for a comfortable night's sleep during adventures, providing warmth and cushioning from the ground.",
+            "equipment_category": "Adventuring Gear",
+            "gear_category": "Standard Gear",
+            "cost": "1 gp",
+            "weight": "7"
+        },
+        {
+            "name": "Bell",
+            "description": "Can be used for various purposes, such as signaling, music, or warding off evil spirits.",
+            "equipment_category": "Adventuring Gear",
+            "gear_category": "Standard Gear",
+            "cost": "1 gp",
+            "weight": "0"
+        },
+        {
+            "name": "Book",
+            "description": "A book might contain poetry, historical accounts, information pertaining to a particular field of lore, diagrams and notes on gnomish contraptions, or just about anything else that can be represented using text or pictures. A book of spells is a spellbook.",
+            "equipment_category": "Adventuring Gear",
+            "gear_category": "Standard Gear",
+            "cost": "25 gp",
+            "weight": "5"
+        },
+        {
+            "name": "Emblem",
+            "description": "A holy symbol is a representation of a god or pantheon. It might be an amulet depicting a symbol representing a deity, the same symbol carefully engraved or inlaid as an emblem on a shield, or a tiny box holding a fragment of a sacred relic. A cleric or paladin can use a holy symbol as a spellcasting focus.",
+            "equipment_category": "Adventuring Gear",
+            "gear_category": "Holy Symbols",
+            "cost": "5 gp",
+            "weight": "0"
+        }   
+    ]
+}

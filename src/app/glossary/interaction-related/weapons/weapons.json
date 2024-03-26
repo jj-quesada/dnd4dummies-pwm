@@ -1,0 +1,1145 @@
+{
+    "weapons": [
+        {
+            "name": "Arming Sword",
+            "description": "A versatile and reliable weapon, favored for its sharp edge and balance, suitable for swift strikes and defense.",
+            "type": "Martial Melee",
+            "Cost": "20 gp",
+            "Damage": "1d6 piercing",
+            "Weight": "3 lb",
+            "Properties": "Light, Finesse, Versatile (1d8)"
+        },
+        {
+            "name": "Atlatl",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Ranged",
+            "Cost": "5 gp",
+            "Damage": "1d6 piercing",
+            "Weight": "1 lb",
+            "Properties": "Ammunition, Range (50-100), Special"
+        },
+        {
+            "name": "Back Sword",
+            "description": "A versatile and reliable weapon, favored for its sharp edge and balance, suitable for swift strikes and defense.",
+            "type": "Martial Melee",
+            "Cost": "10 gp",
+            "Damage": "1d6 piercing",
+            "Weight": "3 lb",
+            "Properties": ""
+        },
+        {
+            "name": "Barbed Dagger",
+            "description": "A versatile and reliable weapon, favored for its ease of concealment and quick, lethal strikes.",
+            "type": "Simple Melee",
+            "Cost": "10 gp",
+            "Damage": "2d4",
+            "Damagetype": "Piercing",
+            "Weight": "1 lb",
+            "Homebrew": "True",
+            "Properties": "Light, Finesse, Thrown (20/60)"
+        },
+        {
+            "name": "Battleaxe",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "10 gp",
+            "Damage": "1d8 slashing",
+            "Weight": "4 lb",
+            "Properties": "Versatile (1d10)"
+        },
+        {
+            "name": "Bec de Corbin",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "20 gp",
+            "Damage": "2d4 piercing",
+            "Weight": "6 lb",
+            "Properties": "Heavy, Reach, Two-Handed"
+        },
+        {
+            "name": "Blowgun",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Ranged",
+            "Cost": "10 gp",
+            "Damage": "1 piercing",
+            "Weight": "1 lb",
+            "Properties": "Ammunition, Range (25/100), Loading"
+        },
+        {
+            "name": "Blunderbuss",
+            "description": "A versatile and reliable weapon, favored for its deadly firepower, offering unmatched lethality at short to medium range.",
+            "type": "Martial Melee",
+            "Cost": "250 gp",
+            "Damage": "2d6 piercing",
+            "Weight": "5 lb",
+            "Properties": "Ammunition, Range (20/60), Loading, Two-Handed"
+        },
+        {
+            "name": "Boar Spear",
+            "description": "A versatile and reliable weapon, favored for its long reach and piercing capability, perfect for thrusting attacks.",
+            "type": "Martial Melee",
+            "Cost": "10 gp",
+            "Damage": "2d6 piercing",
+            "Weight": "5 lb",
+            "Properties": "Heavy, Two-Handed"
+        },
+        {
+            "name": "Bolas",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Ranged",
+            "Cost": "1 gp",
+            "Damage": "1d4 bludgeoning",
+            "Weight": "2 lb",
+            "Properties": "Special, Thrown (20/60)"
+        },
+        {
+            "name": "Boomerang",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Ranged",
+            "Cost": "2 gp",
+            "Damage": "1d4 bludgeoning",
+            "Weight": "1 lb",
+            "Properties": "Special, Thrown (20/60)"
+        },
+        {
+            "name": "Brandistock",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Melee",
+            "Cost": "10 gp",
+            "Damage": "1d8",
+            "Damagetype": "Piercing",
+            "Weight": "4 lb",
+            "Homebrew": "True",
+            "Properties": "Special, Two-handed"
+        },
+        {
+            "name": "Broadsword",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "20 gp",
+            "Damage": "2d4 piercing",
+            "Weight": "3 lb",
+            "Properties": ""
+        },
+        {
+            "name": "Broken Sword",
+            "description": "A versatile and reliable weapon, favored for its sharp edge and balance, suitable for swift strikes and defense.",
+            "type": "Simple Melee",
+            "Cost": "5 sp",
+            "Damage": "1d4",
+            "Damagetype": "Piercing",
+            "Weight": "1 lb",
+            "Homebrew": "True",
+            "Properties": "Light, Finesse"
+        },
+        {
+            "name": "Buster Sword",
+            "description": "A versatile and reliable weapon, favored for its sharp edge and balance, suitable for swift strikes and defense.",
+            "type": "Martial Melee",
+            "Cost": "250 gp",
+            "Damage": "2d8 slashing",
+            "Weight": "12 lb",
+            "Properties": "Oversized, Two-Handed"
+        },
+        {
+            "name": "Cestus",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Melee",
+            "Cost": "5 sp",
+            "Damage": "1d4",
+            "Damagetype": "Bludgeoning",
+            "Weight": "0.5 lb",
+            "Homebrew": "True",
+            "Properties": "Light, Special"
+        },
+        {
+            "name": "Chaind, Bladed",
+            "description": "A versatile and reliable weapon, favored for its sharp edge and balance, suitable for swift strikes and defense.",
+            "type": "Martial Melee",
+            "Cost": "8 gp",
+            "Damage": "1d6 slashing",
+            "Weight": "10 lb",
+            "Properties": "Heavy, Finesse, Reach, Special, Two-Handed"
+        },
+        {
+            "name": "Chaind, Spiked",
+            "description": "A versatile and reliable weapon, favored for its unique design that can bypass shields and armor.",
+            "type": "Martial Melee",
+            "Cost": "8 gp",
+            "Damage": "1d6 piercing",
+            "Weight": "10 lb",
+            "Properties": "Heavy, Finesse, Reach, Special, Two-Handed"
+        },
+        {
+            "name": "Chaind, Weighted",
+            "description": "A versatile and reliable weapon, favored for its unique design that can bypass shields and armor.",
+            "type": "Martial Melee",
+            "Cost": "8 gp",
+            "Damage": "1d6 bludgeoning",
+            "Weight": "10 lb",
+            "Properties": "Heavy, Finesse, Reach, Special, Two-Handed"
+        },
+        {
+            "name": "Chakram",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Ranged",
+            "Cost": "5 gp",
+            "Damage": "1d6 slashing",
+            "Weight": "0.5 lb",
+            "Properties": "Finesse, Thrown (20/60)"
+        },
+        {
+            "name": "Chatkcha",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Ranged",
+            "Cost": "1 gp",
+            "Damage": "1d6 slashing",
+            "Weight": "2 lb",
+            "Properties": "Finesse, Light, Thrown (30/120), Special"
+        },
+        {
+            "name": "Club",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Melee",
+            "Cost": "1 sp",
+            "Damage": "1d4",
+            "Damagetype": "Bludgeoning",
+            "Weight": "2 lb",
+            "Homebrew": "False",
+            "Properties": "Light"
+        },
+        {
+            "name": "Crossbow, Hand",
+            "description": "A versatile and reliable weapon, favored for its range and precision, ideal for taking down targets from a distance.",
+            "type": "Martial Ranged",
+            "Cost": "75 gp",
+            "Damage": "1d6 piercing",
+            "Weight": "3 lb",
+            "Properties": "Ammunition, Range (30/120), Light, Loading"
+        },
+        {
+            "name": "Crossbow, Heavy",
+            "description": "A versatile and reliable weapon, favored for its range and precision, ideal for taking down targets from a distance.",
+            "type": "Martial Ranged",
+            "Cost": "50 gp",
+            "Damage": "1d10 piercing",
+            "Weight": "18 lb",
+            "Properties": "Ammunition, Range (100/400), Heavy, Loading, Two-Handed"
+        },
+        {
+            "name": "Crossbow, Repeating",
+            "description": "A versatile and reliable weapon, favored for its range and precision, ideal for taking down targets from a distance.",
+            "type": "Martial Ranged",
+            "Cost": "250 gp",
+            "Damage": "2d4 piercing",
+            "Weight": "18 lb",
+            "Properties": "Ammunition, Range (80/320), Heavy, Two-Handed"
+        },
+        {
+            "name": "Crossbow, light",
+            "description": "A versatile and reliable weapon, favored for its range and precision, ideal for taking down targets from a distance.",
+            "type": "Simple Ranged",
+            "Cost": "25 gp",
+            "Damage": "1d8 piercing",
+            "Weight": "5 lb",
+            "Properties": "Ammunition (80/320), Loading, Two-Handed"
+        },
+        {
+            "name": "Cutlass",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "10 gp",
+            "Damage": "1d8 slashing",
+            "Weight": "2 lb",
+            "Properties": "Light"
+        },
+        {
+            "name": "Dagger",
+            "description": "A versatile and reliable weapon, favored for its ease of concealment and quick, lethal strikes.",
+            "type": "Simple Melee",
+            "Cost": "2 gp",
+            "Damage": "1d4",
+            "Damagetype": "Piercing",
+            "Weight": "1 lb",
+            "Homebrew": "False",
+            "Properties": "Light, Finesse, Thrown (20/60)"
+        },
+        {
+            "name": "Dart",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Ranged",
+            "Cost": "5 cp",
+            "Damage": "1d4 piercing",
+            "Weight": "0.25 lb",
+            "Properties": "Finesse, Thrown (20/60)"
+        },
+        {
+            "name": "Double Axe",
+            "description": "A versatile and reliable weapon, favored for its hefty blade capable of delivering powerful chops.",
+            "type": "Martial Melee",
+            "Cost": "30 gp",
+            "Damage": "1d8 slashing",
+            "Weight": "10 lb",
+            "Properties": "Heavy, Two-Handed, Double Weapon"
+        },
+        {
+            "name": "Double Flail",
+            "description": "A versatile and reliable weapon, favored for its unique design that can bypass shields and armor.",
+            "type": "Martial Melee",
+            "Cost": "20 gp",
+            "Damage": "1d8 bludgeoning",
+            "Weight": "4 lb",
+            "Properties": "Two-Handed"
+        },
+        {
+            "name": "Double Spear",
+            "description": "A versatile and reliable weapon, favored for its long reach and piercing capability, perfect for thrusting attacks.",
+            "type": "Simple Melee",
+            "Cost": "5 gp",
+            "Damage": "1d6",
+            "Damagetype": "Piercing",
+            "Weight": "4 lb",
+            "Homebrew": "True",
+            "Properties": "Versatile (1d8), Thrown (20/60)"
+        },
+        {
+            "name": "Double Sword",
+            "description": "A versatile and reliable weapon, favored for its sharp edge and balance, suitable for swift strikes and defense.",
+            "type": "Martial Melee",
+            "Cost": "20 gp",
+            "Damage": "1d6 slashing",
+            "Weight": "5 lb",
+            "Properties": "Double Weapon, Two-Handed"
+        },
+        {
+            "name": "Dragon",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "200 gp",
+            "Damage": "1d4 piercing",
+            "Weight": "3 lb",
+            "Properties": "Ammunition, Range (20/60), Loading"
+        },
+        {
+            "name": "Dueling Shield",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "15 gp",
+            "Damage": "1d8 bludgeoning",
+            "Weight": "10 lb",
+            "Properties": "Heavy, Special, Two-Handed"
+        },
+        {
+            "name": "Dwarven Ugrosh",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "50 gp",
+            "Damage": "1d10 slashing",
+            "Weight": "9 lb",
+            "Properties": "Heavy, Two-Handed"
+        },
+        {
+            "name": "Elven Lightblade",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "50 gp",
+            "Damage": "1d6 piercing",
+            "Weight": "1 lb",
+            "Properties": "Finesse, Light, Special"
+        },
+        {
+            "name": "Elven Thinblade",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "100 gp",
+            "Damage": "1d8 piercing",
+            "Weight": "1 lb",
+            "Properties": "Finesse, Special"
+        },
+        {
+            "name": "Epee",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "50 gp",
+            "Damage": "1d2 piercing",
+            "Weight": "1 lb",
+            "Properties": "Special, Finesse"
+        },
+        {
+            "name": "Estoc",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "25 gp",
+            "Damage": "1d8 piercing",
+            "Weight": "3 lb",
+            "Properties": "Versatile (1d10)"
+        },
+        {
+            "name": "Eye Sickle",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Melee",
+            "Cost": "10 gp",
+            "Damage": "1d6",
+            "Damagetype": "Piercing",
+            "Weight": "4 lb",
+            "Homebrew": "True",
+            "Properties": "Light, Finesse"
+        },
+        {
+            "name": "Faeblades",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "50 gp",
+            "Damage": "2d4 slashing",
+            "Weight": "2.5 lb",
+            "Properties": "Light, Finesse, Special"
+        },
+        {
+            "name": "Falchion",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "10 gp",
+            "Damage": "1d8 slashing",
+            "Weight": "3 lb",
+            "Properties": ""
+        },
+        {
+            "name": "Falx",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Melee",
+            "Cost": "8 gp",
+            "Damage": "1d6",
+            "Damagetype": "Slashing",
+            "Weight": "3 lb",
+            "Homebrew": "True",
+            "Properties": "Versatile (1d8)"
+        },
+        {
+            "name": "Fauchard",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Melee",
+            "Cost": "10 gp",
+            "Damage": "1d6",
+            "Damagetype": "Slashing",
+            "Weight": "7 lb",
+            "Homebrew": "True",
+            "Properties": "Heavy, reach, Two-handed"
+        },
+        {
+            "name": "Flail",
+            "description": "A versatile and reliable weapon, favored for its unique design that can bypass shields and armor.",
+            "type": "Martial Melee",
+            "Cost": "10 gp",
+            "Damage": "1d8 bludgeoning",
+            "Weight": "2 lb",
+            "Properties": ""
+        },
+        {
+            "name": "Flamberge",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Melee",
+            "Cost": "15 gp",
+            "Damage": "1d8 + 1d2",
+            "Damagetype": "Slashing + Ripping",
+            "Weight": "6 lb",
+            "Homebrew": "True",
+            "Properties": "Ripping, Two-handed"
+        },
+        {
+            "name": "Gavel",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Melee",
+            "Cost": "5 sp",
+            "Damage": "1d4",
+            "Damagetype": "Bludgeoning",
+            "Weight": "0.5 lb",
+            "Homebrew": "True",
+            "Properties": "Undersized"
+        },
+        {
+            "name": "Glaive",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "20 gp",
+            "Damage": "1d10 slashing",
+            "Weight": "6 lb",
+            "Properties": "Heavy, Reach, Two-Handed"
+        },
+        {
+            "name": "Great Maul",
+            "description": "A versatile and reliable weapon, favored for its crushing force, effective against armored foes.",
+            "type": "Martial Melee",
+            "Cost": "150 gp",
+            "Damage": "3d6 bludgeoning",
+            "Weight": "145 lb",
+            "Properties": "Oversized, Two-Handed, Special"
+        },
+        {
+            "name": "Greataxe",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "30 gp",
+            "Damage": "1d12 slashing",
+            "Weight": "7 lb",
+            "Properties": "Heavy, Two-Handed"
+        },
+        {
+            "name": "Greatclub",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Melee",
+            "Cost": "2 sp",
+            "Damage": "1d8",
+            "Damagetype": "Bludgeoning",
+            "Weight": "10 lb",
+            "Homebrew": "False",
+            "Properties": "Two-handed"
+        },
+        {
+            "name": "Greatspear",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Melee",
+            "Cost": "25 gp",
+            "Damage": "1d10",
+            "Damagetype": "Piercing",
+            "Weight": "8 lb",
+            "Homebrew": "True",
+            "Properties": "Oversized, Thrown (20/60), Two-handed"
+        },
+        {
+            "name": "Greatsword",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "50 gp",
+            "Damage": "2d6 slashing",
+            "Weight": "6 lb",
+            "Properties": "Heavy, Two-Handed"
+        },
+        {
+            "name": "Guisarme",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "15 gp",
+            "Damage": "2d4 slashing",
+            "Weight": "6 lb",
+            "Properties": "Heavy, Reach, Two-Handed"
+        },
+        {
+            "name": "Gythka",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "20 gp",
+            "Damage": "1d8 slashing",
+            "Weight": "9 lb",
+            "Properties": "Heavy, Two-Handed"
+        },
+        {
+            "name": "Halberd",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "20 gp",
+            "Damage": "1d10 slashing",
+            "Weight": "6 lb",
+            "Properties": "Heavy, Reach, Two-Handed"
+        },
+        {
+            "name": "Handaxe",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Melee",
+            "Cost": "5 gp",
+            "Damage": "1d6",
+            "Damagetype": "Slashing",
+            "Weight": "2 lb",
+            "Homebrew": "False",
+            "Properties": "Light, Thrown (20/60)"
+        },
+        {
+            "name": "Heavy Flail",
+            "description": "A versatile and reliable weapon, favored for its unique design that can bypass shields and armor.",
+            "type": "Martial Melee",
+            "Cost": "20 gp",
+            "Damage": "1d12 bludgeoning",
+            "Weight": "7 lb",
+            "Properties": "Heavy, Two-Handed"
+        },
+        {
+            "name": "Hidden Blade",
+            "description": "A versatile and reliable weapon, favored for its sharp edge and balance, suitable for swift strikes and defense.",
+            "type": "Martial Melee",
+            "Cost": "100 gp",
+            "Damage": "1d4 piercing",
+            "Weight": "0.5 lb",
+            "Properties": "Light, Finesse, Special"
+        },
+        {
+            "name": "Iron Claws",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Melee",
+            "Cost": "5 gp",
+            "Damage": "1d4",
+            "Damagetype": "Piercing",
+            "Weight": "2 lb",
+            "Homebrew": "True",
+            "Properties": "Light, Finesse"
+        },
+        {
+            "name": "Javelin",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Melee",
+            "Cost": "5 sp",
+            "Damage": "1d6",
+            "Damagetype": "Piercing",
+            "Weight": "2 lb",
+            "Homebrew": "False",
+            "Properties": "Thrown (30/120)"
+        },
+        {
+            "name": "Karambit",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Melee",
+            "Cost": "4 gp",
+            "Damage": "1d4",
+            "Damagetype": "Slashing",
+            "Weight": "1 lb",
+            "Homebrew": "True",
+            "Properties": "Light, Finesse"
+        },
+        {
+            "name": "Katana",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "50 gp",
+            "Damage": "1d8 slashing",
+            "Weight": "3 lb",
+            "Properties": "Versatile (1d10)"
+        },
+        {
+            "name": "Katar",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Melee",
+            "Cost": "5 gp",
+            "Damage": "1d4",
+            "Damagetype": "Piercing",
+            "Weight": "1 lb",
+            "Homebrew": "True",
+            "Properties": "Light, Finesse"
+        },
+        {
+            "name": "Knife",
+            "description": "A versatile and reliable weapon, favored for its ease of concealment and quick, lethal strikes.",
+            "type": "Simple Melee",
+            "Cost": "2 sp",
+            "Damage": "1d3",
+            "Damagetype": "Slashing",
+            "Weight": "0.25 lb",
+            "Homebrew": "True",
+            "Properties": "Undersized, Finesse"
+        },
+        {
+            "name": "Knuckleduster",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Melee",
+            "Cost": "3 sp",
+            "Damage": "Unarmed Damage + 1",
+            "Damagetype": "",
+            "Weight": "2 lb",
+            "Homebrew": "True",
+            "Properties": "Light, Special"
+        },
+        {
+            "name": "Ko",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Melee",
+            "Cost": "1 gp",
+            "Damage": "1d4",
+            "Damagetype": "Piercing / bludgeoning",
+            "Weight": "1 lb",
+            "Homebrew": "True",
+            "Properties": "Light, Finesse, Special"
+        },
+        {
+            "name": "Kukri",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Melee",
+            "Cost": "6 gp",
+            "Damage": "1d6",
+            "Damagetype": "Slashing",
+            "Weight": "2 lb",
+            "Homebrew": "True",
+            "Properties": "Light, Thrown (20/60)"
+        },
+        {
+            "name": "Lajav",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "30 gp",
+            "Damage": "1d8 bludgeoning",
+            "Weight": "5 lb",
+            "Properties": "Finesse, Heavy, Two-Handed, Special"
+        },
+        {
+            "name": "Lance",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "10 gp",
+            "Damage": "1d12 piercing",
+            "Weight": "6 lb",
+            "Properties": "Reach, Special"
+        },
+        {
+            "name": "Light Hammer",
+            "description": "A versatile and reliable weapon, favored for its crushing force, effective against armored foes.",
+            "type": "Simple Melee",
+            "Cost": "2 gp",
+            "Damage": "1d4",
+            "Damagetype": "Bludgeoning",
+            "Weight": "2 lb",
+            "Homebrew": "False",
+            "Properties": "Light, Thrown (20/60)"
+        },
+        {
+            "name": "Longbow",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Ranged",
+            "Cost": "50 gp",
+            "Damage": "1d8 piercing",
+            "Weight": "2 lb",
+            "Properties": "Ammunition, Range (150/600), Heavy, Two-Handed"
+        },
+        {
+            "name": "Longspear",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "3 gp",
+            "Damage": "1d6 piercing",
+            "Weight": "4 lb",
+            "Properties": "Heavy, Reach, Versatile (1d8)"
+        },
+        {
+            "name": "Longstaff",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "5 sp",
+            "Damage": "1d8 bludgeoning",
+            "Weight": "7 lb",
+            "Properties": "Heavy, Reach, Special, Two-Handed"
+        },
+        {
+            "name": "Longsword",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "15 gp",
+            "Damage": "1d8 slashing",
+            "Weight": "3 lb",
+            "Properties": "Versatile (1d10)"
+        },
+        {
+            "name": "Mace",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Melee",
+            "Cost": "5 gp",
+            "Damage": "1d6",
+            "Damagetype": "Bludgeoning",
+            "Weight": "2 lb",
+            "Homebrew": "False",
+            "Properties": ""
+        },
+        {
+            "name": "Main Gauche",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "5 gp",
+            "Damage": "1d4 piercing",
+            "Weight": "1 lb",
+            "Properties": "Finesse, Light, Special, Thrown (20/60)"
+        },
+        {
+            "name": "Man Catcher",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "25 gp",
+            "Damage": "1d4 bludgeoning",
+            "Weight": "2 lb",
+            "Properties": "Reach, Two-Handed, Special"
+        },
+        {
+            "name": "Maul",
+            "description": "A versatile and reliable weapon, favored for its crushing force, effective against armored foes.",
+            "type": "Martial Melee",
+            "Cost": "10 gp",
+            "Damage": "2d6 bludgeoning",
+            "Weight": "10 lb",
+            "Properties": "Heavy, Two-Handed"
+        },
+        {
+            "name": "Meteor Hammer",
+            "description": "A versatile and reliable weapon, favored for its crushing force, effective against armored foes.",
+            "type": "Martial Melee",
+            "Cost": "30 gp",
+            "Damage": "1d6 bludgeoning",
+            "Weight": "5 lb",
+            "Properties": "Special, Two-Handed"
+        },
+        {
+            "name": "Monk's Spade",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "10 gp",
+            "Damage": "1d6 slashing",
+            "Weight": "4 lb",
+            "Properties": "Reach, Versatile (1d8)"
+        },
+        {
+            "name": "Morningstar",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "15 gp",
+            "Damage": "1d8 piercing",
+            "Weight": "4 lb",
+            "Properties": ""
+        },
+        {
+            "name": "Needle",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Melee",
+            "Cost": "2 sp",
+            "Damage": "1d4",
+            "Damagetype": "Piercing",
+            "Weight": "0.25 lb",
+            "Homebrew": "True",
+            "Properties": "Undersized, Finesse"
+        },
+        {
+            "name": "Net",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Ranged",
+            "Cost": "1 gp",
+            "Damage": "",
+            "Weight": "3 lb",
+            "Properties": "Special, Range (5/15), Thrown"
+        },
+        {
+            "name": "Parrying Dagger",
+            "description": "A versatile and reliable weapon, favored for its ease of concealment and quick, lethal strikes.",
+            "type": "Martial Melee",
+            "Cost": "5 gp",
+            "Damage": "1d4 piercing",
+            "Weight": "2 lb",
+            "Properties": "Light, Special"
+        },
+        {
+            "name": "Pike",
+            "description": "A versatile and reliable weapon, favored for its long reach and piercing capability, perfect for thrusting attacks.",
+            "type": "Martial Melee",
+            "Cost": "5 gp",
+            "Damage": "1d10 piercing",
+            "Weight": "18 lb",
+            "Properties": "Heavy, Reach, Two-Handed"
+        },
+        {
+            "name": "Pistol Sword",
+            "description": "A versatile and reliable weapon, favored for its sharp edge and balance, suitable for swift strikes and defense.",
+            "type": "Martial Melee",
+            "Cost": "275 gp",
+            "Damage": "1d6",
+            "Weight": "5 lb",
+            "Properties": ""
+        },
+        {
+            "name": "Pollaxe",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "20 gp",
+            "Damage": "2d4 bludgeoning",
+            "Weight": "6 lb",
+            "Properties": "Heavy, Reach, Two-Handed"
+        },
+        {
+            "name": "Quarterstaff",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Melee",
+            "Cost": "2 sp",
+            "Damage": "1d6",
+            "Damagetype": "Bludgeoning",
+            "Weight": "4 lb",
+            "Homebrew": "False",
+            "Properties": "Versatile (1d8)"
+        },
+        {
+            "name": "Rapier",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "25 gp",
+            "Damage": "1d8 piercing",
+            "Weight": "2 lb",
+            "Properties": "Finesse"
+        },
+        {
+            "name": "Saber",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "35 gp",
+            "Damage": "1d8 slashing",
+            "Weight": "3 lb",
+            "Properties": "Light, Finesse"
+        },
+        {
+            "name": "Sap",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Melee",
+            "Cost": "1 gp",
+            "Damage": "1d4",
+            "Damagetype": "Bludgeoning",
+            "Weight": "2 lb",
+            "Homebrew": "True",
+            "Properties": "Light, Finesse"
+        },
+        {
+            "name": "Scimitar",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "25 gp",
+            "Damage": "1d6 slashing",
+            "Weight": "3 lb",
+            "Properties": "Light, Finesse"
+        },
+        {
+            "name": "Scythe",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Melee",
+            "Cost": "5 gp",
+            "Damage": "2d4",
+            "Damagetype": "Slashing",
+            "Weight": "5 lb",
+            "Homebrew": "True",
+            "Properties": "Heavy, Two-handed"
+        },
+        {
+            "name": "Shortbow",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Ranged",
+            "Cost": "25 gp",
+            "Damage": "1d6 piercing",
+            "Weight": "2 lb",
+            "Properties": "Ammunition (80/320), Two-handed"
+        },
+        {
+            "name": "Shortsword",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "10 gp",
+            "Damage": "1d6 piercing",
+            "Weight": "2 lb",
+            "Properties": "Light, Finesse"
+        },
+        {
+            "name": "Shot (20) (Ammunition)",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "6 gp",
+            "Damage": "",
+            "Weight": "4 lb",
+            "Properties": ""
+        },
+        {
+            "name": "Sickle",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Melee",
+            "Cost": "1 gp",
+            "Damage": "1d4",
+            "Damagetype": "Slashing",
+            "Weight": "2 lb",
+            "Homebrew": "False",
+            "Properties": "Light"
+        },
+        {
+            "name": "Side Sword",
+            "description": "A versatile and reliable weapon, favored for its sharp edge and balance, suitable for swift strikes and defense.",
+            "type": "Martial Melee",
+            "Cost": "25 gp",
+            "Damage": "1d6 piercing",
+            "Weight": "2.5 lb",
+            "Properties": "Light, Special"
+        },
+        {
+            "name": "Sling",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Ranged",
+            "Cost": "1 sp",
+            "Damage": "1d4 bludgeoning",
+            "Weight": "",
+            "Properties": "Ammunition (30/120)"
+        },
+        {
+            "name": "Slingstaff",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Ranged",
+            "Cost": "2 sp",
+            "Damage": "1d6 bludgeoning",
+            "Weight": "2 lb",
+            "Properties": "Ammunition (30/120), Two-handed"
+        },
+        {
+            "name": "Small Pistol",
+            "description": "A versatile and reliable weapon, favored for its deadly firepower, offering unmatched lethality at short to medium range.",
+            "type": "Martial Melee",
+            "Cost": "150 gp",
+            "Damage": "1d6 piercing",
+            "Weight": "5 lb",
+            "Properties": "Ammunition, Range (20/160), Loading, Light"
+        },
+        {
+            "name": "Small Sword",
+            "description": "A versatile and reliable weapon, favored for its sharp edge and balance, suitable for swift strikes and defense.",
+            "type": "Martial Melee",
+            "Cost": "10 gp",
+            "Damage": "1d6 piercing",
+            "Weight": "1.5 lb",
+            "Properties": "Light, Finesse"
+        },
+        {
+            "name": "Spade",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Melee",
+            "Cost": "2 gp",
+            "Damage": "1d4",
+            "Damagetype": "Bludgeoning",
+            "Weight": "4 lb",
+            "Homebrew": "True",
+            "Properties": "Versatile"
+        },
+        {
+            "name": "Spear",
+            "description": "A versatile and reliable weapon, favored for its long reach and piercing capability, perfect for thrusting attacks.",
+            "type": "Simple Melee",
+            "Cost": "1 gp",
+            "Damage": "1d4",
+            "Damagetype": "Slashing",
+            "Weight": "3 lb",
+            "Homebrew": "False",
+            "Properties": "Thrown (20/60), Versatile (1d8)"
+        },
+        {
+            "name": "Sword Breaker",
+            "description": "A versatile and reliable weapon, favored for its sharp edge and balance, suitable for swift strikes and defense.",
+            "type": "Martial Melee",
+            "Cost": "15 gp",
+            "Damage": "1d4 slashing",
+            "Weight": "2 lb",
+            "Properties": "Light, Special"
+        },
+        {
+            "name": "Talwar",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "30 gp",
+            "Damage": "1d8 slashing",
+            "Weight": "3 lb",
+            "Properties": "Finesse"
+        },
+        {
+            "name": "Throwing Hammer",
+            "description": "A versatile and reliable weapon, favored for its crushing force, effective against armored foes.",
+            "type": "Martial Ranged",
+            "Cost": "15 gp",
+            "Damage": "1d6 bludgeoning",
+            "Weight": "4 lb",
+            "Properties": "Thrown (60/120)"
+        },
+        {
+            "name": "Torch Mace",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Melee",
+            "Cost": "6 gp",
+            "Damage": "1d4",
+            "Damagetype": "Bludgeoning",
+            "Weight": "2 lb",
+            "Homebrew": "True",
+            "Properties": "Special"
+        },
+        {
+            "name": "Torch Staff",
+            "description": "A versatile and reliable weapon, favored for its flexibility in both offense and defense, allowing for a wide range of maneuvers.",
+            "type": "Simple Melee",
+            "Cost": "12 gp",
+            "Damage": "2d4",
+            "Damagetype": "Bludgeoning",
+            "Weight": "7 lb",
+            "Homebrew": "True",
+            "Properties": "Heavy, Two-handed, Special"
+        },
+        {
+            "name": "Trident",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "5 gp",
+            "Damage": "1d6 piercing",
+            "Weight": "4 lb",
+            "Properties": "Thrown (20/60), Versatile (1d8)"
+        },
+        {
+            "name": "Two-Handed Morningstar",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "25 gp",
+            "Damage": "1d12 piercing",
+            "Weight": "10 lb",
+            "Properties": "Heavy, Two-Handed"
+        },
+        {
+            "name": "War Hammer",
+            "description": "A versatile and reliable weapon, favored for its crushing force, effective against armored foes.",
+            "type": "Martial Melee",
+            "Cost": "15 gp",
+            "Damage": "1d8 bludgeoning",
+            "Weight": "2 lb",
+            "Properties": "Versatile (1d10)"
+        },
+        {
+            "name": "War Pick",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "5 gp",
+            "Damage": "1d8 piercing",
+            "Weight": "2 lb",
+            "Properties": ""
+        },
+        {
+            "name": "Warcleaver",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "25 gp",
+            "Damage": "1d8 slashing/bludgeoning",
+            "Weight": "5 lb",
+            "Properties": ""
+        },
+        {
+            "name": "Whip",
+            "description": "A versatile and reliable weapon, favored for its long reach and flexibility, capable of disarming opponents or delivering precise strikes.",
+            "type": "Martial Melee",
+            "Cost": "2 gp",
+            "Damage": "1d4 slashing",
+            "Weight": "3 lb",
+            "Properties": "Reach, Finesse"
+        },
+        {
+            "name": "Zerka",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Simple Melee",
+            "Cost": "10 sp",
+            "Damage": "1d8",
+            "Damagetype": "Piercing",
+            "Weight": "3 lb",
+            "Homebrew": "True",
+            "Properties": "Special, Finesse, Thrown (40/160)"
+        },
+        {
+            "name": "Zweihander",
+            "description": "An effective weapon with a specific purpose in combat, suitable for skilled warriors.",
+            "type": "Martial Melee",
+            "Cost": "100 gp",
+            "Damage": "2d8 slashing",
+            "Weight": "9 lb",
+            "Properties": "Heavy, Reach, Special, Two-Handed"
+        }
+    ]
+}
