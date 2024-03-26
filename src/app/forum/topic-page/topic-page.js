@@ -1,8 +1,9 @@
-import { cargarEstructura, cargarTemplate } from '/src/app/fetch.js';
+import { cargarEstructura, cargarTemplate, sideBar } from '/src/app/fetch.js';
 
 document.addEventListener('DOMContentLoaded', async function() {
     await cargarEstructura('/src/app/forum/components/topic-page-main/topic-page-main.html');
     await loadCommentList();
+    await sideBar();
 });
 
 async function loadCommentList() {

@@ -80,3 +80,9 @@
     resize: none;
     padding: .6em;
 }
+
+@media screen and (max-width: 375px){
+    .comment__text-box {
+        padding: 3% 3%;
+    }
+}

@@ -80,11 +80,49 @@
   }
   
   .information-section__image{
-    max-width: 50em;
+    max-width: 90%;
   
     border-radius: 1em;
     border: .1em solid black;
     box-shadow: 1em 1em 1em rgba(0, 0, 0, 1);
   }
+
+  .information-section__field-content{
+    padding-top: 1em;
+  }
   
-  
+  @media screen and (max-width: 1078px){
+    .banner__hover-text{
+      font-size: 200%;
+    }
+    .information-section-container{
+      padding: 2em;
+    }
+    .information-section__text-container{
+      text-align: left;
+      width: 90%;
+    }
+
+  }
+
+  @media screen and (max-width: 582px){
+    .banner__hover-text{
+      font-size: 200%;
+    }
+
+    .information-section-container{
+      padding: 2em;
+    }
+
+    .information-section__text-container{
+      text-align: left;
+      grid-template-columns: 1fr;
+      width: 80%;
+    }
+
+    .information-section__figure{
+      grid-row: 1;
+      grid-column: auto;
+    }
+
+  }

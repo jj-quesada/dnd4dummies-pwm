@@ -6,7 +6,9 @@
 }
 
 .topic-page-main-container{
-    background-color: #1C3C47;
+    background-image: url('/src/assets/images/dice_background_red.png');
+    background-repeat: repeat;
+    background-size: 50em;
     padding: 1em;
 
     display: flex;
@@ -25,7 +27,7 @@
 
     color: #c9c5c5;
 
-    width: 93.5em;
+    width: 80em;
     height: 42em;
 }
 
@@ -50,7 +52,7 @@
 
     background-color: #555;
 
-    width: 80em;
+    width: 68em;
     height: 3em;
     display: flex;
     align-items: center;
@@ -85,7 +87,7 @@
     display: flex;
     align-items: center;
     height: 30em;
-    width: 91em;
+    width: 78em;
     padding-left: 1em;
     
 }
@@ -117,7 +119,7 @@
 
 .comment-area__creation {
     height: 15em;
-    width: 89em;
+    width: 78em;
 }
 
 .comment-area__text {
@@ -182,5 +184,53 @@
     justify-content: space-between;
 
     height: 82em;
-    width: 90em;
+    width: 80em;
+}
+
+@media screen and (max-width: 768px){
+
+    .topic-display{
+        width: 40em;
+    }
+
+    .topic-display__name-container{
+        width: 28em;
+    }
+
+    .topic-display__text-container{
+        width: 38em;
+    }
+
+    .comment-area__creation{
+        width: 38em;
+    }
+
+    .comment-section-list {
+        width: 40em;
+    }
+}
+
+@media screen and (max-width: 375px){
+
+    .topic-display{
+        width: 20em;
+        height: 30em;
+    }
+
+    .topic-display__name-container{
+        width: 8em;
+    }
+
+    .topic-display__text-container{
+        width: 18em;
+        height: 19em;
+    }
+
+    .comment-area__creation{
+        width: 18em;
+    }
+
+    .comment-section-list {
+        width: 20em;
+    }
 }

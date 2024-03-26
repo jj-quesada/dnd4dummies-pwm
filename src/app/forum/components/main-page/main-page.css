@@ -6,7 +6,9 @@
 }
 
 .forum-main {
-    background-color: #1C3C47;
+    background-image: url('/src/assets/images/dice_background_red.png');
+    background-repeat: repeat;
+    background-size: 50em;
 }
 
 .banner {
@@ -14,7 +16,6 @@
     padding-top: 1em;
     width: 100%;
     height: 60vh;
-    background-color: #1C3C47;
 }
 
 .banner__image {
@@ -52,18 +53,21 @@
 .forum-title{
     padding: 1em;
     color: #c9c5c5;
-
+    background-color: rgba(0,0,0,.5);
+    
     display: flex;
     align-content: center;
     justify-content: center;
-
-    width: 95.2vw;
+    
+    align-self: center;
+    
     margin-top: .2em;
+    display: none;
 
 }
 
 .topic-list-container{
-    padding: 1em;
+    padding: 3em;
 
     display: flex;
     align-items: center;
@@ -73,7 +77,7 @@
 
 .topic-list{
     list-style: none;
-    width: 90em;
+    width: 70em;
     height: 25.5em;
 
     display: flex;
@@ -97,7 +101,7 @@
 
     background-color: #333;
 
-    width: 90em;
+    width: 70em;
     height: 27.5em;
 
 }
@@ -138,7 +142,7 @@
     border: 0;
     background-color: #c9c5c5;
 
-    width: 104.3em;
+    width: 80em;
     height: 100%;
 
     border: .05em solid black;
@@ -170,7 +174,7 @@
     color:#c9c5c5;
     padding: .1em;
 
-    font-size: 2.8em;
+    font-size: 2.2em;
 
     width: 5em;
     height: 1.5em;
@@ -182,4 +186,59 @@
 
 .topic-button:hover{
     background-color: rgb(31, 30, 30)
+}
+
+@media screen and (max-width: 768px){
+    .forum-title{
+        width: 90%;
+
+    }
+
+    .topic-list{
+        width: 40em;
+    }
+    
+    .topic-creation-area{
+        width: 40em;
+    }
+
+    .topic-creation-area__text{
+        width: 44em;
+    }
+
+    .topic-button{
+        font-size: 1.8em;
+        left: 8.8em;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .banner{
+        height: 10em;
+    }
+
+    .banner__hover-text{
+        font-size: 100%;
+    }
+    .forum-title{
+        width: 80%;
+    }
+
+    .topic-list{
+        width: 20em;
+
+    }
+    
+    .topic-creation-area{
+        width: 20em;
+    }
+
+    .topic-creation-area__text{
+        width: 20em;
+    }
+
+    .topic-button{
+        font-size: 1.8em;
+        left: 3.2em;
+    }
 }
