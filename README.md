@@ -1,6 +1,8 @@
 # dnd4dummies-pwm
 **[PWM] - Grupo 5**
 
+# PARA LA CORRECCIÓN DEL SPRINT 2, ACCEDER A LA RAMA sprint2
+
 # Cambios en el sprint 2
 - ## Transformación de todas las páginas a diseño responsive.
 - ## Validación de formularios en la página del registro.
