@@ -1,8 +1,8 @@
-import { cargarTemplate } from '/src/app/fetch.js';
+import { cargarTemplate } from '/dnd4dummies-pwm/src/app/fetch.js';
 
 export async function loadElementListFromJSON(url, arrayPropertyName) {
     let elementList = document.querySelector('.elements-section__list');
-    const templateURL = '/src/app/glossary/components/descriptive-glossary-element/descriptive-glossary-element.html';
+    const templateURL = '/dnd4dummies-pwm/src/app/glossary/components/descriptive-glossary-element/descriptive-glossary-element.html';
 
     // Suponiendo que esta es la URL de tu JSON
     const jsonURL = url;
@@ -54,7 +54,7 @@ export async function loadElementListFromJSON(url, arrayPropertyName) {
 
 
 export async function cargarSectionCard() {
-    document.querySelector('.section-card-container').appendChild(await cargarTemplate('/src/app/glossary/components/section-card/section-card.html'));
+    document.querySelector('.section-card-container').appendChild(await cargarTemplate('/dnd4dummies-pwm/src/app/glossary/components/section-card/section-card.html'));
     document.querySelector('.section-card-container').style.display = 'none';
 
     document.querySelector('.card-header__close-icon').addEventListener('click', function() {
@@ -98,7 +98,7 @@ async function buildSectionCardContent(name, jsonURL, arrayPropertyName) {
         // Referencia al ul donde se insertarán los li
         const listElement = document.querySelector('.card-content__list');
 
-        const templateContent = await cargarTemplate('/src/app/glossary/components/section-card-feature/section-card-feature.html');
+        const templateContent = await cargarTemplate('/dnd4dummies-pwm/src/app/glossary/components/section-card-feature/section-card-feature.html');
 
         // Iterar sobre cada propiedad en targetObj
         Object.entries(targetObj).forEach(([key, value], index) => {

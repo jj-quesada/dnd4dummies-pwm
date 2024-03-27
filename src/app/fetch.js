@@ -1,10 +1,10 @@
 export async function cargarEstructura(url) {
     let appMain = document.getElementById('app');
 
-    appMain.appendChild(await cargarTemplate('/src/app/shared/header/header.html'));
+    appMain.appendChild(await cargarTemplate('/dnd4dummies-pwm/src/app/shared/header/header.html'));
     await cargarLoginPopup();
     appMain.appendChild(await cargarTemplate(url));
-    appMain.appendChild(await cargarTemplate('/src/app/shared/footer/footer.html'));
+    appMain.appendChild(await cargarTemplate('/dnd4dummies-pwm/src/app/shared/footer/footer.html'));
 }
 
 export async function cargarTemplate(url) {
@@ -17,11 +17,11 @@ export async function cargarTemplate(url) {
 }
 
 async function cargarLoginPopup() {
-    document.querySelector('.login-popup-container').appendChild(await cargarTemplate('/src/app/authentication/login/login-popup.html'));
+    document.querySelector('.login-popup-container').appendChild(await cargarTemplate('/dnd4dummies-pwm/src/app/authentication/login/login-popup.html'));
     document.querySelector('.login-popup-container').style.display = 'none';
 
     document.querySelector('.confirmation__log-in-btn').addEventListener('click', function() {
-        window.location.href = '/src/app/authentication/profile/profile.html';
+        window.location.href = '/dnd4dummies-pwm/src/app/authentication/profile/profile.html';
     });
 
     document.querySelector('.upper-bar__login-logo-image').addEventListener('click', function() {

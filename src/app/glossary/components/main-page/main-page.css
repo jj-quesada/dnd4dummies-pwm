@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
 
-    background-image: url('/src/assets/images/dice_background_red.png');
+    background-image: url('/dnd4dummies-pwm/src/assets/images/dice_background_red.png');
     background-repeat: repeat;
     background-size: 50em;
 
@@ -78,7 +78,7 @@ a{
 
 .section--character {
     justify-content: flex-end;
-    background-image: url('/src/assets/images/magic-forest1.png');
+    background-image: url('/dnd4dummies-pwm/src/assets/images/magic-forest1.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -87,7 +87,7 @@ a{
 
 .section--interaction {
     justify-content: flex-start;
-    background-image: url('/src/assets/images/red-forest.png');
+    background-image: url('/dnd4dummies-pwm/src/assets/images/red-forest.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -96,7 +96,7 @@ a{
 
 .section--adventure {
     justify-content: flex-end;
-    background-image: url('/src/assets/images/magic-forest2.png');
+    background-image: url('/dnd4dummies-pwm/src/assets/images/magic-forest2.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
