@@ -54,13 +54,11 @@ async function confirmInputs() {
         if (email.value !== confirmEmail.value) {
             actualWarnings += `The emails are not the same. <br>`;
             helper = true;
-            console.log("PUA?APAOOA");
         } 
 
         if (password.value !== confirmPassword.value) {
             actualWarnings += `The passwords are not the same. <br>`;
             helper = true;
-            console.log(password.value);
         }
 
         if(userYear > minimumYear){
