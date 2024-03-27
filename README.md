@@ -1,14 +1,13 @@
 # dnd4dummies-pwm
 **[PWM] - Grupo 5**
 
-# Para la correción del Sprint 1, tomar el contenido de la rama sprint1.
+# Para la correción del Sprint 2, tomar el contenido de la rama sprint2.
 
 # Lanzar la aplicación
 
 Para lanzar la aplicación web, ejecutar el archivo index.html ubicado en:
 
 **/src/app/index.html**
-
 
 ## Estructura de la aplicación
 Las páginas principales de cada sección se encuentran en su carpeta respectiva, siguiendo la estructura:
