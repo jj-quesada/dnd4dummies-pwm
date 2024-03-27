@@ -1,7 +1,7 @@
-import { cargarEstructura, cargarTemplate, sideBar } from '/src/app/fetch.js';
+import { cargarEstructura, cargarTemplate, sideBar } from '/dnd4dummies-pwm/src/app/fetch.js';
 
 document.addEventListener('DOMContentLoaded', async function() {
-    await cargarEstructura('/src/app/authentication/profile/main/main-page.html');
+    await cargarEstructura('/dnd4dummies-pwm/src/app/authentication/profile/main/main-page.html');
     await loadCardList();
     await sideBar();
 });
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 async function loadCardList() {
     let cardList = document.querySelector('.character-list');
 
-    const templateURL = '/src/app/shared/character-card/character-card.html';
+    const templateURL = '/dnd4dummies-pwm/src/app/shared/character-card/character-card.html';
 
     // Inicializar un array para almacenar las promesas
     let promises = [];

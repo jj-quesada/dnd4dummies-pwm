@@ -1,7 +1,7 @@
-import { cargarEstructura, cargarTemplate, sideBar } from '/src/app/fetch.js';
+import { cargarEstructura, cargarTemplate, sideBar } from '/dnd4dummies-pwm/src/app/fetch.js';
 
 document.addEventListener('DOMContentLoaded', async function() {
-    await cargarEstructura('/src/app/forum/components/main-page/main-page.html');
+    await cargarEstructura('/dnd4dummies-pwm/src/app/forum/components/main-page/main-page.html');
     await loadTopicList();
     await sideBar();
 });
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 async function loadTopicList() {
     let topicList = document.querySelector('.topic-list');
 
-    const templateURL = '/src/app/forum/components/topic-preview/topic-preview.html';
+    const templateURL = '/dnd4dummies-pwm/src/app/forum/components/topic-preview/topic-preview.html';
 
     // Inicializar un array para almacenar las promesas
     let promises = [];
