@@ -1,7 +1,7 @@
-import { cargarEstructura, cargarTemplate, sideBar } from '/src/app/fetch.js';
+import { cargarEstructura, cargarTemplate, sideBar } from '/dnd4dummies-pwm/src/app/fetch.js';
 
 document.addEventListener('DOMContentLoaded', async function() {
-    await cargarEstructura('/src/app/character-creator/components/main-page/main-page.html');
+    await cargarEstructura('/dnd4dummies-pwm/src/app/character-creator/components/main-page/main-page.html');
     await loadOptionsFromJSON();
     await loadLoreSections();
     await sideBar();
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 
 async function loadLoreSections() {
     let loreSections = document.querySelectorAll('.lore .lore__section');
-    const templateURL = '/src/app/character-creator/components/lore-section/lore-section.html';
+    const templateURL = '/dnd4dummies-pwm/src/app/character-creator/components/lore-section/lore-section.html';
 
     // Definir los nombres para cada user-text__label
     const labels = ['Personality Traits', 'Ideals', 'Bonds', 'Flaws'];
@@ -31,7 +31,7 @@ async function loadLoreSections() {
 }
 
 async function loadOptionsFromJSON() {
-    const jsonURL = '/src/app/character-creator/options.json';
+    const jsonURL = '/dnd4dummies-pwm/src/app/character-creator/options.json';
 
     fetch(jsonURL)
         .then(response => response.json()) // Convertimos la respuesta en JSON

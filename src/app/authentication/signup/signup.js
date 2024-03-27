@@ -1,7 +1,7 @@
-import { cargarEstructura, sideBar } from '/src/app/fetch.js';
+import { cargarEstructura, sideBar } from '/dnd4dummies-pwm/src/app/fetch.js';
 
 document.addEventListener('DOMContentLoaded', async function() {
-    await cargarEstructura('/src/app/authentication/signup/main/main-page.html');
+    await cargarEstructura('/dnd4dummies-pwm/src/app/authentication/signup/main/main-page.html');
     await confirmInputs();
     await sideBar();
 
@@ -54,13 +54,11 @@ async function confirmInputs() {
         if (email.value !== confirmEmail.value) {
             actualWarnings += `The emails are not the same. <br>`;
             helper = true;
-            console.log("PUA?APAOOA");
         } 
 
         if (password.value !== confirmPassword.value) {
             actualWarnings += `The passwords are not the same. <br>`;
             helper = true;
-            console.log(password.value);
         }
 
         if(userYear > minimumYear){

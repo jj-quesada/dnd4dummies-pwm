@@ -70,8 +70,10 @@ async function interactSectionCard(name, jsonURL, arrayPropertyName) {
         document.querySelector('.section-card-container').style.display = 'flex';
     } else {
         document.querySelector('.section-card-container').style.display = 'none';
-        const features = document.querySelector('.card-content__list').querySelectorAll('li');
-        features.forEach(li => li.remove());
+        const features = document.querySelector('.card-content__list').querySelectorAll('.card-content__feature');
+        features.forEach(feature => {
+            feature.remove();
+        });
     }
 }
 

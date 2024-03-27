@@ -1,7 +1,10 @@
 # dnd4dummies-pwm
 **[PWM] - Grupo 5**
 
-# Para la correción del Sprint 1, tomar el contenido de la rama sprint1.
+# Cambios en el sprint 2
+- ## Transformación de todas las páginas a diseño responsive.
+- ## Validación de formularios en la página del registro.
+- ## Carga de datos desde archivos JSON para todas las secciones del glosario y para las opciones de usuario del creador de personaje.
 
 # Lanzar la aplicación
 
