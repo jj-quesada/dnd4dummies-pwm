@@ -6,11 +6,10 @@
 }
 
 .main-card {
-    position: fixed;
     border: 2px solid #000;
     border-radius: 10px;
-    width: 500px;
-    height: 700px;
+    width: 30em;
+    height: 40em;
     background-color: #666;
 }
 
@@ -135,4 +134,11 @@
 
 .feature__accordion:checked + .feature__name::before {
     content: '-';
+}
+
+@media screen and (max-width:520px){
+    .main-card {
+        width: 20em;
+        height: 30em;
+    }
 }
